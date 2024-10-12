@@ -1,7 +1,8 @@
 :root {
     --color-background-body: #fff;
     --default-white: #fff;
-    --background-header: rgba(0, 0, 0, 1)
+    --background-header: rgba(0, 0, 0, 1);
+    --color-backgound-sections: linear-gradient(to right, #A1C4FD, #C2E9FB);
     /* vars */
 }
 
@@ -12,11 +13,11 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--color-background-body);
 }
 
 body {
-    background-color: var(--color-background-body);
-    font-family: sans-serif ;
+    font-family: sans-serif;
 }
 
 .header-top {
@@ -43,7 +44,15 @@ body {
 }
 
 .sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 3rem;
+    height: 100%;
+    width: 100%;
+    background-image: var(--color-backgound-sections);
+    margin: 1rem 0;
 }
 
 .title-section-sobre {
@@ -54,8 +63,53 @@ body {
     background-color: red;
 }
 
+.dados-pessoais {
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-content: flex-start;
+    width: 45%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #989898;
+    font-size: 1.5rem;
+}
+
+.dados-pessoais h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.dados-pessoais ul {
+    list-style: none;
+}
+
+.dados-pessoais mark {
+    background-color: #989898;
+    font-weight: bold;
+}
+
+.formacoes {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #989898;
+    font-size: 1.5rem;
+}
+
+.formacoes h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
 .lista-de-formacoes {
-    list-style: circle ;
+    list-style: "→" ;
 }
 
 .one-more {
