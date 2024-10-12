@@ -1,3 +1,5 @@
+@import url(carrocel.css);
+
 :root {
     --color-background-body: #fff;
     --default-white: #fff;
@@ -35,12 +37,56 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
+    
 }
 
 .links {
     text-decoration: none;
     padding: 1em;
     color: var(--default-white);
+}
+
+.home {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to right, #4E65FF, #92EFFD);
+    padding: 1rem;
+}
+
+.home h2 {
+    position: absolute;
+    text-align: left;
+}
+
+.home div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.home p, a {
+    padding: 1rem;
+}
+
+.home a {
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 0.2rem;
+    transition: all 200ms ease-in-out;
+}
+
+.home a:hover {
+    background-color: #4E65FF;
+}
+
+.minha-foto {
+    display: flex;
+    flex: 0 1px;
+    width: 300px;
 }
 
 .sobre {
@@ -63,7 +109,7 @@ body {
     background-color: red;
 }
 
-.dados-pessoais {
+.dados-pessoais, .cursos, .formacoes, .one-more {
     display: flex;
     flex-direction: column;
     justify-items: flex-start;
@@ -91,21 +137,18 @@ body {
     font-weight: bold;
 }
 
-.formacoes {
-    display: flex;
-    flex-direction: column;
-    width: 45%;
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: #989898;
-    font-size: 1.5rem;
-}
-
 .formacoes h3 {
     text-align: center;
     padding-bottom: 1rem;
+}
+
+.cursos h3 {
+    text-align: center;
+    padding-bottom: 1rem;    
+}
+
+.cursos div {
+    padding: 1rem;
 }
 
 .lista-de-formacoes {
@@ -113,6 +156,17 @@ body {
 }
 
 .one-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-indent: 20px;
-    
+    width: 80vw;
+}
+
+.one-more h3 {
+    padding-bottom: 1rem;
+}
+
+.one-more p {
+    padding-bottom: 5px;
 }

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/styles.css">
     <title>Endryus Daniel - Portfólio</title>
+    <link rel="shortcut icon" href="static/imgs/logo-preview.png" type="image/x-icon">
 </head>
 <body>
     <header class="header-top" id="top">
@@ -12,13 +13,24 @@
         <p>Programmer | Backend Developer</p>
         <nav class="nav-links">
             <ul>
-                <li><a href="#top" class="links">Home</a></li>
+                <li><a href="#home" class="links">Home</a></li>
                 <li><a href="#sobre" class="links">Sobre</a></li>
-                <li><a href="#" class="links">Experiências</a></li>
+                <li><a href="#experiencias" class="links">Experiências</a></li>
                 <li><a href="#" class="links">Contato</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="home" id="home">
+        <h2>Olá, meu nome é Endryus...</h2>
+        <div>
+            <p>Seja muito bem vindo(a) ao meu portfólio. Sinta-se livre para explorar e me conhecer mais.</p>
+            <a href="#sobre">Sobre Mim</a>
+        </div>
+
+        <img src="static/imgs/para-home.jpeg" alt="minha foto" class="minha-foto">
+    </section>
+
 
     <section class="sobre" id="sobre">
         <h2 class="title-section-sobre">Sobre Mim</h2>
@@ -28,9 +40,9 @@
                 <li><mark>Nome:</mark> Endryus Daniel Rysik de Oliveira</li>
                 <li><mark>Estado Civil:</mark> solteiro</li>
                 <li><mark>Nacionalidade:</mark> brasileiro</li>
-                <li><mark>Endereço:</mark> Londrina/PR - Brasil</li>
+                <li><mark>Reside em:</mark> Londrina/PR - Brasil</li>
                 <li><mark>Cargo Atual:</mark> Tutor de Programação</li>
-                <li><mark>Contato:</mark> <a href="#">contatos</a></li>
+                <li><mark>Contato:</mark><a href="#">contatos</a></li>
             </ul>
         </div>
 
@@ -59,10 +71,8 @@
             </div>
             <div>
                 <h4>Outros</h4>
-                <div>
                     <p>Informática Básica <input type="button" value="Ver"></p>
-                    <p>Acadêmia de Negócios <input type="button" value="Ver"></p>
-                </div>
+                <p>Acadêmia de Negócios <input type="button" value="Ver"></p>
             </div>
         </div>
 
@@ -73,5 +83,60 @@
             <p>Será um grande prazer dividir meu conhecimento com você assim como é grande a minha vontade de aprender e construirmos algo que possa revolucionar o mercado.</p>
         </div>
     </section>
+
+    <section class="sobre" id="experiencias">
+        <h2 class="title-section-sobre">Experiências</h2>
+        <div class="dados-pessoais">
+            <h3>Empresas em que ja trabalhei</h3>
+            <ul>
+                <h4>Kodland LaTam</h4>
+                <li><mark>Tempo:</mark> 09/24 - atual</li>
+                <li><mark>Cargo:</mark> Tutor</li>
+                <li><mark>Modalidade:</mark> Remota</li>
+                <li><mark>Descrição:</mark> <dd>Trabalho atualmente aqui, dou aulas de programação em Python e ensino lógica com Roblox Studio e Scratch. Minha tutoria é em Português e a comunicação interna em Ingles.</dd></li>
+            </ul>
+        </div>
+
+        <div class="one-more">
+            <h3>Entenda sobre minha vida profissional...</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam minima officiis voluptas exercitationem obcaecati nam, ullam id repellat in modi vitae, ea, atque quos quod veniam corporis enim. Doloribus, Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vel aspernatur laboriosam odit nisi sit soluta amet beatae delectus suscipit quam laudantium, explicabo consequuntur accusamus rem. Veritatis natus id ut!</p>
+        </div>
+        <div class="projects">
+            <h3>Meus Projetos</h3>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                    <div class="swiper-slide"><img src="static/imgs/sgo-preview.png" alt="SGO - Tio Elias"></div>
+                    <div class="swiper-slide"><img src="./files/img/Liderança.png" alt="FEAY Music"></div>
+                    <div class="swiper-slide"><img src="./files/img/Javascript.png" alt="Gerador de Planejamentos"></div>
+                    <div class="swiper-slide"><img src="./files/img/Guia Front-end.png" alt="Calculadoras Python"></div>
+                    <div class="swiper-slide"><img src="./files/img/Portugol.png" alt="Code Defender"></div>
+                    <!-- <div class="swiper-slide"><img src="./files/img/HipstersTech.png" alt="Acessibilidade web book"></div> -->
+            
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+        
+            </div>
+        </div>
+    </section>
+
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper(".swiper", {
+    spaceBetween: 10,
+    slidesPerView: 3,
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+    },
+  });
+</script>
 </html>
