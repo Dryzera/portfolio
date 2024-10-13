@@ -48,6 +48,23 @@ body {
     color: var(--default-white);
 }
 
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+
+.back-to-top p {
+    padding-bottom: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.back-to-top img {
+    width: 5rem;
+}
+
 .home {
     display: flex;
     height: 100%;
