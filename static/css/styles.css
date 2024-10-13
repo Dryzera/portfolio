@@ -1,4 +1,5 @@
 @import url(carrocel.css);
+@import url(responsividade-style_temporario.css);
 
 :root {
     --color-background-body: #fff;
@@ -11,6 +12,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -23,12 +25,11 @@ body {
 }
 
 .header-top {
-    position: static; /* corrigir e adicionar fixed depois */
     background: var(--background-header);
     color: var(--default-white);
     padding: 3rem 0 3rem 3rem;
     width: 100%;
-    height: 5rem;
+    height: 10rem;
     text-align: left;
     top: 0;
     left: 0;
@@ -123,20 +124,26 @@ body {
 .title-section-sobre {
     text-align: center;
     margin-bottom: 40px;
-    font-size: 3em;
-    width: 25%;
+    font-size: 2.5rem;
+    width: 30vw;
     padding: 10px;
     background-color: rgb(177, 177, 177);
     border: 2px solid black;
     border-radius: 10px;
+    text-overflow: ".";
+}
+
+.grid-about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .dados-pessoais, .cursos, .formacoes, .one-more {
     display: flex;
     flex-direction: column;
-    justify-items: flex-start;
-    align-content: flex-start;
-    width: 45%;
+    justify-items: center;
+    align-content: center;
+    width: 35vw;
     margin: 1rem;
     padding: 1rem;
     border: 1px  black;
@@ -164,17 +171,29 @@ body {
     padding-bottom: 1rem;
 }
 
+.cursos {
+    width: 80vw;
+}
+
 .cursos h3 {
     text-align: center;
     padding-bottom: 1rem;    
 }
 
-.cursos div {
+.grid-courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     padding: 1rem;
+    gap: 30px
+}
+
+.grid-courses p {
+    padding-bottom: 10px;
 }
 
 .lista-de-formacoes {
     list-style: "→" ;
+    padding-left: 15px;
 }
 
 .one-more {

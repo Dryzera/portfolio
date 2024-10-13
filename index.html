@@ -21,6 +21,13 @@
         </nav>
     </header>
 
+    <div class="responsividade" id="responsive">
+        <h1>ATENÇÃO</h1>
+        <p>Vimos que você acessou este site com uma tela inferior a 1024px.</p>
+        <p>Este portfólio está em processo de adaptação para seu dispositivo, tenha em mente que alguns elementos podem ficar desproporcionais.</p>
+        <p>Se possível, acesse este site em um dispositivo com tela maior a 1024px.</p>
+    </div>
+
     <div class="back-to-top">
         <div>
             <a href="#top">
@@ -42,6 +49,7 @@
 
     <section class="sobre" id="sobre">
         <h2 class="title-section-sobre">Sobre Mim:</h2>
+        <div class="grid-about">
         <div class="dados-pessoais">
             <h3>Dados Pessoais:</h3>
             <ul>
@@ -57,30 +65,34 @@
         <div class="formacoes">
             <h3>Formações:</h3>
             <ul class="lista-de-formacoes">
-                <li>E.E.C.M. Wistremundo R. P. Garcia (cursando...)</li>
-                <li>Alura</li>
-                <li>Udemy</li>
-                <li>Alvo Educacional</li>
-                <li>Cedaspy</li>
+                <li>E.E.C.M. Wistremundo R. P. Garcia (cursando...);</li>
+                <li>Alura;</li>
+                <li>Udemy;</li>
+                <li>Alvo Educacional;</li>
+                <li>Cedaspy;</li>
+                <li>Outras...</li>
             </ul>
+        </div>
         </div>
 
         <div class="cursos">
             <h3>Cursos e Habilidades:</h3>
+            <div class="grid-courses">
             <div>
-                <h4>Idiomas</h4>
+                <h4>Idiomas:</h4>
                 <p>Português do Brasil: nativo</p>
                 <p>Ingles: básico (cursando...)</p>
             </div>
             <div>
-                <h4>Programação</h4>
+                <h4>Programação:</h4>
                 <p>Python: intermediário avançado (cursando...)</p>
                 <p>Front-End: intermediário <input type="button" value="Ver"></p>
             </div>
             <div>
-                <h4>Outros</h4>
+                <h4>Outros:</h4>
                     <p>Informática Básica <input type="button" value="Ver"></p>
                 <p>Acadêmia de Negócios <input type="button" value="Ver"></p>
+            </div>
             </div>
         </div>
 
@@ -138,6 +150,7 @@
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="static/js/scroll-sense.js"></script>
+<script src="static/js/screen_detector.js"></script>
 <script>
   const swiper = new Swiper(".swiper", {
     spaceBetween: 10,

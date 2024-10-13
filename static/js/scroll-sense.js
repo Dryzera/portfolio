@@ -9,6 +9,6 @@
 //     } else {
 //         console.log("A página está no topo.");
 //         header.style.position = "relative";
-//         header.style.height = "5rem";
+//         header.style.height = "10rem";
 //     }
 // });
