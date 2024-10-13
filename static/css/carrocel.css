@@ -1,11 +1,14 @@
 .carrossel__titulo {
-    color: var(--laranja);
-    background-color: var(--branco);
     text-align: center;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
     padding: 1em 0 0.5em 0;
+}
+
+.swiper {
+    width: 600px;
+    height: 300px;
 }
 
 .swiper-slide img{
@@ -21,125 +24,3 @@
     margin: .5em 0;
 }
 
-.card__descricao {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
-    justify-content: space-between;
-}
-
-.card__botoes {
-    display: flex;
-    justify-content: space-between;
-}
-
-.botoes {
-    display: flex;
-}
-
-.card {
-    background: var(--branco);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin: 1em;
-    padding: 1em
-}
-
-.descricao__titulo {
-    font-weight: 700;
-    color: var(--laranja);
-}
-
-.descricao__titulo-livro {
-    color: var(--azul);
-    font-size: 18px;
-    font-weight: 700;
-    padding: 1em;
-}
-
-.descricao__texto {
-    font-size: 14px;
-}
-
-.botoes__itens {
-    margin: 0 0.2em;
-}
-
-.botoes__ancora {
-    background-color: var(--laranja);
-    padding: 1.2em 1em;
-    color: var(--branco);
-    text-decoration: none;
-    font-weight: 700;
-    text-align: center;
-}
-
-
-
-.mais__vendidos {
-    color: var(--laranja);
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    padding: 1em 0 0.5em 0;
-}
-
-
-
-.card__autora-descricao {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
-    justify-content: space-between;
-}
-
-.card__autora-botoes {
-    display: flex;
-    justify-content: space-between;
-}
-
-.botoes-autora {
-    display: flex;
-}
-
-.card__autora {
-    background: var(--branco);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    margin: 1em;
-    padding: 1em
-}
-
-.descricao__titulo-autora {
-    font-weight: 700;
-    color: var(--laranja);
-}
-
-.descricao__titulo-livro-autora {
-    color: var(--azul);
-    font-size: 18px;
-    font-weight: 700;
-    padding: 1em;
-}
-
-.descricao__texto-autora {
-    font-size: 14px;
-}
-
-.botoes__itens-autora {
-    margin: 0 0.2em;
-}
-
-.botoes__ancora-autora {
-    background-color: var(--laranja);
-    padding: 1.2em 1em;
-    color: var(--branco);
-    text-decoration: none;
-    font-weight: 700;
-    text-align: center;
-}
-
-.estrelinhas-autora {
-    padding-bottom: 0.3em;
-}

@@ -21,34 +21,49 @@
         </nav>
     </header>
 
+    <header class="header-top header-scroll" id="header-scroll">
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home" class="links">Home</a></li>
+                <li><a href="#sobre" class="links">Sobre</a></li>
+                <li><a href="#experiencias" class="links">Experiências</a></li>
+                <li><a href="#" class="links">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div class="responsividade" id="responsive">
         <h1>ATENÇÃO</h1>
         <p>Vimos que você acessou este site com uma tela inferior a 1024px.</p>
         <p>Este portfólio está em processo de adaptação para seu dispositivo, tenha em mente que alguns elementos podem ficar desproporcionais.</p>
-        <p>Se possível, acesse este site em um dispositivo com tela maior a 1024px.</p>
+        <p>Se possível, acesse este site em um dispositivo com tela superior a 1024px.</p>
     </div>
 
-    <div class="back-to-top">
+    <div class="back-to-top" id="back-to-top">
         <div>
-            <a href="#top">
+            <a href="#home">
                 <img src="static/imgs/pra-cima.png" alt="voltar ao topo">
             </a>
         </div>
     </div>
 
     <section class="home" id="home">
-        <h2>Olá, meu nome é Endryus...</h2>
-        <div>
-            <p>Seja muito bem vindo(a) ao meu portfólio. Sinta-se livre para explorar e me conhecer mais.</p>
-            <a href="#sobre">Sobre Mim</a>
+        <div class="convite">
+            <div class="name">
+                <p class="eu_sou">Olá, eu sou o</p>
+                <p class="endryus_daniel">Endryus Daniel</p>
+            </div>
+            <div class="boas-vindas">
+                <p>Seja muito bem vindo(a) ao meu portfólio. Sinta-se livre para explorar e me conhecer mais.</p>
+                <a href="#sobre">Sobre Mim</a>
+            </div>
         </div>
-
         <img src="static/imgs/para-home.jpeg" alt="minha foto" class="minha-foto">
     </section>
 
 
     <section class="sobre" id="sobre">
-        <h2 class="title-section-sobre">Sobre Mim:</h2>
+        <h2 class="title-section">Sobre Mim:</h2>
         <div class="grid-about">
         <div class="dados-pessoais">
             <h3>Dados Pessoais:</h3>
@@ -58,7 +73,7 @@
                 <li><mark>Nacionalidade:</mark> brasileiro</li>
                 <li><mark>Reside em:</mark> Londrina/PR - Brasil</li>
                 <li><mark>Cargo Atual:</mark> Tutor de Programação</li>
-                <li><mark>Contato:</mark><a href="#">contatos</a></li>
+                <li><mark>Contato:</mark> <a href="#">clique aqui</a></li>
             </ul>
         </div>
 
@@ -105,8 +120,8 @@
     </section>
 
     <section class="sobre" id="experiencias">
-        <h2 class="title-section-sobre">Experiências:</h2>
-        <div class="dados-pessoais">
+        <h2 class="title-section">Experiências:</h2>
+        <div class="dados-pessoais empresas-passadas">
             <h3>Empresas em que ja trabalhei:</h3>
             <ul>
                 <h4>Kodland LaTam:</h4>
@@ -123,25 +138,20 @@
         </div>
         <div class="projects">
             <h3>Meus Projetos:</h3>
-            <!-- Slider main container -->
             <div class="swiper">
-                <!-- If we need pagination -->
+                <div class="carrossel__container">
                 <div class="swiper-pagination"></div>
-                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                <!-- Slides -->
                     <div class="swiper-slide"><img src="static/imgs/sgo-preview.png" alt="SGO - Tio Elias"></div>
-                    <div class="swiper-slide"><img src="./files/img/Liderança.png" alt="FEAY Music"></div>
-                    <div class="swiper-slide"><img src="./files/img/Javascript.png" alt="Gerador de Planejamentos"></div>
+                    <div class="swiper-slide"><img src="static/imgs/feay.PNG" alt="FEAY Music"></div>
+                    <div class="swiper-slide"><img src="static/imgs/code-defender.PNG" alt="Code Defender"></div>
                     <div class="swiper-slide"><img src="./files/img/Guia Front-end.png" alt="Calculadoras Python"></div>
-                    <div class="swiper-slide"><img src="./files/img/Portugol.png" alt="Code Defender"></div>
-                    <!-- <div class="swiper-slide"><img src="./files/img/HipstersTech.png" alt="Acessibilidade web book"></div> -->
-            
+                    <div class="swiper-slide"><img src="static/imgs/gerador-de-planejamentos.PNG" alt="Gerador de Planejamentos"></div>    
                 </div>
             
-                <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
+                </div>
         
             </div>
         </div>

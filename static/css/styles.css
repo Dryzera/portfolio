@@ -2,10 +2,13 @@
 @import url(responsividade-style_temporario.css);
 
 :root {
-    --color-background-body: #fff;
+    --color-background-body: #ffffff;
     --default-white: #fff;
-    --background-header: linear-gradient(to left, rgb(183, 214, 204) 0%, rgba(62,94,221,1) 45%, rgba(0,0,0,1) 100%);
-    --color-backgound-sections: #e2eefa;
+    --background-header: linear-gradient(90deg, rgba(0,27,52,1) 0%, rgba(4,0,77,1) 45%, rgba(0,0,128,1) 100%);
+    --background-header-scroll: linear-gradient(to left, rgba(183, 214, 204, .7) 0%, rgba(62,94,221,.95) 45%, rgba(0,0,0,.6) 100%);
+    --color-backgound-sections: #e7e7e7;
+    --color-backgound-sections-title: #2e3782;
+    --color-backgound-sections-cards: #2e3782;
     /* vars */
 }
 
@@ -33,6 +36,14 @@ body {
     text-align: left;
     top: 0;
     left: 0;
+}
+
+.header-scroll {
+    display: none;
+    position: fixed;
+    background: var(--background-header-scroll);
+    height: 3rem;
+    padding: 1rem 0;
 }
 
 .nav-links ul {
@@ -63,7 +74,7 @@ body {
 
 
 .back-to-top img {
-    width: 8vw;
+    width: 4vw;
 }
 
 .home {
@@ -74,33 +85,45 @@ body {
     padding: 1rem 0 0 1rem;
 }
 
-.home h2 {
-    position: absolute;
-    text-align: left;
+.name .eu_sou {
+    font-size: 16px;
 }
 
-.home div {
+.name .endryus_daniel {
+    font-size: 45px;
+    color: #4E65FF;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+}
+
+.boas-vindas {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     width: 50%;
-}
-
-.home p, a {
-    padding: 1rem;
+    font-size: 20px;
 }
 
 .home a {
     background-color: blue;
+    text-align: center;
     color: white;
     text-decoration: none;
-    padding: 0.2rem;
+    padding: 0.8rem;
     transition: all 200ms ease-in-out;
+    margin-top: 1rem;
 }
 
 .home a:hover {
     background-color: #4E65FF;
+}
+
+.convite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2rem;
 }
 
 .minha-foto {
@@ -121,16 +144,19 @@ body {
     margin: 1rem 0;
 }
 
-.title-section-sobre {
+.title-section {
     text-align: center;
     margin-bottom: 40px;
     font-size: 2.5rem;
     width: 30vw;
     padding: 10px;
-    background-color: rgb(177, 177, 177);
-    border: 2px solid black;
+    background-color: var(--color-backgound-sections-title);
+    border: 2px transparent;
+    color: var(--default-white);
     border-radius: 10px;
     text-overflow: ".";
+    text-decoration: underline;
+
 }
 
 .grid-about {
@@ -148,27 +174,36 @@ body {
     padding: 1rem;
     border: 1px  black;
     border-radius: 10px;
-    background-color: #989898;
+    color: var(--default-white);
+    background-color: var(--color-backgound-sections-cards);
     font-size: 1.5rem;
 }
 
 .dados-pessoais h3 {
     text-align: center;
     padding-bottom: 1rem;
+    text-decoration: underline;
 }
 
 .dados-pessoais ul {
     list-style: none;
 }
 
+.dados-pessoais a{
+    color: rgb(0, 221, 255);
+}
+
 .dados-pessoais mark {
-    background-color: #989898;
+    background-color: var(--color-backgound-sections-cards);
+    color: var(--default-white);
+    text-decoration: underline;
     font-weight: bold;
 }
 
 .formacoes h3 {
     text-align: center;
     padding-bottom: 1rem;
+    text-decoration: underline;
 }
 
 .cursos {
@@ -178,6 +213,12 @@ body {
 .cursos h3 {
     text-align: center;
     padding-bottom: 1rem;    
+    text-decoration: underline;
+}
+
+.cursos h4 {
+    padding-bottom: 1rem;    
+    text-decoration: underline;
 }
 
 .grid-courses {
@@ -192,8 +233,8 @@ body {
 }
 
 .lista-de-formacoes {
-    list-style: "→" ;
-    padding-left: 15px;
+    list-style: "→ " ;
+    padding-left: 22px;
 }
 
 .one-more {
@@ -206,8 +247,16 @@ body {
 
 .one-more h3 {
     padding-bottom: 1rem;
+    text-decoration: underline;
+
 }
 
 .one-more p {
     padding-bottom: 5px;
+}
+
+.empresas-passadas h4 {
+    text-align: center;
+    padding-bottom: 5px;
+    text-decoration: underline;
 }
