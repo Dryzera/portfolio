@@ -13,15 +13,15 @@ const closeModalFront = document.getElementById('closeModalFront')
 
 // abrir modal
 openModalAcademia.onclick = function() {
-    modalAcademia.style.display = "block";
+    modalAcademia.style.display = "flex";
 }
 
 openModalInformatica.onclick = function() {
-    modalInformatica.style.display = "block";
+    modalInformatica.style.display = "flex";
 }
 
 openModalFront.onclick = function() {
-    modalFront.style.display = "block";
+    modalFront.style.display = "flex";
 }
 
 

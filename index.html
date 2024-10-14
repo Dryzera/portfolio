@@ -37,6 +37,8 @@
         </nav>
     </header>
 
+    <marquee direction="left">Ainda em Desenvolvimento...</marquee>
+
     <div class="responsividade" id="responsive">
         <h1>ATENÇÃO</h1>
         <p>Vimos que você acessou este site com uma tela inferior a 1024px.</p>
@@ -106,12 +108,12 @@
             <div>
                 <h4>Programação:</h4>
                 <p>Python: intermediário avançado (cursando...)</p>
-                <p>Front-End: intermediário <input type="button" value="Ver" id="openModalFront"></p>
+                <p class="concluido">Front-End: intermediário <input type="button" value="Ver" id="openModalFront" class="courses-ver"></p>
             </div>
             <div>
                 <h4>Outros:</h4>
-                    <p>Informática Básica <input type="button" value="Ver" id="openModalInformatica"></p>
-                <p>Acadêmia de Negócios <input type="button" value="Ver" id="openModalAcademia"></p>
+                <p class="concluido">Informática Básica <input type="button" value="Ver" id="openModalInformatica" class="courses-ver"></p>
+                <p class="concluido">Acadêmia de Negócios <input type="button" value="Ver" id="openModalAcademia" class="courses-ver"></p>
             </div>
             </div>
         </div>
@@ -162,7 +164,7 @@
                     <li>JavaScript</li>
                 </ul>
                 <p class="data-criacao">Desenvolvido em: 09/2024</p>
-                <p class="link-project">Link para visitar: <a href="http://34.127.4.55" target="_blank">clique aqui</a></p>
+                <p class="link-project">Link para visitar: <a href="http://34.127.4.55" target="_blank">clique aqui (suporte apenas para celulares)</a></p>
             </article>
             <article class="project">
                 <header>
@@ -263,8 +265,11 @@
         <div class="modal-content">
             <span id="closeModalAcademia" class="close">&times;</span>
             <h2>Academia de Negócios</h2>
+            <h3>(Alvo Educacional)</h3>
             <p>Descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempore dolores? Excepturi explicabo mollitia architecto dolore quidem fugit repellendus error, rerum dolorum deleniti a odio tenetur et iusto blanditiis similique.</p>
-
+            <p>Tempo de duração: 10 meses</p>
+            <span>Certificado:</span>
+            <img src="static/imgs/certificado_alvo.jpg" alt="certificado Academia">
         </div>
     </div>
 
@@ -272,8 +277,9 @@
         <div class="modal-content">
             <span id="closeModalFront" class="close">&times;</span>
             <h2>Front-End</h2>
+            <h3>(Alura)</h3>
             <p>Descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempore dolores? Excepturi explicabo mollitia architecto dolore quidem fugit repellendus error, rerum dolorum deleniti a odio tenetur et iusto blanditiis similique.</p>
-            <p>Tempo de duração: </p>
+            <p>Tempo de duração: --</p>
             <span>Certificado:</span>
             <img src="" alt="certificado front-end">
         </div>
@@ -282,8 +288,12 @@
     <div id="modalInformatica" class="modal">
         <div class="modal-content">
             <span id="closeModalInformatica" class="close">&times;</span>
-            <h2>Informática Básica</h2>
+            <h2>Informática Básica</h2> 
+            <h3>(Cedaspy)</h3>
             <p>Descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempore dolores? Excepturi explicabo mollitia architecto dolore quidem fugit repellendus error, rerum dolorum deleniti a odio tenetur et iusto blanditiis similique.</p>
+            <p>Tempo de duração: 18 meses</p>
+            <span>Certificado:</span>
+            <img src="static/imgs/certificado_cps.jpg" alt="certificado informatica">
         </div>
     </div>
 <script src="static/js/scroll-sense.js"></script>
