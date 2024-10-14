@@ -136,11 +136,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
     padding: 3rem 0;
     background: var(--color-backgound-sections);
     margin: 1rem 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 .title-section {
@@ -343,4 +343,36 @@ body {
     max-height: 30px;
     padding-right: 8px;
     width: 30px auto;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    background: var(--background-header);
+    color: var(--default-white);
+    gap: 30px;
+}
+
+.direitos {
+    font-size: 20px;
+}
+
+.rodape h4 {
+    font-size: 25px;
+    padding-bottom: 8px;
+}
+
+.links-footer ul {
+    list-style: none;
+}
+
+.links-footer li {
+    padding: 5px 0;
+}
+
+.link-foot {
+    color: white;
+    text-decoration: none;
 }
