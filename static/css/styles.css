@@ -1,4 +1,3 @@
-@import url(carrocel.css);
 @import url(responsividade-style_temporario.css);
 
 :root {
@@ -259,4 +258,89 @@ body {
     text-align: center;
     padding-bottom: 5px;
     text-decoration: underline;
+}
+
+.grid-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.project {
+    padding: 3rem;
+    border: 1px transparent;
+    border-radius: 1em ;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0, 1);
+}
+
+.project h2 {
+    text-align: center;
+    padding-bottom: 1rem;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.project .description {
+    padding-bottom: 0.5rem;
+}
+
+.project ul {
+    padding-left: 3rem;   
+    padding-bottom: 0.5rem;   
+}
+
+.project ul h4 {
+    padding: 0.5rem 0;
+}
+
+.link-project {
+    font-weight: bold;
+}
+
+.link-project a {
+    text-decoration: none;
+}
+
+.data-criacao {
+    padding: 0.3rem 0;
+}
+
+.grid-contacts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.contact a {
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    align-items: center;
+    padding: 2rem;
+    background-color: #7e7e7e;
+    margin: 1rem;
+    text-decoration: none;
+    color: var(--default-white);
+    border-radius: 0.5rem;
+    box-shadow: 4px 4px 8px rgb(46, 46, 46);
+    transition: all 200ms ease-out;
+}
+
+.contact a:hover {
+    background-color: #676767;
+}
+
+.contact img {
+    max-width: 30px;
+    max-height: 30px;
+    padding-right: 5px;
+    width: 30px auto;
 }
