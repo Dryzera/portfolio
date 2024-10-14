@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'Heebo',sans-serif;
 }
 
 .header-top {
@@ -78,7 +78,7 @@ body {
 
 .home {
     display: flex;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background: var(--color-backgound-sections);
     padding: 1rem 0 0 1rem;
@@ -89,10 +89,9 @@ body {
 }
 
 .name .endryus_daniel {
-    font-size: 45px;
+    font-family: 'Qwitcher Grypen';
+    font-size: 120px;
     color: #4E65FF;
-    text-decoration: underline;
-    padding-bottom: 1rem;
 }
 
 .boas-vindas {
@@ -109,7 +108,7 @@ body {
     text-align: center;
     color: white;
     text-decoration: none;
-    padding: 0.8rem;
+    padding: 0.8rem 1rem;
     transition: all 200ms ease-in-out;
     margin-top: 1rem;
 }
@@ -122,13 +121,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 2rem;
+    padding-left: 5rem;
 }
 
 .minha-foto {
     display: flex;
     flex: 0 1px;
-    width: 300px;
+    width: 100vw;
 }
 
 .sobre {
@@ -144,16 +143,16 @@ body {
 }
 
 .title-section {
+    font-family: 'Oswald';
     text-align: center;
     margin-bottom: 40px;
-    font-size: 2.5rem;
+    font-size: 3vw;
     width: 30vw;
     padding: 10px;
     background-color: var(--color-backgound-sections-title);
     border: 2px transparent;
     color: var(--default-white);
     border-radius: 10px;
-    text-overflow: ".";
     text-decoration: underline;
     box-shadow: 5px 7px 5px black;
 
@@ -165,6 +164,7 @@ body {
 }
 
 .dados-pessoais, .cursos, .formacoes, .one-more {
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -349,6 +349,7 @@ body {
 }
 
 .rodape {
+    font-family: 'Inter';
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -379,3 +380,45 @@ body {
     color: white;
     text-decoration: none;
 }
+
+.email-footer {
+    color: #69a1da;
+}
+
+.modal {
+    display: none; /* Oculto inicialmente */
+    position: fixed; /* Fica fixo na tela */
+    z-index: 1; /* Coloca o modal acima de outros elementos */
+    left: 0;
+    top: 0;
+    width: 100%; /* Toma a largura total da tela */
+    height: 100%; /* Toma a altura total da tela */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+  }
+  
+  /* O conteúdo do modal */
+  .modal-content {
+    background-color: white;
+    margin: 15% auto; /* Centraliza verticalmente o modal */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Define a largura do modal */
+    max-width: 600px; /* Limite de largura */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  /* O botão de fechar (X) no canto superior direito */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+  }

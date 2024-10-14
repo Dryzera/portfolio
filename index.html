@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/styles.css">
-    <title>Endryus Daniel - Portfólio</title>
+    <title>Endryus Daniel</title>
     <link rel="shortcut icon" href="static/imgs/logo-preview.png" type="image/x-icon">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Qwitcher+Grypen:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"></head>
 <body>
     <header class="header-top" id="top">
         <h1>Endryus Daniel</h1>
@@ -103,12 +106,12 @@
             <div>
                 <h4>Programação:</h4>
                 <p>Python: intermediário avançado (cursando...)</p>
-                <p>Front-End: intermediário <input type="button" value="Ver"></p>
+                <p>Front-End: intermediário <input type="button" value="Ver" id="openModalFront"></p>
             </div>
             <div>
                 <h4>Outros:</h4>
-                    <p>Informática Básica <input type="button" value="Ver"></p>
-                <p>Acadêmia de Negócios <input type="button" value="Ver"></p>
+                    <p>Informática Básica <input type="button" value="Ver" id="openModalInformatica"></p>
+                <p>Acadêmia de Negócios <input type="button" value="Ver" id="openModalAcademia"></p>
             </div>
             </div>
         </div>
@@ -148,7 +151,7 @@
                 <header>
                     <h2>SGO Tio Elias</h2>
                 </header>
-                <p class="description">Descrição: essa é uma plataforma de gerenciamento de clientes, lançar e receber pagamentos, consultar análises, gerar relatórios e outras.</p>
+                <p class="description">Descrição: essa é uma plataforma de gerenciamento de clientes, lançar e receber pagamentos, consultar análises, gerar relatórios e outros são algumas das funcionalidades implementadas no site.</p>
                 <ul>
                     <h4>O que usei para desenvolver:</h4>
                     <li>Django Framework</li>
@@ -188,6 +191,20 @@
                 <p class="data-criacao">Desenvolvido em: 08/2024</p>
                 <p class="link-project">Link para ver: <a href="https://github.com/Dryzera/feay_music" target="_blank">clique aqui</a></p>
             </article>
+            <article class="project">
+                <header>
+                    <h2>Meu Portfólio</h2>
+                </header>
+                <p class="description">Descrição: feito para uso pessoal e como forma de divulgar meu trabalho.</p>
+                <ul>
+                    <h4>O que usei para desenvolver:</h4>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <p class="data-criacao">Desenvolvido em: 10/2024</p>
+                <p class="link-project">Link para ver: <a href="https://github.com/Dryzera/feay_music" target="_blank">clique aqui</a></p>
+            </article>
         </div>
     </section>
 
@@ -198,7 +215,7 @@
                 <a href="https://www.linkedin.com/in/endryus-daniel-rysik-de-oliveira/" target="_blank"><img src="https://cdn-icons-png.flaticon.com/256/174/174857.png" alt="logo do linkedin">Linkedin</a>
             </div>
             <div class="contact">
-                <a href="#" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="logo do gmail">Gmail</a>
+                <a href="mailto:endryusdaniel6321@gmail.com?subject=Ol%C3%A1,+Endryus.+Vim+pelo+seu+portf%C3%B3lio" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="logo do gmail">Gmail</a>
             </div>
             <div class="contact">
                 <a href="https://github.com/Dryzera" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="logo do github">Github</a>
@@ -219,6 +236,8 @@
         <div class="direitos">
             <h1>Endryus Daniel</h1>
             <p>© Todos os direitos reservados</p>
+            <br>
+            <p><a href="mailto:endryusdaniel6321@gmail.com?subject=Ol%C3%A1,+Endryus.+Vim+pelo+seu+portf%C3%B3lio" class="email-footer">endryusdaniel6321@gmail.com</a></p>
         </div>
 
         <div class="agradecimento">
@@ -237,8 +256,39 @@
             </ul>
         </div>
     </footer>
+
+    <!-- MODAIS -->
+
+    <div id="modalAcademia" class="modal">
+        <div class="modal-content">
+            <span id="closeModalAcademia" class="close">&times;</span>
+            <h2>Academia de Negócios</h2>
+            <p>Descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempore dolores? Excepturi explicabo mollitia architecto dolore quidem fugit repellendus error, rerum dolorum deleniti a odio tenetur et iusto blanditiis similique.</p>
+
+        </div>
+    </div>
+
+    <div id="modalFront" class="modal">
+        <div class="modal-content">
+            <span id="closeModalFront" class="close">&times;</span>
+            <h2>Front-End</h2>
+            <p>Descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempore dolores? Excepturi explicabo mollitia architecto dolore quidem fugit repellendus error, rerum dolorum deleniti a odio tenetur et iusto blanditiis similique.</p>
+            <p>Tempo de duração: </p>
+            <span>Certificado:</span>
+            <img src="" alt="certificado front-end">
+        </div>
+    </div>
+
+    <div id="modalInformatica" class="modal">
+        <div class="modal-content">
+            <span id="closeModalInformatica" class="close">&times;</span>
+            <h2>Informática Básica</h2>
+            <p>Descrição: Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, tempore dolores? Excepturi explicabo mollitia architecto dolore quidem fugit repellendus error, rerum dolorum deleniti a odio tenetur et iusto blanditiis similique.</p>
+        </div>
+    </div>
 <script src="static/js/scroll-sense.js"></script>
 <script src="static/js/screen_detector.js"></script>
+<script src="static/js/modals.js"></script>
 </script>
 </body>
 </html>
