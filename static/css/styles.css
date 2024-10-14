@@ -155,6 +155,7 @@ body {
     border-radius: 10px;
     text-overflow: ".";
     text-decoration: underline;
+    box-shadow: 5px 7px 5px black;
 
 }
 
@@ -176,6 +177,7 @@ body {
     color: var(--default-white);
     background-color: var(--color-backgound-sections-cards);
     font-size: 1.5rem;
+    box-shadow: 7px 5px 10px black;
 }
 
 .dados-pessoais h3 {
