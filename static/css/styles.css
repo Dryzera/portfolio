@@ -338,6 +338,7 @@ body {
 
 .contact a:hover {
     background-color: #676767;
+    padding: 3rem;
 }
 
 .contact img {
