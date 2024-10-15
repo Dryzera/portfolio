@@ -91,14 +91,13 @@
     }
 
     .grid-projects {
-        display: grid;
-        grid-template-columns: repeat(1, 0.5fr);
+        display: block;
     }
 
     .project {
         padding: 1rem;
-        margin: 1rem;
-        max-width: 90vw;
+        margin: 1.3rem auto;
+        max-width: 100vw;
     }
 
     .project p {
@@ -110,7 +109,7 @@
     }
 
     .grid-contacts {
-        display: block;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .contact {
