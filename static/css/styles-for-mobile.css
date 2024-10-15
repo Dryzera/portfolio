@@ -1,0 +1,148 @@
+@media (max-width:480px) {
+
+    body {
+        width: 100vw;
+    }
+
+    .header-top {
+        width: 100vw;
+    }
+    .header-top h1, p {
+        text-align: center;
+    }
+    
+    .back-to-top img {
+        display: none;
+        position: relative;
+    }
+
+    .convite {
+        text-align: center;
+    }
+    
+    .boas-vindas {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .boas-vindas a {
+        padding: 0.3rem 2rem;
+        margin-top: 0.5rem;
+        font-size: 15px;
+    }
+
+    .name .eu_sou {
+        font-size: 10px;
+    }
+    
+    .name .endryus_daniel {
+        font-family: 'Qwitcher Grypen';
+        font-size: 50px;
+        color: #4E65FF;
+    }
+
+    .flex_minha-foto {
+        display: none;
+    }
+
+    .grid-about {
+        display: block;
+    }
+
+    .title-section {
+        margin-bottom: 20px;
+        font-size: 3vw;
+        width: 50vw;
+        font-size: 20px;
+    
+    }
+
+    .dados-pessoais, .cursos, .formacoes, .one-more {
+        flex-direction: column;
+        justify-items: center;
+        align-content: center;
+        width: 90vw;
+        margin: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .cursos h4 {
+        text-align: left;
+    }
+
+    .cursos div p {
+        text-align: left;
+    }
+
+    .courses-ver {
+        padding: 1px;
+        margin: 0.5px;
+        font-size: 10px;
+    }
+
+    .one-more h3 {
+       text-align: center;
+
+    }
+    
+    .one-more p {
+        text-align: left;
+    }
+
+    .grid-projects {
+        display: grid;
+        grid-template-columns: repeat(1, 0.5fr);
+    }
+
+    .project {
+        padding: 1rem;
+        margin: 1rem;
+        max-width: 90vw;
+    }
+
+    .project p {
+        text-align: left;
+    }
+
+    .grid-courses {
+        display: block;
+    }
+
+    .grid-contacts {
+        display: block;
+    }
+
+    .contact {
+        padding: 0.5rem;
+    }
+
+    .contact a {
+        padding: 1.25rem;
+    }
+
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .rodape h1 {
+        font-size: 22px;
+    }
+
+    .rodape h4 {
+        font-size: 18px;
+    }
+
+    .rodape p {
+        font-size: 12px;
+        text-align: left;
+    }
+
+
+    .links-footer li {
+        font-size: 12px;
+    }
+    
+}

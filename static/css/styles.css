@@ -1,4 +1,5 @@
 @import url(responsividade-style_temporario.css);
+@import url(styles-for-mobile.css);
 
 :root {
     --color-background-body: #ffffff;
@@ -78,12 +79,6 @@ marquee {
     right: 10px;
 }
 
-.back-to-top p {
-    padding-bottom: 5px;
-    text-align: center;
-    font-weight: bold;
-}
-
 
 .back-to-top img {
     width: 4vw;
@@ -92,7 +87,7 @@ marquee {
 .home {
     display: flex;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     background: var(--color-backgound-sections);
     padding: 1rem 0 0 1rem;
 }
