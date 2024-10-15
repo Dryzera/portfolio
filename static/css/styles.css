@@ -3,11 +3,13 @@
 :root {
     --color-background-body: #ffffff;
     --default-white: #fff;
+    --default-black: #000;
+    --color-title-section: #3b69ff;
     --background-header: linear-gradient(90deg, rgba(0,27,52,1) 0%, rgba(4,0,77,1) 45%, rgba(0,0,128,1) 100%);
     --background-header-scroll: linear-gradient(to left, rgba(183, 214, 204, .7) 0%, rgba(62,94,221,.95) 45%, rgba(0,0,0,.6) 100%);
     --color-backgound-sections: #e7e7e7;
-    --color-backgound-sections-title: #2e3782;
-    --color-backgound-sections-cards: #2e3782;
+    --color-backgound-sections-title: #23303f;
+    --color-backgound-sections-cards: rgba(21, 69, 192, 0.5);
     /* vars */
 }
 
@@ -26,8 +28,14 @@ body {
     font-family: 'Heebo',sans-serif;
 }
 
+marquee {
+    padding-top: 10px;
+    color: red;
+}
+
 .header-top {
     background: var(--background-header);
+    position: fixed;
     color: var(--default-white);
     padding: 3rem 0 3rem 3rem;
     width: 100%;
@@ -90,12 +98,12 @@ body {
 }
 
 .name .eu_sou {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .name .endryus_daniel {
     font-family: 'Qwitcher Grypen';
-    font-size: 120px;
+    font-size: 150px;
     color: #4E65FF;
 }
 
@@ -105,7 +113,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     width: 50%;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .home a {
@@ -114,7 +122,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 0.8rem 1rem;
-    transition: all 200ms ease-in-out;
+    transition: all 150ms ease-out;
     margin-top: 1rem;
 }
 
@@ -129,10 +137,14 @@ body {
     padding-left: 5rem;
 }
 
-.minha-foto {
+.flex_minha-foto {
     display: flex;
-    flex: 0 1px;
-    width: 100vw;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.minha-foto {
+    width: 450px;
 }
 
 .sobre {
@@ -177,12 +189,13 @@ body {
     width: 35vw;
     margin: 1rem;
     padding: 1rem;
-    border: 1px  black;
+    border: 1px transparent;
     border-radius: 10px;
-    color: var(--default-white);
+    color: var(--default-black);
     background-color: var(--color-backgound-sections-cards);
     font-size: 1.5rem;
     box-shadow: 7px 5px 10px black;
+    transition: all 150ms;
 }
 
 .dados-pessoais h3 {
@@ -195,16 +208,20 @@ body {
     list-style: none;
 }
 
-.dados-pessoais a{
-    color: rgb(0, 221, 255);
-    text-decoration: none;
-}
 
 .dados-pessoais mark {
-    background-color: var(--color-backgound-sections-cards);
-    color: var(--default-white);
+    background-color: transparent;
+    color: rgb(29, 26, 213);
     text-decoration: underline;
     font-weight: bold;
+}
+
+.dados-pessoais:hover, 
+.cursos:hover, 
+.formacoes:hover, 
+.one-more:hover {
+   margin: 1.3rem;
+   background-color: rgb(170, 206, 245);
 }
 
 .formacoes h3 {
@@ -302,6 +319,12 @@ body {
     margin: 1rem;
     background-color: white;
     box-shadow: 5px 5px 10px rgba(0,0,0, 1);
+    transition: all 150ms;
+}
+
+.project:hover {
+    background-color: #e9efff;
+    margin: 1.1rem;
 }
 
 .project h2 {
