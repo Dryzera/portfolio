@@ -288,7 +288,7 @@ body {
 
 .grid-projects {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 0.5fr);
 }
 
 #projetos {
