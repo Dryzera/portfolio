@@ -23,10 +23,11 @@
 html {
     scroll-behavior: smooth;
     background-color: var(--color-background-body);
+    font-size: 62,5%;
 }
 
 body {
-    font-family: 'Heebo',sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 marquee {
@@ -474,7 +475,7 @@ marquee {
 }
 
 .modal-content img {
-    max-width: 500px;
+    max-width: 35vw;
     display: block;
 }
 

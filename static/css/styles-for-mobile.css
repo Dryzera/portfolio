@@ -6,14 +6,24 @@
 
     .header-top {
         width: 100vw;
+        position: static;
     }
+
     .header-top h1, p {
-        text-align: center;
+        text-align: left;
     }
+
+    .nav-links ul {
+       display: none;
+    }    
     
     .back-to-top img {
         display: none;
         position: relative;
+    }
+
+    .home {
+        display: block;
     }
 
     .convite {
@@ -37,12 +47,13 @@
     
     .name .endryus_daniel {
         font-family: 'Qwitcher Grypen';
-        font-size: 50px;
+        font-size: 60px;
         color: #4E65FF;
     }
 
-    .flex_minha-foto {
-        display: none;
+    .minha-foto {
+        height: 60vh;
+        width: 80vw;
     }
 
     .grid-about {
@@ -121,9 +132,12 @@
     }
 
     .rodape {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
+        display: block;
+        text-align: left;
+    }
+
+    .p-email, .br-email {
+        display: none;
     }
 
     .rodape h1 {
@@ -137,6 +151,7 @@
     .rodape p {
         font-size: 12px;
         text-align: left;
+        padding-bottom: 1rem;
     }
 
 
