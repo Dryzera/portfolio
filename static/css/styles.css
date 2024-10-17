@@ -6,11 +6,12 @@
     --default-white: #fff;
     --default-black: #000;
     --color-title-section: #3b69ff;
+    --background-color-home: linear-gradient(to left, rgba(183, 214, 204, .7) 0%, rgba(62,94,221,.95) 45%, rgba(0,0,0,.6) 100%);
     --background-header: linear-gradient(90deg, rgba(0,27,52,1) 0%, rgba(4,0,77,1) 45%, rgba(0,0,128,1) 100%);
     --background-header-scroll: linear-gradient(to left, rgba(183, 214, 204, .7) 0%, rgba(62,94,221,.95) 45%, rgba(0,0,0,.6) 100%);
     --color-backgound-sections: #e7e7e7;
     --color-backgound-sections-title: #23303f;
-    --color-backgound-sections-cards: rgba(21, 69, 192, 0.5);
+    --color-backgound-sections-cards: rgb(168, 179, 205);
     /* vars */
 }
 
@@ -28,6 +29,7 @@ html {
 
 body {
     font-family: 'Heebo', sans-serif;
+    background: var(--default-white);
 }
 
 marquee {
@@ -95,6 +97,9 @@ marquee {
     width: 100vw;
     background: var(--color-backgound-sections);
     padding: 1rem 0 0 1rem;
+    background-image: url(../imgs/home-bg.svg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .name .eu_sou {
@@ -153,10 +158,12 @@ marquee {
     justify-content: center;
     align-items: center;
     padding: 3rem 0;
-    background: var(--color-backgound-sections);
     margin: 1rem 0;
     min-width: 100%;
     min-height: 100%;
+    background-image: url(../imgs/about-bg.svg);
+    background-position: center center;
+    background-size: cover;
 }
 
 .title-section {
@@ -312,6 +319,12 @@ marquee {
     padding: 3rem;
 }
 
+.projects {
+    background-image: url('../imgs/projects-bg.svg');
+    background-position: center center;
+    background-size: cover;
+}
+
 .project {
     padding: 3rem;
     border: 1px transparent;
@@ -357,6 +370,12 @@ marquee {
 
 .data-criacao {
     padding: 0.3rem 0;
+}
+
+.contacts {
+    background-image: url('../imgs/contacts-bg.svg');
+    background-position: center center;
+    background-size: cover;
 }
 
 .grid-contacts {
