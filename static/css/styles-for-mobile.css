@@ -15,10 +15,10 @@
 
     .nav-links ul {
        display: none;
-    }    
+    }   
     
     .back-to-top img {
-        display: none;
+        width: 10vw;
         position: relative;
     }
 
@@ -27,28 +27,36 @@
     }
 
     .convite {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 1rem;
     }
     
-    .boas-vindas {
-        font-size: 15px;
+    .boas-vindas {    
+        width: 70%;
+        font-size: 20px;
         text-align: center;
     }
 
     .boas-vindas a {
         padding: 0.3rem 2rem;
         margin-top: 0.5rem;
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .name .eu_sou {
-        font-size: 10px;
+        font-size: 15px;
     }
     
     .name .endryus_daniel {
         font-family: 'Qwitcher Grypen';
-        font-size: 60px;
+        font-size: 70px;
         color: #4E65FF;
+    }
+
+    .flex_minha-foto {
+        align-items: flex-end;
     }
 
     .minha-foto {
@@ -63,8 +71,9 @@
     .title-section {
         margin-bottom: 20px;
         font-size: 3vw;
+        padding: 1rem;
         width: 50vw;
-        font-size: 20px;
+        font-size: 22px;
     
     }
 
@@ -88,7 +97,7 @@
 
     .courses-ver {
         padding: 1px;
-        margin: 0.5px;
+        margin: 0.5rem;
         font-size: 10px;
     }
 
@@ -108,7 +117,7 @@
     .project {
         padding: 1rem;
         margin: 1.3rem auto;
-        max-width: 100vw;
+        width: 90vw;
     }
 
     .project p {
