@@ -49,6 +49,17 @@ marquee {
     left: 0;
 }
 
+.my-photo-div {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.my-photo-div img {
+    max-width: 200px;
+    float: right;
+}
+
 .header-scroll {
     display: none;
     position: fixed;
@@ -62,7 +73,6 @@ marquee {
     justify-content: center;
     align-items: center;
     list-style: none;
-    
 }
 
 .links {
