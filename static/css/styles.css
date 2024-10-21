@@ -30,6 +30,7 @@ html {
 body {
     font-family: 'Heebo', sans-serif;
     background: var(--default-white);
+    overflow-x: hidden;
 }
 
 marquee {
