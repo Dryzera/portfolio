@@ -87,9 +87,28 @@ marquee {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.menu-links-img, .checkbox-links {
+.checkbox-links, .menu-links-img {
     display: none;
 }
+
+/*
+ ESTA PRONTO, BASTA AJUSTAR
+.menu-links-img {
+    background-color: var(--default-white);
+    border-radius: 50%;
+    width: 10vw;
+}
+
+.label-checkbox-links {
+    position: fixed;
+    top: 6rem;
+    right: 1rem;
+}
+
+.checkbox-links:checked~.nav-links {
+    display: block;
+}
+*/
 
 .back-to-top {
     position: fixed;
