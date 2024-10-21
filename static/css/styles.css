@@ -237,7 +237,6 @@ marquee {
 .cursos:hover, 
 .formacoes:hover, 
 .one-more:hover {
-   margin: 1.05rem;
    background-color: #e9efff;
 }
 
@@ -350,7 +349,6 @@ marquee {
 
 .project:hover {
     background-color: #e9efff;
-    margin: 1.1rem;
 }
 
 .project h2 {
