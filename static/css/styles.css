@@ -11,7 +11,7 @@
     --background-header-scroll: linear-gradient(to left, rgba(183, 214, 204, .7) 0%, rgba(62,94,221,.95) 45%, rgba(0,0,0,.6) 100%);
     --color-backgound-sections: #e7e7e7;
     --color-backgound-sections-title: #23303f;
-    --color-backgound-sections-cards: rgb(168, 179, 205);
+    --color-backgound-sections-cards: rgb(255, 255, 255);
     /* vars */
 }
 
@@ -237,8 +237,8 @@ marquee {
 .cursos:hover, 
 .formacoes:hover, 
 .one-more:hover {
-   margin: 1.3rem;
-   background-color: rgb(170, 206, 245);
+   margin: 1.05rem;
+   background-color: #e9efff;
 }
 
 .formacoes h3 {
@@ -279,6 +279,9 @@ marquee {
     font-weight: bold;
     cursor: pointer;
     margin: 5px;
+    border: transparent;
+    border-radius: 0.3rem;
+    background-color: #ababab;
 }
 
 .concluido {
