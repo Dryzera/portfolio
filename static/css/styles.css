@@ -442,8 +442,7 @@ marquee {
 }
 
 .contact a:hover {
-    background-color: #676767;
-    padding: 3rem;
+    transform: scale(1.1);
 }
 
 .contact img {
