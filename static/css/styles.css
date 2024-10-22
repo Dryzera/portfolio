@@ -186,7 +186,7 @@ marquee {
     min-width: 20rem;
 }
 
-.sobre {
+.section-default-style {
     display: flex;
     flex-direction: column;
     justify-content: center;
