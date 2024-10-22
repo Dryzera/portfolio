@@ -11,7 +11,6 @@ if (width_device < 1024 && width_device > 480) {
 
 window.addEventListener('scroll', function() {
     if (width_device >= 1024) {
-        console.log(width_device)
     
         if (window.scrollY >= 1) {
             // console.log("A página foi scrollada e não está mais no ponto 0.");

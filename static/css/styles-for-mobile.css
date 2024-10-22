@@ -22,7 +22,7 @@
     }   
     
     .back-to-top img {
-        width: 10vw;
+        width: 12vw;
         position: relative;
     }
 
@@ -103,7 +103,7 @@
     }
 
     .courses-ver {
-        padding: 1px;
+        padding: 0.2rem;
         margin: 0.5rem;
         font-size: 10px;
     }

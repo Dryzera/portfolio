@@ -119,6 +119,8 @@ marquee {
 
 .back-to-top img {
     width: 4vw;
+    background-color: var(--default-white);
+    border-radius: 50%;
 }
 
 .home {
@@ -180,6 +182,8 @@ marquee {
 
 .minha-foto {
     width: 40vw;
+    max-width: 37rem;
+    min-width: 20rem;
 }
 
 .sobre {
