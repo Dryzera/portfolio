@@ -44,7 +44,7 @@
     }
 
     .boas-vindas a {
-        padding: 0.3rem 2rem;
+        padding: 0.5rem 2rem;
         margin-top: 0.5rem;
         font-size: 20px;
     }
@@ -61,16 +61,18 @@
 
     .flex_minha-foto {
         align-items: flex-end;
+        justify-content: flex-end;
     }
 
     .minha-foto {
         margin-top: 5rem;
         height: 50vh;
-        width: 80vw;
+        width: 100vw;
     }
 
     .grid-about {
-        display: block;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     .title-section {
