@@ -11,7 +11,7 @@
     --background-header-scroll: linear-gradient(to left, rgba(183, 214, 204, .7) 0%, rgba(62,94,221,.95) 45%, rgba(0,0,0,.6) 100%);
     --color-backgound-sections: #e7e7e7;
     --color-backgound-sections-title: #23303f;
-    --color-backgound-sections-cards: rgb(255, 255, 255);
+    --color-backgound-sections-cards: linear-gradient(to right, #ffffff, #c8c8c8);
     /* vars */
 }
 
@@ -233,7 +233,7 @@ marquee {
     border: 1px transparent;
     border-radius: 10px;
     color: var(--default-black);
-    background-color: var(--color-backgound-sections-cards);
+    background: var(--color-backgound-sections-cards);
     font-size: 1.5rem;
     box-shadow: 7px 5px 10px black;
     transition: all 150ms;
@@ -242,18 +242,21 @@ marquee {
 .dados-pessoais h3 {
     text-align: center;
     padding-bottom: 1rem;
-    text-decoration: underline;
 }
 
 .dados-pessoais ul {
     list-style: none;
 }
 
+.icons-personal-datas {
+    width: 1.5rem;
+    margin-right: 0.3rem;
+    text-align: center;
+}
+
 
 .dados-pessoais mark {
     background-color: transparent;
-    color: rgb(29, 26, 213);
-    text-decoration: underline;
     font-weight: bold;
 }
 
@@ -267,7 +270,6 @@ marquee {
 .formacoes h3 {
     text-align: center;
     padding-bottom: 1rem;
-    text-decoration: underline;
 }
 
 .cursos {
@@ -277,12 +279,10 @@ marquee {
 .cursos h3 {
     text-align: center;
     padding-bottom: 1rem;    
-    text-decoration: underline;
 }
 
 .cursos h4 {
     padding-bottom: 1rem;    
-    text-decoration: underline;
 }
 
 .grid-courses {
@@ -332,7 +332,6 @@ marquee {
 
 .one-more h3 {
     padding-bottom: 1rem;
-    text-decoration: underline;
 
 }
 
@@ -343,7 +342,6 @@ marquee {
 .empresas-passadas h4 {
     text-align: center;
     padding-bottom: 5px;
-    text-decoration: underline;
 }
 
 .grid-projects {
