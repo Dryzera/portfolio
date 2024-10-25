@@ -12,7 +12,6 @@
     --color-backgound-sections: #e7e7e7;
     --color-backgound-sections-title: #23303f;
     --color-backgound-sections-cards: linear-gradient(to right, #a7c6ff, #f5f5f5);
-    /* vars */
 }
 
 * {
@@ -87,28 +86,19 @@ marquee {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.checkbox-links, .menu-links-img {
+.menu-mobile {
     display: none;
 }
 
-/*
- ESTA PRONTO, BASTA AJUSTAR
 .menu-links-img {
     background-color: var(--default-white);
     border-radius: 50%;
     width: 10vw;
-}
-
-.label-checkbox-links {
     position: fixed;
-    top: 6rem;
-    right: 1rem;
+    top: 1rem;
+    right: 0.5rem;
 }
 
-.checkbox-links:checked~.nav-links {
-    display: block;
-}
-*/
 
 .back-to-top {
     position: fixed;
