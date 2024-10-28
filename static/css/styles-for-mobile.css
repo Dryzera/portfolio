@@ -38,7 +38,7 @@
     }
     
     .boas-vindas {    
-        width: 70%;
+        width: 90%;
         font-size: 20px;
         text-align: center;
     }
@@ -60,14 +60,15 @@
     }
 
     .flex_minha-foto {
-        align-items: flex-end;
-        justify-content: flex-end;
+        display: block;
+        position: absolute;
+        bottom: -70px;
     }
 
     .minha-foto {
         margin-top: 5rem;
-        height: 50vh;
-        width: 100vw;
+        height: 60vh;
+        width: 90vw;
     }
 
     .grid-about {
