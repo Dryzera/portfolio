@@ -17,9 +17,27 @@
         display: none;
     }
 
-    .nav-links ul {
-       display: none;
-    }   
+    .nav-links .links-top {
+        display: none;
+       background-color: var(--default-white);
+       position: fixed;
+       z-index: 3;
+       text-align: center;
+    }
+
+    .links-top li {
+        border: 2px solid #d2d2d2;
+    }
+
+    .links {
+        color: darkblue;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .menu-mobile {
+        display: none;
+    }
     
     .back-to-top img {
         width: 12vw;

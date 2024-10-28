@@ -15,7 +15,7 @@
         <h1>Endryus Daniel</h1>
         <p>Programmer | Backend Developer</p>
         <nav class="nav-links">
-            <ul class="links-top">
+            <ul class="links-top" id="links-top-mobile">
                 <li><a href="#home" class="links">Home</a></li>
                 <li><a href="#sobre" class="links">Sobre</a></li>
                 <li><a href="#experiencias" class="links">Experiências</a></li>
@@ -24,8 +24,7 @@
             </ul>
             <!-- for implement in future -->
             <div class="menu-mobile">
-                <input type="checkbox" name="box-links" id="checkbox-links" class="checkbox-links">
-                <label class="label-checkbox-links" for="checkbox-links"><img src="static/imgs/menu.png" alt="uma imagem que se clicada leva aos menus, (para usar no celular)." class="menu-links-img"></label>
+                <img id="btn-links" src="static/imgs/menu.png" alt="uma imagem que se clicada leva aos menus, (para usar no celular)." class="menu-links-img"></label>
             </div>
         </nav>
         <div class="my-photo-div">
@@ -111,13 +110,13 @@
             <div class="grid-courses">
             <div>
                 <h4>Idiomas:</h4>
-                <p>Português do Brasil: nativo</p>
-                <p>Ingles: básico (cursando)</p>
+                <p>Português do Brasil</p>
+                <p>Inglês <data-cursos-termino>2024</data-cursos-termino></p>
             </div>
             <div>
                 <h4>Programação:</h4>
-                <p>Python: intermediário avançado (cursando)</p>
-                <p class="concluido">Front-End: intermediário <input type="button" value="Ver" id="openModalFront" class="courses-ver"></p>
+                <p>Python <data-cursos-termino>2024</data-cursos-termino></p>
+                <p class="concluido">Front-End<input type="button" value="Ver" id="openModalFront" class="courses-ver"></p>
             </div>
             <div>
                 <h4>Outros:</h4>
@@ -129,9 +128,9 @@
 
         <div class="one-more">
             <h3>Um pouquinho mais sobre minha história...</h3>
-            <p>Meu nome é Endryus Daniel, e estou empregado na Kodland no momento. Não tenho nenhuma experiência anterior, porém, já fiz e ainda faço trabalhos no formato freelance, apesar de serem bem poucos.</p>
-            <p>Sou desenvolvedor web, iniciante ainda, mas com uma vontade gigante de aprender e tentar ajudar. Faço cursos tanto na área do front-end quanto back-end, ou seja, me considero um full-stack iniciante.</p>
-            <p>Será um grande prazer dividir meu conhecimento com você assim como é grande a minha vontade de aprender e construirmos algo que possa revolucionar o mercado.</p>
+            <p>Meu nome é <b>Endryus Daniel</b>, e estou empregado na <b>Kodland</b> no momento. Não tenho nenhuma experiência anterior, porém, já fiz e ainda faço trabalhos no formato <b>freelance</b>, apesar de serem bem poucos.</p>
+            <p>Sou <b>desenvolvedor web</b>, iniciante ainda, mas com uma vontade gigante de aprender e tentar ajudar. Faço cursos tanto na área do front-end quanto back-end, ou seja, me considero um <b>full-stack</b> iniciante.</p>
+            <p><b>Será um grande prazer</b> dividir meu conhecimento com você assim como é grande a minha vontade de aprender e construirmos algo que possa revolucionar o mercado.</p>
         </div>
     </section>
 
@@ -150,9 +149,9 @@
 
         <div class="one-more">
             <h3>Entenda sobre minha vida profissional...</h3>
-            <p>Começei muito cedo fazer cursos na área da programação e computação (com meus 15 anos, pra ser mais específico), e na minha casa, sempre foi priorizado o aprendizado antes e o trabalho depois. Por conta disso, não tive muitas experiências passadas.</p>
-            <p>Apesar disso, na data que estou escrevendo este paragráfo, tenho uma grande compreensão do mercado, e isso se dá pela minha grande bagagem de cursos feitos na área que pretendo atuar.</p>
-            <p>Hoje, me considero mais preparado em assumir cargos de maiores responsabilidades e estou muito mais pronto a aprender e a ajudar.</p>
+            <p>Começei muito cedo fazer cursos na área da <b>programação e computação</b> (com meus 15 anos, pra ser mais específico). Por todo esse tempo, eu foquei mais em estudar do que trabalhar.</p>
+            <p>Apesar disso, na data que estou escrevendo este paragráfo, tenho uma grande <b>compreensão do mercado</b>, e isso se dá pela minha grande bagagem de cursos feitos na área que pretendo atuar.</p>
+            <p>Hoje, me considero mais preparado em assumir cargos de <b>maiores responsabilidades</b> e estou muito mais pronto a aprender e a ajudar.</p>
         </div>
     </section>
 
@@ -164,7 +163,7 @@
                 <header>
                     <h2>SGO Tio Elias</h2>
                 </header>
-                <p class="description">Descrição: essa é uma plataforma de gerenciamento de clientes, utilizada para: lançar e receber pagamentos, consultar análises, gerar relatórios e outros, são algumas das funcionalidades implementadas no site.</p>
+                <p class="description"><b>Descrição:</b> essa é uma plataforma de gerenciamento de clientes, utilizada para: lançar e receber pagamentos, consultar análises, gerar relatórios e outros, são algumas das funcionalidades implementadas no site.</p>
                 <ul>
                     <h4>O que usei para desenvolver:</h4>
                     <li>Django Framework</li>
@@ -181,7 +180,7 @@
                 <header>
                     <h2>Code Defender</h2>
                 </header>
-                <p class="description">Descrição: um jogo simples, feito puramente em Python, criei para o teste de admissão na empresa Kodland.</p>
+                <p class="description"><b>Descrição:</b> um jogo simples, feito puramente em Python, criei para o teste de admissão na empresa Kodland.</p>
                 <ul>
                     <h4>O que usei para desenvolver:</h4>
                     <li>Python</li>
@@ -193,7 +192,7 @@
                 <header>
                     <h2>FEAY Music</h2>
                 </header>
-                <p class="description">Descrição: feito em parceria com alguns colegas de sala para apresentar na matéria de empreendedorismo.</p>
+                <p class="description"><b>Descrição:</b> feito em parceria com alguns colegas de sala para apresentar na matéria de empreendedorismo.</p>
                 <ul>
                     <h4>O que usei para desenvolver:</h4>
                     <li>Python</li>
@@ -208,7 +207,7 @@
                 <header>
                     <h2>Meu Portfólio</h2>
                 </header>
-                <p class="description">Descrição: feito para uso pessoal e como forma de divulgar meu trabalho.</p>
+                <p class="description"><b>Descrição:</b> feito para uso pessoal e como forma de divulgar meu trabalho.</p>
                 <ul>
                     <h4>O que usei para desenvolver:</h4>
                     <li>HTML</li>
@@ -222,7 +221,7 @@
                 <header>
                     <h2>Gerador de Planejamentos</h2>
                 </header>
-                <p class="description">Descrição: projeto extremamente simples, feito no começo dos meus estudos em Python. Ele foi criado com o íntuito de ajudar a minha mãe. Ele gera automáticamente o esboço de planejamentos que ela semanalmente precisava construir.</p>
+                <p class="description"><b>Descrição:</b> projeto extremamente simples, feito no começo dos meus estudos em Python. Ele foi criado com o íntuito de ajudar a minha mãe. Ele gera automáticamente o esboço de planejamentos que ela semanalmente precisava construir.</p>
                 <ul>
                     <h4>O que usei para desenvolver:</h4>
                     <li>Python</li>
@@ -269,7 +268,7 @@
 
         <div class="agradecimento">
             <h4>Agradecimentos</h4>
-            <p>Agradeço a Anna Giulia por me ajudar com a criação deste portfólio.</p>
+            <p>Agradeço a <a class="link-agradecimento" href="https://www.linkedin.com/in/anna-giulia-souza-silva-nunes-91b6522a1/" target="_blank">Anna Giulia</a> por me ajudar com a criação deste portfólio.</p>
         </div>
 
         <div class="links-footer">
@@ -331,6 +330,7 @@
 <!-- space for js codes -->
 
 <script src="static/js/screen_detector.js"></script>
+<script src="static/js/open_menu_mobile.js"></script>
 <script src="static/js/modals.js"></script>
 </body>
 </html>
