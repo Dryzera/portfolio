@@ -239,6 +239,11 @@ marquee {
     list-style: none;
 }
 
+.dados-pessoais ul li {
+    display: flex;
+    align-items: center;
+}
+
 .icons-personal-datas {
     width: 1.5rem;
     margin-right: 0.3rem;
@@ -340,6 +345,12 @@ data-cursos-termino {
 .empresas-passadas h4 {
     text-align: center;
     padding-bottom: 5px;
+}
+
+.description_special_li {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .grid-projects {
