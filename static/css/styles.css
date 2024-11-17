@@ -254,6 +254,7 @@ marquee {
 .dados-pessoais mark {
     background-color: transparent;
     font-weight: bold;
+    padding: 0.2rem;
 }
 
 .dados-pessoais:hover, 
