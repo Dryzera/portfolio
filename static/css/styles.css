@@ -484,6 +484,10 @@ data-cursos-termino {
     padding-bottom: 8px;
 }
 
+.rodape p {
+    padding-bottom: 1rem;
+}
+
 .links-footer ul {
     list-style: none;
 }
