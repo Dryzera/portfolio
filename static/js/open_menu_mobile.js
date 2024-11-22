@@ -1,11 +1,13 @@
-const objClicked = document.getElementById('btn-links')
-const menuLinks = document.getElementById('links-top-mobile')
+const itens_menu = document.getElementById('itens')
 
-objClicked.onclick = function() {
-    menuLinks.style.display = 'block';
-    console.log('oi')
-
-    objClicked.onclick = function() {
-        menuLinks.style.display='none';
+function openMenu() {
+    if (itens_menu.style.display == 'block') {
+        itens_menu.style.display = 'none'
+    } else {
+        itens_menu.style.display = 'block'
     }
+}
+
+function closeMenu() {
+    itens_menu.style.display = 'none'
 }

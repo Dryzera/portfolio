@@ -107,10 +107,13 @@ marquee {
 }
 
 
-.back-to-top img {
-    width: 4vw;
+.back-to-top a {
+    font-size: 3rem;
     background-color: var(--default-white);
     border-radius: 50%;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid black;
 }
 
 .home {

@@ -36,10 +36,43 @@
     }
 
     .menu-mobile {
+        display: block;
+        position: fixed;
+        text-align: right;
+        width: 100vw;
+        z-index: 1000;
+        top: 40px;
+    }
+
+    .menu-mobile span {
+        font-size: 2.5rem;
+        background-color: #eee;
+        margin-right: 0.5rem;
+        border-radius: 50%;
+        border: 1px solid black;
+    }
+
+    .menu-mobile ul {
+        background-color: white;
+        width: 50vw;
+        list-style: none;
+        text-align: center;
+        float: right;
+        margin-right: 1rem;
         display: none;
+        border-radius: 1rem;
+    }
+
+    .menu-mobile li {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid black;
+    }
+
+    #brd-none {
+        border-bottom: transparent;
     }
     
-    .back-to-top img {
+    .back-to-top a {
         width: 12vw;
         position: relative;
     }
