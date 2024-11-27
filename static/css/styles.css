@@ -283,9 +283,15 @@ marquee {
 
 data-cursos-termino {
     color: #7f92e6;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: center;
     font-weight: bold;
+}
+
+.img-courses-h4 {
+    width: 25px;
+    text-align: center;
+    margin-right: 4px;
 }
 
 .cursos h4 {
@@ -296,11 +302,25 @@ data-cursos-termino {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 1rem;
-    gap: 30px
+    gap: 30px;
+}
+
+.grid-courses div {
+    background-color: #eee;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 3px 5px 10px black;
+}
+
+.grid-courses div h4 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
 .grid-courses p {
     padding-bottom: 10px;
+    text-indent: 2rem;
 }
 
 .courses-ver {

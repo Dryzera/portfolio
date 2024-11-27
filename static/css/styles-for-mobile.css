@@ -146,12 +146,29 @@
         font-size: 1rem;
     }
 
+    .img-courses-h4 {
+        width: 5vw;
+    }
+
+    .cursos h3 {
+        padding-bottom: 2px;    
+    }
+
     .cursos h4 {
         text-align: left;
+        padding: 4px;
     }
 
     .cursos div p {
+        text-indent: 1rem;
         text-align: left;
+        padding: 0;
+        height: 1.8rem;
+        text-wrap: nowrap;
+    }
+
+    .cursos div {
+        margin: 1rem 0;
     }
 
     .courses-ver {
