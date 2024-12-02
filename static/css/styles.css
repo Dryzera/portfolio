@@ -159,6 +159,7 @@ marquee {
 }
 
 .convite {
+    max-width: 320px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -172,6 +173,7 @@ marquee {
 }
 
 .minha-foto {
+    max-width: 320px;
     width: 40vw;
     max-width: 37rem;
     min-width: 20rem;
