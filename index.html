@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="static/css/styles.css">
     <link rel="stylesheet" href="static/css/styles-for-mobile.css">
     <title>Endryus Daniel</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" />
     <link rel="shortcut icon" href="static/imgs/logo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,15 +33,25 @@
                 <li><a href="#projetos" class="links">Projetos</a></li>
                 <li><a href="#contatos" class="links">Contatos</a></li>
             </ul>
-            <!-- for implement in future -->
-            <div class="menu-mobile">
-                <img id="btn-links" src="static/imgs/menu.png" alt="uma imagem que se clicada leva aos menus, (para usar no celular)." class="menu-links-img"></label>
-            </div>
         </nav>
         <div class="my-photo-div">
             <img src="static/imgs/logo-removebg.png" alt="minha logo sem fundo">
         </div>
     </header>
+
+    <!-- for implement in future -->
+    <div class="menu-mobile">
+        <span class="material-symbols-rounded" onclick="openMenu()">
+            menu
+        </span>
+        <ul id="itens" onclick="closeMenu()">
+            <li><a href="#home" class="links">Home</a></li>
+            <li><a href="#sobre" class="links">Sobre</a></li>
+            <li><a href="#experiencias" class="links">Experiências</a></li>
+            <li><a href="#projetos" class="links">Projetos</a></li>
+            <li id="brd-none"><a href="#contatos" class="links">Contatos</a></li>
+        </ul>
+    </div>
 
     <header class="header-top header-scroll" id="header-scroll">
         <nav class="nav-links">
@@ -54,8 +65,6 @@
         </nav>
     </header>
 
-    <marquee direction="left">Ainda em Desenvolvimento...</marquee>
-
     <div class="responsividade" id="responsive">
         <h1>ATENÇÃO</h1>
         <p>Vimos que você acessou este site com uma tela entre 480px e 1024px.</p>
@@ -65,8 +74,8 @@
 
     <div class="back-to-top" id="back-to-top">
         <div>
-            <a href="#home">
-                <img src="static/imgs/pra-cima.png" alt="voltar ao topo">
+            <a href="#home" class="material-symbols-rounded">
+                arrow_upward
             </a>
         </div>
     </div>
@@ -118,21 +127,22 @@
         <div class="cursos">
             <h3>Cursos e Habilidades:</h3>
             <div class="grid-courses">
-            <div>
-                <h4>Idiomas:</h4>
-                <p>Português do Brasil</p>
-                <p>Inglês <data-cursos-termino>2024</data-cursos-termino></p>
-            </div>
-            <div>
-                <h4>Programação:</h4>
-                <p>Python <data-cursos-termino>2024</data-cursos-termino></p>
-                <p class="concluido">Front-End<input type="button" value="Ver" id="openModalFront" class="courses-ver"></p>
-            </div>
-            <div>
-                <h4>Outros:</h4>
-                <p class="concluido">Informática Básica <input type="button" value="Ver" id="openModalInformatica" class="courses-ver"></p>
-                <p class="concluido">Acadêmia de Negócios <input type="button" value="Ver" id="openModalAcademia" class="courses-ver"></p>
-            </div>
+                <div>
+                    <h4><img class="img-courses-h4" src="static/imgs/courses-languages.svg" alt="imagem para ilustrar cursos-idiomas">Idiomas:</h4>
+                    <p>Português do Brasil</p>
+                    <p>Inglês <data-cursos-termino>2024</data-cursos-termino></p>
+                </div>
+                <div>
+                    <h4><img class="img-courses-h4" src="static/imgs/courses-programming.svg" alt="imagem para ilustrar cursos-programação">Programação:</h4>
+                    <p>Python <data-cursos-termino>2024</data-cursos-termino></p>
+                    <p>JavaScript/TypeScript <data-cursos-termino>2025</data-cursos-termino></p>
+                    <p class="concluido">Front-End<input type="button" value="Ver" id="openModalFront" class="courses-ver"></p>
+                </div>
+                <div>
+                    <h4><img class="img-courses-h4" src="static/imgs/courses-courses.svg" alt="imagem para ilustrar outros cursos">Outros:</h4>
+                    <p class="concluido">Informática Básica <input type="button" value="Ver" id="openModalInformatica" class="courses-ver"></p>
+                    <p class="concluido">Acadêmia de Negócios <input type="button" value="Ver" id="openModalAcademia" class="courses-ver"></p>
+                </div>
             </div>
         </div>
 
@@ -281,7 +291,7 @@
         <div class="agradecimento">
             <h4>Notas de Rodapé</h4>
             <p>Agradeço a <a class="link-agradecimento" href="https://www.linkedin.com/in/anna-giulia-souza-silva-nunes-91b6522a1/" target="_blank">Anna Giulia</a> por me ajudar com a criação deste portfólio.</p>
-            <p>Sou desenvolvedor, não designer.  <br />Meu portfólio pode não ser visualmente atraente, foi criado para destacar meu trabalho.</p>
+            <p>Sou desenvolvedor, não designer.  <br />Meu portfólio pode não ser visualmente atraente. Foi criado para destacar meu trabalho.</p>
         </div>
 
         <div class="links-footer">
