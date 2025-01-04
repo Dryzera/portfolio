@@ -11,6 +11,10 @@ const modalFront = document.getElementById("modalFront");
 const openModalFront = document.getElementById("openModalFront");
 const closeModalFront = document.getElementById('closeModalFront')
 
+const modalPython = document.getElementById("modalPython");
+const openModalPython = document.getElementById("openModalPython");
+const closeModalPython = document.getElementById('closeModalPython')
+
 // abrir modal
 openModalAcademia.onclick = function() {
     modalAcademia.style.display = "flex";
@@ -22,6 +26,10 @@ openModalInformatica.onclick = function() {
 
 openModalFront.onclick = function() {
     modalFront.style.display = "flex";
+}
+
+openModalPython.onclick = function() {
+    modalPython.style.display = "flex";
 }
 
 
@@ -37,4 +45,8 @@ closeModalInformatica.onclick = function() {
 
 closeModalFront.onclick = function() {
     modalFront.style.display = "none";
+}
+
+closeModalPython.onclick = function() {
+    modalPython.style.display = "none";
 }
