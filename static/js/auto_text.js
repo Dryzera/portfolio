@@ -26,6 +26,16 @@ function createProject(title, description, whats_used, date_creation, link, spec
     divProjects.appendChild(article)
 };
 
+// ed planejamento project
+createProject(
+    'ED Planejamentos', 
+    'este é um site que permite que professores gerem planejamentos de aulas com o auxílio de uma IA, que é integrada ao gerar um planejamento.', 
+    ['Django Framework', 'Python', 'HTML', 'CSS', 'Google Cloud Platform (GCP)', 'JavaScript', 'Nginx', 'Dominios e certificados SSL'], 
+    '01/2025', 
+    'https://www.edplanejamentos.com.br/',
+    true
+)
+
 // tio elias's project
 createProject(
     'Tio Elias Londrina', 
@@ -36,15 +46,28 @@ createProject(
     true
 )
 
-// ed planejamento project
+
+// e commerce project
 createProject(
-    'ED Planejamentos', 
-    'este é um site que permite que professores gerem planejamentos de aulas com o auxílio de uma IA, que é integrada ao gerar um planejamento.', 
-    ['Django Framework', 'Python', 'HTML', 'CSS', 'Google Cloud Platform (GCP)', 'JavaScript', 'Nginx', 'Dominios e certificados SSL'], 
-    '01/2025', 
-    'https://github.com/Dryzera/planejamentos-django-25',
-    true
+    'E-Commerce', 
+    'desenvolvido com django, este é um projeto de um simples e-commerce que explora diversas áreas do django, neste, em especial, sessions. Desenvolvido no curso de Python.', 
+    ['Python', 'Django Framework', 'SQL', 'Debug Toolbar', 'Bootstrap'], 
+    '11/2024', 
+    'https://github.com/Dryzera/e-commerce-django-2024',
+    false
 )
+
+
+// musicals test project
+createProject(
+    'Musicals Test', 
+    'desenvolvido TOTALMENTE por mim, tanto a parte de arquitetura, engenharia e programação do software em questão. O objetivo é treinar todos os conhecimentos obtidos durante o curso de python e aplicá-los neste projeto.', 
+    ['Python', 'Django Framework', 'SQL', 'Debug Toolbar', 'Bootstrap', 'JavaScript'], 
+    '11/24 - em dev', 
+    'https://github.com/Dryzera/musical-test-django-24',
+    false
+)
+
 
 // code defender project
 createProject(
@@ -64,27 +87,5 @@ createProject(
     ['HTML', 'CSS', 'JavaScript'], 
     '08/2024', 
     'https://github.com/Dryzera/portfolio',
-    false
-)
-
-
-// e commerce project
-createProject(
-    'E-Commerce', 
-    'desenvolvido com django, este é um projeto de um simples e-commerce que explora diversas áreas do django, neste, em especial, sessions. Desenvolvido no curso de Python.', 
-    ['Python', 'Django Framework', 'SQL', 'Debug Toolbar', 'Bootstrap'], 
-    '11/2024', 
-    'https://github.com/Dryzera/e-commerce-django-2024',
-    false
-)
-
-
-// e commerce project
-createProject(
-    'Musicals Test', 
-    'desenvolvido TOTALMENTE por mim, tanto a parte de arquitetura, engenharia e programação do software em questão. O objetivo é treinar todos os conhecimentos obtidos durante o curso de python e aplicá-los neste projeto.', 
-    ['Python', 'Django Framework', 'SQL', 'Debug Toolbar', 'Bootstrap', 'JavaScript'], 
-    '11/24 - em dev', 
-    'https://github.com/Dryzera/musical-test-django-24',
     false
 )
