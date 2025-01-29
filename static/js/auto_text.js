@@ -29,8 +29,8 @@ function createProject(title, description, whats_used, date_creation, link, spec
 // ed planejamento project
 createProject(
     'ED Planejamentos', 
-    'este é um site que permite que professores gerem planejamentos de aulas com o auxílio de uma IA, que é integrada ao gerar um planejamento.', 
-    ['Django Framework', 'Python', 'HTML', 'CSS', 'Google Cloud Platform (GCP)', 'JavaScript', 'Nginx', 'Dominios e certificados SSL'], 
+    'este é um site que permite que professores gerem planejamentos de aulas com o auxílio de uma IA, que é integrada a um documento Word.', 
+    ['Django Framework', 'Python', 'HTML', 'CSS', 'Google Cloud Platform (GCP)', 'JavaScript', 'Nginx', 'Dominios e certificados SSL', 'Inteligência Artificial'], 
     '01/2025', 
     'https://www.edplanejamentos.com.br/',
     true
@@ -42,7 +42,7 @@ createProject(
     'foi criada uma simples landing page para divulgar um serviço, porém, sua maior funcionalidade é que ela é uma plataforma de gerenciamento de clientes, utilizada para: lançar e receber pagamentos, consultar análises, gerar relatórios e outros, são algumas das funcionalidades implementadas no site.', 
     ['Django Framework', 'Python', 'HTML', 'CSS', 'Google Cloud Platform (GCP)', 'JavaScript', 'Nginx', 'Dominios e certificados SSL'], 
     '09/2024', 
-    'https://www.tioeliaslondrina.com.br',
+    'https://www.tioeliaslondrina.com.br/',
     true
 )
 
