@@ -31,3 +31,37 @@
 
   --text-default: #e5e5e5;
 }
+
+:root[data-theme='light'] {
+  --gray-900: #e6e9f0;
+  --gray-800: #cdd3e1;
+  --gray-700: #aab3cc;
+  --gray-600: #555f7d;
+  --gray-500: #454f6a;
+  --gray-400: #363d56;
+  --gray-300: #272f43;
+  --gray-200: #181f2e;
+  --gray-100: #0a0f1a;
+
+  --primary: #0b31b2;
+  --primary-light: #3058e0;
+  --primary-dark: #042185;
+
+  --success: #42be4f;
+  --error: #fa1c1c;
+  --info: #1f54fc;
+  --warning: #dbc130;
+
+  --link-color: #838388;
+  --link-hover: #5c5c5f;
+
+  --text-over-primary: #0a0f1a;
+  --text-over-primary-dark: #e6e9f0;
+  --text-over-primary-light: #0a0f1a;
+  --text-over-success: #0a0f1a;
+  --text-over-warning: #0a0f1a;
+  --text-over-error: #e6e9f0;
+  --text-over-info: #0a0f1a;
+
+  --text-default: #101421;
+}

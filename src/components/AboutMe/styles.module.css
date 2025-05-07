@@ -1,0 +1,12 @@
+.container {
+  margin: 0 2rem;
+}
+
+.titleSect {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+}

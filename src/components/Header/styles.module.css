@@ -1,0 +1,21 @@
+.header {
+  background-color: var(--gray-800);
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 7rem;
+  padding: 3rem;
+  border-radius: 1.5rem;
+}
+
+.item {
+  font-size: 3.4rem;
+}
+
+.item svg {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.name {
+  font-weight: bold;
+}
