@@ -1,5 +1,13 @@
+import { Container } from './components/Container';
+
+import './styles/globalApp.css';
+
 function App() {
-    return <h1>Oláa</h1>;
+  return (
+    <>
+      <Container />;
+    </>
+  );
 }
 
 export default App;
