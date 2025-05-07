@@ -1,20 +1,29 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "Bem-vindo ao meu portfólio! Aqui você encontrará projetos que desenvolvi utilizando tecnologias como Python, Django, JavaScript e também me conhecerá, além de muitas outras coisas.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dryzera/portfolio.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Dryzera/portfolio/issues"
-  },
-  "homepage": "https://github.com/Dryzera/portfolio#readme"
+    "name": "portfolio",
+    "private": true,
+    "version": "2.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc -b && vite build",
+        "lint": "eslint .",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.25.0",
+        "@types/react": "^19.1.2",
+        "@types/react-dom": "^19.1.2",
+        "@vitejs/plugin-react-swc": "^3.9.0",
+        "eslint": "^9.25.0",
+        "eslint-plugin-react-hooks": "^5.2.0",
+        "eslint-plugin-react-refresh": "^0.4.19",
+        "globals": "^16.0.0",
+        "typescript": "~5.8.3",
+        "typescript-eslint": "^8.30.1",
+        "vite": "^6.3.5"
+    }
 }
