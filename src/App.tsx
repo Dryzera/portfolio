@@ -1,4 +1,5 @@
 import { AboutMe } from './components/AboutMe';
+import { Home } from './components/Home';
 import { Header } from './components/Header';
 import AOS from 'aos';
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <>
       <Header />
+      <Home />
       <AboutMe />
     </>
   );

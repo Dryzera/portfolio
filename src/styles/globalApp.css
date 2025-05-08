@@ -2,10 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  list-style: none;
 }
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -21,4 +23,14 @@ body {
   height: 4px;
   background-color: var(--primary-light);
   border-radius: 2px;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+a:hover {
+  color: var(--link-hover);
 }

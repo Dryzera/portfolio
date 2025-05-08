@@ -20,7 +20,6 @@ export function Header() {
 
   return (
     <header className={styles.header}>
-      <div className={`${styles.item} ${styles.name}`}>Endryus Daniel</div>
       <div className={styles.item}>
         {theme === 'light' ? (
           <SunIcon onClick={handleChangeTheme} />
