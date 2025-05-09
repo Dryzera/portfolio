@@ -20,7 +20,7 @@ body {
 
 .linha {
   flex: 1;
-  height: 4px;
+  height: 3px;
   background-color: var(--primary-light);
   border-radius: 2px;
 }

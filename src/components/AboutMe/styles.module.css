@@ -1,12 +1,29 @@
 .container {
-  margin: 0 2rem;
+  width: 80vw;
+  max-width: 80%;
+  margin: 5rem auto;
+  background-color: var(--gray-800);
+  padding: 3rem 2rem;
+  border-radius: 0.2rem;
 }
 
 .titleSect {
   display: flex;
   align-items: center;
   gap: 0.6rem;
-  width: 50%;
+  width: 35%;
   margin: 0 auto;
   justify-content: center;
+}
+
+.content {
+  width: 50vw;
+  margin: 2rem auto;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  text-align: justify;
+}
+
+.content p:not(:last-child) {
+  margin-bottom: 1.5rem;
 }
