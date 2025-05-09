@@ -9,6 +9,14 @@ export function AboutMe() {
         <h2>Sobre Mim</h2>
         <div className='linha'></div>
       </div>
+      <div className='content'>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor totam
+          animi facere, itaque voluptatibus dolorum esse natus tempore
+          asperiores, nemo ullam deleniti corporis. Hic, id esse adipisci rerum
+          repellendus facere.
+        </p>
+      </div>
     </Container>
   );
 }
