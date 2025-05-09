@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   width: 80vw;
+  max-width: 80%;
   margin: 5rem auto;
   background-color: var(--gray-800);
   padding: 3rem 5rem;
@@ -31,7 +32,6 @@
 
 .skillsDesc {
   margin: 5rem auto;
-  width: 200rem;
   position: relative;
 }
 
@@ -47,7 +47,51 @@
   margin: 1rem 0;
 }
 
-.ulSkills svg {
-  width: 3rem;
-  height: 3rem;
+.svgHardSkills {
+  max-width: 2rem;
+  max-height: 2rem;
+  width: 4rem;
+  height: 4rem;
+}
+
+.photo img {
+  border-radius: 50%;
+  width: 30rem;
+  transition: all 150ms ease-in;
+}
+
+.photo img:hover {
+  filter: contrast(110%);
+}
+
+.secondTitle {
+  color: var(--text-muted);
+}
+.alignArrow {
+  vertical-align: sub;
+  color: var(--primary-light);
+}
+
+@media (max-width: 420px) {
+  .myName,
+  .shortDesc {
+    font-size: 2rem;
+  }
+
+  .secondTitle {
+    font-size: 1.4rem;
+  }
+
+  .svgHardSkills {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .photo img {
+    width: 15rem;
+  }
 }

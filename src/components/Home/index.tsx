@@ -1,9 +1,6 @@
-import { FaPython, FaReact } from 'react-icons/fa';
 import { Container } from '../Container';
 import styles from './styles.module.css';
-import { IoLogoJavascript } from 'react-icons/io5';
 import { BsArrowReturnRight } from 'react-icons/bs';
-import { SiDjango } from 'react-icons/si';
 
 export function Home() {
   return (
@@ -14,7 +11,7 @@ export function Home() {
             <h3 className={styles.myName}>
               <strong>Endryus Daniel</strong>
             </h3>
-            <span>Back-end Developer</span>
+            <span className={styles.secondTitle}>Back-end Developer</span>
           </div>
 
           <div className={styles.skills}>
@@ -23,25 +20,58 @@ export function Home() {
                 desenvolvedor experiente em django e react, com{' '}
                 <a href='#'>projetos</a> em produção
               </h2>
-              <p>
-                <BsArrowReturnRight color='orange' /> minhas primary hard skills
+              <p className={styles.secondTitle}>
+                <BsArrowReturnRight className={styles.alignArrow} /> minhas
+                primary hard skills
               </p>
               <ul className={styles.ulSkills}>
                 <li>
-                  <IoLogoJavascript color='yellow' />
+                  <img
+                    src='/images/svgs/python.svg'
+                    alt='icone da linguagem de programação python'
+                    className={styles.svgHardSkills}
+                    title='Ícone do Python'
+                  />
                 </li>
                 <li>
-                  <FaPython color='green' />
+                  <img
+                    src='/images/svgs/js.svg'
+                    alt='icone da linguagem de programação javascript'
+                    className={styles.svgHardSkills}
+                    title='Ícone do JavaScript'
+                  />
                 </li>
                 <li>
-                  <FaReact color='cyan' />
+                  <img
+                    src='/images/svgs/ts.svg'
+                    alt='icone da linguagem de programação typescript'
+                    className={styles.svgHardSkills}
+                    title='Ícone do TypeScript'
+                  />
                 </li>
                 <li>
-                  <SiDjango color='green' />
+                  <img
+                    src='/images/svgs/django.svg'
+                    alt='icone do framework django'
+                    className={styles.svgHardSkills}
+                    title='Ícone do Django'
+                  />
+                </li>
+                <li>
+                  <img
+                    src='/images/svgs/react.svg'
+                    alt='icone da linguagem do framework react'
+                    className={styles.svgHardSkills}
+                    title='Ícone do React'
+                  />
                 </li>
               </ul>
             </div>
           </div>
+        </div>
+
+        <div className={styles.photo}>
+          <img src='/images/global/photo.jpeg' alt='minha foto' />
         </div>
       </div>
     </Container>

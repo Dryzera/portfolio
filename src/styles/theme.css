@@ -30,6 +30,7 @@
   --text-over-info: #0a0f1a;
 
   --text-default: #e5e5e5;
+  --text-muted: #c9c9c9;
 }
 
 :root[data-theme='light'] {
@@ -43,9 +44,9 @@
   --gray-200: #181f2e;
   --gray-100: #0a0f1a;
 
-  --primary: #0b31b2;
-  --primary-light: #3058e0;
-  --primary-dark: #042185;
+  --primary: #1435c7;
+  --primary-light: #5a7df1;
+  --primary-dark: #041a68;
 
   --success: #42be4f;
   --error: #fa1c1c;
@@ -64,4 +65,5 @@
   --text-over-info: #0a0f1a;
 
   --text-default: #101421;
+  --text-muted: #232327;
 }
