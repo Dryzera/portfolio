@@ -1,7 +1,7 @@
 .header {
   background-color: var(--gray-800);
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 4rem 7rem;
   padding: 3rem;
   border-radius: 1.5rem;
@@ -18,4 +18,15 @@
 
 .name {
   font-weight: bold;
+}
+
+.ancor {
+  color: var(--text-default);
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+}
+
+.ancor:hover {
+  filter: brightness(50%);
+  color: var(--text-default);
 }

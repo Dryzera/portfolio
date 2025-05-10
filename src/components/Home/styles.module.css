@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   width: 80vw;
-  max-width: 80%;
+  max-width: 90%;
   margin: 5rem auto;
   background-color: var(--gray-800);
   padding: 3rem 5rem;
@@ -93,5 +93,9 @@
 
   .photo img {
     width: 15rem;
+  }
+
+  .prevInfo {
+    width: 100%;
   }
 }
