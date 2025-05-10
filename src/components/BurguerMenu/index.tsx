@@ -7,11 +7,15 @@ export function BurguerMenu() {
   const [visibleState, setVisibleState] = useState(false);
   const { state } = useGeneralContext();
 
-  console.log(state);
-
   return (
     <>
       <div className={`${styles.divNav} ${visibleState && styles.show}`}>
+        <span
+          className={styles.closeMenu}
+          onClick={() => setVisibleState(false)}
+        >
+          &times;
+        </span>
         <nav className={styles.nav}>
           <a
             href='#'
@@ -24,7 +28,7 @@ export function BurguerMenu() {
           <a
             href='#'
             className={`${styles.link} ${
-              state.actualPage === '/' ? styles.pageSelected : ''
+              state.actualPage === 'projects' ? styles.pageSelected : ''
             }`}
           >
             Projetos
@@ -32,7 +36,7 @@ export function BurguerMenu() {
           <a
             href='#'
             className={`${styles.link} ${
-              state.actualPage === '/' ? styles.pageSelected : ''
+              state.actualPage === 'contacts' ? styles.pageSelected : ''
             }`}
           >
             Contatos

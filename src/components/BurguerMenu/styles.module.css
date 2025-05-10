@@ -8,6 +8,7 @@
   justify-content: center;
   width: 2rem;
   top: 0;
+  cursor: pointer;
 }
 
 .divNav {
@@ -45,4 +46,16 @@
 }
 .nav a:not(:last-child) {
   border-bottom: 2px solid var(--gray-500);
+}
+
+.pageSelected {
+  color: var(--text-muted);
+  font-weight: bold;
+}
+
+.closeMenu {
+  color: tomato;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
