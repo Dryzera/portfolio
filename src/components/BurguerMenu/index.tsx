@@ -1,18 +1,43 @@
 import { useState } from 'react';
 import styles from './styles.module.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralContext';
 
 export function BurguerMenu() {
   const [visibleState, setVisibleState] = useState(false);
+  const { state } = useGeneralContext();
+
+  console.log(state);
 
   return (
     <>
-      <div className={`${styles.nav} ${visibleState && styles.show}`}>
-        <ul>
-          <li>Link</li>
-          <li>Link</li>
-          <li>Link</li>
-        </ul>
+      <div className={`${styles.divNav} ${visibleState && styles.show}`}>
+        <nav className={styles.nav}>
+          <a
+            href='#'
+            className={`${styles.link} ${
+              state.actualPage === '/' ? styles.pageSelected : ''
+            }`}
+          >
+            Home
+          </a>
+          <a
+            href='#'
+            className={`${styles.link} ${
+              state.actualPage === '/' ? styles.pageSelected : ''
+            }`}
+          >
+            Projetos
+          </a>
+          <a
+            href='#'
+            className={`${styles.link} ${
+              state.actualPage === '/' ? styles.pageSelected : ''
+            }`}
+          >
+            Contatos
+          </a>
+        </nav>
       </div>
 
       <div

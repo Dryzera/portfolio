@@ -10,7 +10,7 @@
   top: 0;
 }
 
-.nav {
+.divNav {
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
   position: fixed;
@@ -31,4 +31,18 @@
 .container h3 svg {
   width: 3rem;
   height: 3rem;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav a {
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+.nav a:not(:last-child) {
+  border-bottom: 2px solid var(--gray-500);
 }
