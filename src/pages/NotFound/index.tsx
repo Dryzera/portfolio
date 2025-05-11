@@ -32,7 +32,7 @@ export default function NotFound() {
             </div>
             <div>
               <img
-                src='https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Hourglass%20Not%20Done.png'
+                src='/videos/gifs/animations-4.png'
                 alt='Hourglass Not Done'
                 width='150'
                 height='150'
