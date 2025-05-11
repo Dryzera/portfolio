@@ -4,6 +4,7 @@ import { Contacts } from '../../components/Contacts';
 import { Home } from '../../components/Home';
 import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralContext';
 import DefaultTemplate from '../../templates/DefaultTemplate';
+import { MyTecnologies } from '../../components/MyTecnologies';
 
 export default function HomePage() {
   const { setState } = useGeneralContext();
@@ -21,6 +22,7 @@ export default function HomePage() {
     <DefaultTemplate>
       <Home />
       <AboutMe />
+      <MyTecnologies />
       <Contacts title='Vamos Conversar' />
     </DefaultTemplate>
   );
