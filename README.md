@@ -18,7 +18,7 @@ Um site que usa IA para criar planejamentos de aula personalizados para professo
 Uma plataforma na onde uma pessoa pode gerenciar seus clientes e cuidar de todas as partes administrativas com poucos cliques.
 
 ## ✉️ Contato
-- 📧 Email: endryusdaniel6321@gmail.com
+- 📧 [endryusdaniel6321@gmail.com](mailto:endryusdaniel6321@gmail.com)
 - 🔗 [LinkedIn](https://www.linkedin.com/in/endryus-daniel-rysik-de-oliveira/)
 - 🐙 [GitHub](https://github.com/Dryzera)
 - 💻 [Portfóio](https://endryus-daniel.vercel.app)
