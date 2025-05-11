@@ -24,6 +24,10 @@ body {
   font-size: 1.6rem;
 }
 
+[data-aos] {
+  will-change: transform, opacity;
+}
+
 .linha {
   flex: 1;
   height: 3px;

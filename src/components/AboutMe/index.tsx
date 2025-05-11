@@ -10,6 +10,7 @@ export function AboutMe() {
             <img
               src='/videos/gifs/animation-2.gif'
               alt='um gif de um laptop com gráficos em setores se movendo na tela'
+              loading='lazy'
             />
           </div>
           <div className={styles.content}>

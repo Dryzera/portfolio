@@ -1,0 +1,34 @@
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router';
+import HomePage from '../../pages/HomePage';
+import { useEffect } from 'react';
+import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralContext';
+import ContactPage from '../../pages/ContactPage';
+
+function ScrollToTop() {
+  const { setState } = useGeneralContext();
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    setState(prevState => {
+      return {
+        ...prevState,
+        actualPage: pathname,
+      };
+    });
+  }, [setState, pathname]);
+
+  return null;
+}
+
+export function MainRoutes() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+        <Route path='/contacts' element={<ContactPage />} />
+      </Routes>
+      <ScrollToTop />
+    </BrowserRouter>
+  );
+}

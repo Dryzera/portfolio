@@ -22,8 +22,8 @@ export default function HomePage() {
     <DefaultTemplate>
       <Home />
       <AboutMe />
-      <MyTecnologies />
       <Contacts title='Vamos Conversar' />
+      <MyTecnologies />
     </DefaultTemplate>
   );
 }

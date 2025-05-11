@@ -1,3 +1,3 @@
 export type GeneralStateModel = {
-  actualPage: '/' | 'contacts' | 'projects';
+  actualPage: string;
 };

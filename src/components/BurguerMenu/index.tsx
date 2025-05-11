@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styles from './styles.module.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralContext';
+import { RouteLink } from '../../routes/RouteLink';
 
 export function BurguerMenu() {
   const [visibleState, setVisibleState] = useState(false);
@@ -17,30 +18,30 @@ export function BurguerMenu() {
           &times;
         </span>
         <nav className={styles.nav}>
-          <a
-            href='#'
+          <RouteLink
+            href='/'
             className={`${styles.link} ${
               state.actualPage === '/' ? styles.pageSelected : ''
             }`}
           >
             Home
-          </a>
-          <a
-            href='#'
+          </RouteLink>
+          <RouteLink
+            href='/projects'
             className={`${styles.link} ${
               state.actualPage === 'projects' ? styles.pageSelected : ''
             }`}
           >
             Projetos
-          </a>
-          <a
-            href='#'
+          </RouteLink>
+          <RouteLink
+            href='/contacts'
             className={`${styles.link} ${
               state.actualPage === 'contacts' ? styles.pageSelected : ''
             }`}
           >
             Contatos
-          </a>
+          </RouteLink>
         </nav>
       </div>
 

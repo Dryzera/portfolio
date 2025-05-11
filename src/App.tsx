@@ -2,16 +2,17 @@ import AOS from 'aos';
 
 import 'aos/dist/aos.css';
 import './styles/globalApp.css';
-import HomePage from './pages/HomePage';
-import ContactPage from './pages/ContactPage';
+import { MainRoutes } from './routes/MainRoute';
 import { GeneralContextProvider } from './contexts/GeneralContext/GeneralContextProvider';
 
-AOS.init();
+AOS.init({
+  once: true,
+});
 
 function App() {
   return (
     <GeneralContextProvider>
-      <HomePage />
+      <MainRoutes />
     </GeneralContextProvider>
   );
 }
