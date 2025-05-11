@@ -29,7 +29,7 @@ export function BurguerMenu() {
           <RouteLink
             href='/projects'
             className={`${styles.link} ${
-              state.actualPage === 'projects' ? styles.pageSelected : ''
+              state.actualPage === '/projects' ? styles.pageSelected : ''
             }`}
           >
             Projetos
@@ -37,7 +37,7 @@ export function BurguerMenu() {
           <RouteLink
             href='/contacts'
             className={`${styles.link} ${
-              state.actualPage === 'contacts' ? styles.pageSelected : ''
+              state.actualPage === '/contacts' ? styles.pageSelected : ''
             }`}
           >
             Contatos

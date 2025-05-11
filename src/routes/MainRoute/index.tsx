@@ -3,6 +3,7 @@ import HomePage from '../../pages/HomePage';
 import { useEffect } from 'react';
 import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralContext';
 import ContactPage from '../../pages/ContactPage';
+import NotFound from '../../pages/NotFound';
 
 function ScrollToTop() {
   const { setState } = useGeneralContext();
@@ -27,6 +28,8 @@ export function MainRoutes() {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/contacts' element={<ContactPage />} />
+
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <ScrollToTop />
     </BrowserRouter>
