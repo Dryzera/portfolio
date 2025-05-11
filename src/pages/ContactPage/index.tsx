@@ -1,9 +1,7 @@
 import { useEffect } from 'react';
-import { AboutMe } from '../../components/AboutMe';
 import { Contacts } from '../../components/Contacts';
-import { Home } from '../../components/Home';
-import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralContext';
 import DefaultTemplate from '../../templates/DefaultTemplate';
+import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralContext';
 
 export default function HomePage() {
   const { setState } = useGeneralContext();
@@ -12,16 +10,14 @@ export default function HomePage() {
     setState(prevState => {
       return {
         ...prevState,
-        actualPage: '/',
+        actualPage: 'contacts',
       };
     });
   }, []); // eslint-disable-line
 
   return (
     <DefaultTemplate>
-      <Home />
-      <AboutMe />
-      <Contacts title='Vamos Conversar' />
+      <Contacts title='Quer Falar Comigo' />
     </DefaultTemplate>
   );
 }

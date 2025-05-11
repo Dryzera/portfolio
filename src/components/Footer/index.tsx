@@ -5,7 +5,11 @@ export function Footer() {
   return (
     <Container>
       <footer className={styles.footer}>
-        <span>Endryus Daniel &copy; Todos os direitos reservados.</span>
+        <span>
+          <a href='https://github.com/Dryzera/portfolio' target='_blank'>
+            Developed by Endryus Daniel 💙
+          </a>
+        </span>
       </footer>
     </Container>
   );
