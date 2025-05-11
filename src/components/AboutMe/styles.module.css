@@ -47,7 +47,7 @@
   width: 30rem;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 500px) {
   .titleSect {
     font-size: 1rem;
     width: 80%;
@@ -62,5 +62,9 @@
     line-height: 2.1rem;
     text-align: justify;
     width: 90%;
+  }
+
+  .animation img {
+    width: 20rem;
   }
 }

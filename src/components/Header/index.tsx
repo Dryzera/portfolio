@@ -46,9 +46,9 @@ export function Header() {
         className={`${styles.item} ${styles.ancor}`}
       >
         {theme === 'light' ? (
-          <SunIcon onClick={handleChangeTheme} />
-        ) : (
           <MoonIcon onClick={handleChangeTheme} />
+        ) : (
+          <SunIcon onClick={handleChangeTheme} />
         )}
       </div>
     </header>
