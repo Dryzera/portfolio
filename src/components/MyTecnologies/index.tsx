@@ -116,6 +116,16 @@ export function MyTecnologies() {
                   alt='Ícone do Docker'
                   title='Docker'
                 />
+                <img
+                  src='/images/svgs/linux.svg'
+                  alt='Ícone do Linux'
+                  title='Linux'
+                />
+                <img
+                  src='/images/svgs/gcp.svg'
+                  alt='Ícone da Google Cloud Platform'
+                  title='Google Cloud Platform'
+                />
               </div>
             </div>
           </div>

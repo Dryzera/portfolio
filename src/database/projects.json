@@ -6,31 +6,100 @@
     "long_desc": "Este projeto auxilia professores que buscam ensinar sem perder tempo com burocracias como roteiros de aula. A ED Planejamentos permite que o professor cadastre suas aulas e, com o auxílio de uma Inteligência Artificial, gere planejamentos completos. Utilizamos tecnologias como Django, Python, Node.js, Nginx e PostgreSQL. Atualmente, este projeto está em produção e disponível publicamente.",
     "start_date": "2024-12",
     "end_date": null,
-    "status": "Em Produção",
+    "status": "production",
     "url": "https://edplanejamentos.com.br",
-    "photos": [
-      "/images/projetos/exemplo1.png",
-      "/images/projetos/exemplo2.png"
-    ],
+    "photos": ["/images/global/ed-planejamentos-icon.png"],
     "libs": [
-      {
-        "img": "/images/svgs/react.svg",
-        "title": "React"
-      },
       {
         "img": "/images/svgs/django.svg",
         "title": "Django"
+      },
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      },
+      {
+        "img": "/images/svgs/postgresql.svg",
+        "title": "PostgreeSQL"
+      },
+      {
+        "img": "/images/svgs/Redis.svg",
+        "title": "Redis"
+      },
+      {
+        "img": "/images/svgs/linux.svg",
+        "title": "Servidor Linux"
       }
     ],
-    "tech_stack": ["React", "Django", "PostgreSQL"],
+    "tech_stack": [
+      "React",
+      "Django",
+      "PostgreSQL",
+      "Node.js",
+      "Servidores Linux",
+      "Nginx",
+      "Python"
+    ],
     "features": [
       "Autenticação de usuários",
       "Painel administrativo",
       "Integração com API de IA",
       "Exportação em PDF",
-      "Cadastro de Usuários"
+      "Cadastro de Usuários",
+      "Gerenciamento de Grupos"
     ],
     "tags": ["Web", "Educação", "IA"],
     "contribuents": ["Jeferson Kauan"]
+  },
+  {
+    "id": "tio-elias-londrina-89r3",
+    "title": "Tio Elias Londrina",
+    "short_desc": "Criado para auxíliar na organização financeira de negócio pessoal.",
+    "long_desc": "Era difícil gerenciar de forma eficiênte os clientes que pagaram por um serviço de transporte escolar. Por conta disto, Tio Elias Londrina é um sistema em produção que ajuda a gerenciar cada pagamento separadamente. Através do Django, com Python e base de dados, conseguimos entregar os dados completamente mastigados, sem dor de cabeça para o contratante.",
+    "start_date": "2024-09",
+    "end_date": null,
+    "status": "production",
+    "url": "https://tioeliaslondrina.com.br",
+    "photos": [],
+    "libs": [
+      {
+        "img": "/images/svgs/django.svg",
+        "title": "Django"
+      },
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      },
+      {
+        "img": "/images/svgs/Redis.svg",
+        "title": "Redis"
+      },
+      {
+        "img": "/images/svgs/gcp.svg",
+        "title": "Google Cloud Platform"
+      },
+      {
+        "img": "/images/svgs/linux.svg",
+        "title": "Linux"
+      }
+    ],
+    "tech_stack": [
+      "JavaScript",
+      "Python",
+      "SQLite3",
+      "Django",
+      "Nginx",
+      "GCP",
+      "Servidores Linux"
+    ],
+    "features": [
+      "Autenticação de usuários",
+      "Painel administrativo",
+      "Geração de relatórios",
+      "Criação de XLSX",
+      "CRUD de dados"
+    ],
+    "tags": ["Financeiro", "Freelance"],
+    "contribuents": []
   }
 ]

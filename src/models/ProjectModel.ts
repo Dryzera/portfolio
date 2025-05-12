@@ -7,7 +7,7 @@ export type ProjectModel = [
     start_date: string;
     end_date: string | null;
     url: string;
-    status: 'Concluído' | 'Em desenvolvimento' | 'Em produção' | 'Pausado';
+    status: 'completed' | 'development' | 'production' | 'paused';
     photos: [string];
     libs: {
       img: string;
