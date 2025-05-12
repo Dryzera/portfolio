@@ -1,38 +1,3 @@
 .content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: var(--text-muted);
-  width: 100vw;
-  flex-wrap: wrap;
-}
-
-.title {
-  margin: 2rem 0;
-  font-size: 2rem;
-}
-
-.title h4 {
-  text-align: center;
-  margin: 2rem 0;
-}
-
-.tip {
-  text-align: center;
-  width: 0 auto;
-  font-size: 1.8rem;
-}
-
-.tip ul {
-  margin-top: 1rem;
-  display: flex;
-  gap: 2rem;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30rem;
-  margin: 3rem 0;
-  align-items: center;
+  color: black;
 }

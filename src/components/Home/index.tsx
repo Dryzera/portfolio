@@ -1,6 +1,7 @@
 import { Container } from '../Container';
 import styles from './styles.module.css';
 import { BsArrowReturnRight } from 'react-icons/bs';
+import { RouteLink } from '../../routes/RouteLink';
 
 export function Home() {
   return (
@@ -18,7 +19,7 @@ export function Home() {
             <div className={styles.skillsDesc}>
               <h2 className={styles.shortDesc}>
                 desenvolvedor experiente em django e react, com{' '}
-                <a href='#'>projetos</a> em produção
+                <RouteLink href='/projects'>projetos</RouteLink> em produção
               </h2>
               <p className={styles.secondTitle}>
                 <BsArrowReturnRight className={styles.alignArrow} /> minhas
