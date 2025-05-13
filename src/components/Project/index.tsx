@@ -57,20 +57,28 @@ export function Project() {
           className={`mySwiper ${styles.slider}`}
         >
           {project.photos.map(photo => (
-            <SwiperSlide key={photo}>
-              <img src={photo} alt='' />
+            <SwiperSlide key={photo} className={styles.slide}>
+              <img src={photo} alt='foto do projeto' />
             </SwiperSlide>
           ))}
         </Swiper>
         <div className={styles.gridInfo}>
           <p>
-            Data de Início: {new Date(project.start_date).getMonth() + 1}/
-            {new Date(project.start_date).getFullYear()}
+            Data de Início:{' '}
+            {String(new Date(project.start_date).getMonth() + 1).padStart(
+              2,
+              '0',
+            )}
+            /{new Date(project.start_date).getFullYear()}
           </p>
           {project.end_date && (
             <p>
-              Data de Início: {new Date(project.end_date).getMonth() + 1}/$
-              {new Date(project.end_date).getFullYear()}
+              Data de Finalização:{' '}
+              {String(new Date(project.end_date).getMonth() + 1).padStart(
+                2,
+                '0',
+              )}
+              /{new Date(project.end_date).getFullYear()}
             </p>
           )}
           <p>

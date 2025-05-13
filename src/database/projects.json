@@ -8,7 +8,11 @@
     "end_date": null,
     "status": "production",
     "url": "https://edplanejamentos.com.br",
-    "photos": ["/images/global/ed-planejamentos-icon.png"],
+    "photos": [
+      "/images/global/ed-planejamentos-icon.png",
+      "/images/global/ed-planejamentos-1.png",
+      "/images/global/ed-planejamentos-2.png"
+    ],
     "libs": [
       {
         "img": "/images/svgs/django.svg",
@@ -100,6 +104,38 @@
       "CRUD de dados"
     ],
     "tags": ["Financeiro", "Freelance"],
+    "contribuents": []
+  },
+  {
+    "id": "code-defender-hif2",
+    "title": "Code Defender",
+    "short_desc": "Teste de admição em empresa de tecnologia.",
+    "long_desc": "Jogo 2D simples feito com  PyGame para o único intuito de ser admido em uma empresa. Nele você controla um anti-vírus e precisa atirar nos vírus que se aproximam do 'software'. O controle se dá pelas setas do teclado e pela tecla de espaço para atirar. O jogo é infinito e só acaba se você for atingido um número de vezes.",
+    "start_date": "2024-08-02",
+    "end_date": "2024-08-02",
+    "status": "completed",
+    "url": "https://github.com/Dryzera/code-defender",
+    "photos": [
+      "/images/global/code-defender-icon.png",
+      "/images/global/code-defender-2.png",
+      "/images/global/code-defender-1.png",
+      "/images/global/code-defender-3.png",
+      "/images/global/code-defender-4.png"
+    ],
+    "libs": [
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      }
+    ],
+    "tech_stack": ["Python"],
+    "features": [
+      "Movimentação de personagem",
+      "Teclas de ação",
+      "Sistema de pontuação",
+      "Volume e dificuldade customizáveis"
+    ],
+    "tags": ["Jogo", "Teste", "Game", "Python"],
     "contribuents": []
   }
 ]

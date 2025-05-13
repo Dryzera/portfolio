@@ -34,6 +34,7 @@
 
 .slider {
   margin: 4rem 0;
+  width: 80%;
   text-align: center;
 }
 
@@ -87,4 +88,14 @@
 .show {
   max-height: 100%;
   opacity: 1;
+}
+
+.slide {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.slide img {
+  width: 80%;
+  height: 40rem;
 }
