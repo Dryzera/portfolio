@@ -8,10 +8,11 @@
 
 .gridProjects {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 5rem;
   width: 80%;
   text-align: center;
+  justify-items: center;
 }
 
 .projectItem {
@@ -36,6 +37,13 @@
   border-left: 0.1rem solid var(--success);
   border-right: 0.1rem solid var(--success);
   border-bottom: 0.1rem solid var(--success);
+}
+
+.development {
+  border-top: 0.6rem solid #63f5e6;
+  border-left: 0.1rem solid #63f5e6;
+  border-right: 0.1rem solid #63f5e6;
+  border-bottom: 0.1rem solid #63f5e6;
 }
 
 .projectItem img {
@@ -75,70 +83,22 @@
   justify-content: center;
 }
 
-.titleSect svg {
-  color: var(--primary-light);
-  height: 3rem;
-  width: 3rem;
-}
-
-.content {
-  width: 60vw;
-  margin: 2rem auto;
-  font-size: 1.8rem;
-  line-height: 2.8rem;
-}
-
-.content p:not(:last-child) {
-  margin-bottom: 1.5rem;
-}
-
-.contacts {
-  margin-top: 5rem;
-  text-wrap: nowrap;
-  display: grid;
-  font-style: normal;
-  gap: 5rem;
-  grid-template-columns: 1fr 1fr;
-}
-
-.contact {
-  width: 100%;
-  font-size: 2.2rem;
-}
-
-.contact img {
-  margin: 0 0.5rem;
-  vertical-align: top;
-  width: 3rem;
-  height: 3rem;
-}
 .responsiveAlign {
   text-align: right;
 }
 
 @media (max-width: 500px) {
   .titleSect {
-    font-size: 1rem;
+    font-size: 1.6rem;
     width: 80%;
   }
 
-  .contacts {
-    margin: 1rem 0;
-    display: block;
-  }
-
-  .contact {
-    margin: 0.5rem 0;
-    font-size: 1.5rem;
+  .gridProjects {
+    grid-template-columns: 1fr;
+    gap: 3rem;
   }
 
   .responsiveAlign {
     text-align: left;
-  }
-
-  .contact img {
-    vertical-align: middle;
-    width: 2.3rem;
-    height: 2.3rem;
   }
 }

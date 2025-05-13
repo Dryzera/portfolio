@@ -30,7 +30,7 @@
   --text-over-info: #0a0f1a;
 
   --text-default: #e5e5e5;
-  --text-muted: #c9c9c9;
+  --text-muted: #c5c5c5;
 }
 
 :root[data-theme='light'] {

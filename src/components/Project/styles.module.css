@@ -1,0 +1,90 @@
+.container {
+  width: 80vw;
+  max-width: 90%;
+  margin: 2rem auto;
+  background-color: transparent;
+  padding: 2rem 2rem;
+  border-radius: 0.2rem;
+}
+
+.longDesc {
+  margin-top: 2rem;
+  width: 60vw;
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+}
+
+.projectName svg {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+  vertical-align: baseline;
+}
+
+.titleSect {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 55%;
+  margin: 1.2rem auto;
+  justify-content: center;
+}
+
+.slider {
+  margin: 4rem 0;
+  text-align: center;
+}
+
+.gridInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4rem;
+  margin: 0;
+  justify-items: center; /* Alinha os itens internamente */
+  justify-content: center;
+}
+
+.paused {
+  color: var(--warning);
+}
+
+.completed {
+  color: var(--success);
+}
+
+.production {
+  color: #6374f5;
+}
+
+.development {
+  color: #63f5e6;
+}
+
+.moreInfo {
+  margin-top: 5rem;
+}
+
+.modeInfoBar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--gray-700);
+
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-radius: 2rem 2rem 1rem 1rem;
+}
+
+.info {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+.show {
+  max-height: 100%;
+  opacity: 1;
+}

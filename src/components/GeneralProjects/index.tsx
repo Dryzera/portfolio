@@ -8,13 +8,16 @@ export function GeneralProjects() {
     <Container animate={'fade-left'}>
       <div className={styles.titleSect}>
         <div className='linha'></div>
-        <h2>Alguns dos meus Projetos</h2>
+        <h2>Projetos</h2>
         <div className='linha'></div>
       </div>
       <div className={styles.container}>
         <div className={styles.gridProjects}>
           {projects.map(project => (
-            <div className={`${styles.projectItem} ${styles[project.status]}`}>
+            <div
+              className={`${styles.projectItem} ${styles[project.status]}`}
+              key={project.id}
+            >
               {project.photos.length !== 0 && <img src={project.photos[0]} />}
               <div>
                 <h3>{project.title}</h3>

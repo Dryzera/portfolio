@@ -5,6 +5,7 @@ import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralConte
 import ContactPage from '../../pages/ContactPage';
 import NotFound from '../../pages/NotFound';
 import ProjectsPage from '../../pages/ProjectsPage';
+import ProjectPage from '../../pages/ProjectPage';
 
 function ScrollToTop() {
   const { setState } = useGeneralContext();
@@ -30,6 +31,7 @@ export function MainRoutes() {
         <Route path='/' element={<HomePage />} />
         <Route path='/contacts' element={<ContactPage />} />
         <Route path='/projects' element={<ProjectsPage />} />
+        <Route path='/project/:slug' element={<ProjectPage />} />
 
         <Route path='*' element={<NotFound />} />
       </Routes>

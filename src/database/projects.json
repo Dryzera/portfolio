@@ -4,7 +4,7 @@
     "title": "ED Planejamentos",
     "short_desc": "Site que gera planejamentos de aulas com IA.",
     "long_desc": "Este projeto auxilia professores que buscam ensinar sem perder tempo com burocracias como roteiros de aula. A ED Planejamentos permite que o professor cadastre suas aulas e, com o auxílio de uma Inteligência Artificial, gere planejamentos completos. Utilizamos tecnologias como Django, Python, Node.js, Nginx e PostgreSQL. Atualmente, este projeto está em produção e disponível publicamente.",
-    "start_date": "2024-12",
+    "start_date": "2024-12-02",
     "end_date": null,
     "status": "production",
     "url": "https://edplanejamentos.com.br",
