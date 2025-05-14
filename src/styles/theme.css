@@ -31,6 +31,7 @@
 
   --text-default: #e5e5e5;
   --text-muted: #c5c5c5;
+  --text-very-muted: #bababa;
 }
 
 :root[data-theme='light'] {
@@ -65,5 +66,6 @@
   --text-over-info: #0a0f1a;
 
   --text-default: #101421;
-  --text-muted: #232327;
+  --text-muted: #484848;
+  --text-very-muted: #616161;
 }
