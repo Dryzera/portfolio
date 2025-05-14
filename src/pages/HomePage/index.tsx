@@ -9,8 +9,9 @@ export default function HomePage() {
     <DefaultTemplate>
       <Home />
       <AboutMe />
-      <Contacts title='Vamos Conversar' />
+      <Contacts title='Principais Projetos' />
       <MyTecnologies />
+      <Contacts title='Vamos Conversar' />
     </DefaultTemplate>
   );
 }

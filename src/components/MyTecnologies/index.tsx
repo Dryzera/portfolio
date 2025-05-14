@@ -3,7 +3,7 @@ import styles from './styles.module.css';
 
 export function MyTecnologies() {
   return (
-    <Container>
+    <Container animate={'fade-left'}>
       <div className={styles.content}>
         <div className={styles.titleSect}>
           <div className='linha'></div>

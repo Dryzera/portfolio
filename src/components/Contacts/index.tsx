@@ -8,7 +8,7 @@ type ContactsProps = {
 
 export function Contacts({ title }: ContactsProps) {
   return (
-    <Container animate={'fade-left'}>
+    <Container>
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.titleSect}>
