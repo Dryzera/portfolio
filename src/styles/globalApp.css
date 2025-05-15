@@ -24,6 +24,11 @@ body {
   font-size: 1.6rem;
 }
 
+html,
+body {
+  min-height: 100%;
+}
+
 [data-aos] {
   will-change: transform, opacity;
 }

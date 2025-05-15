@@ -37,6 +37,7 @@
   margin-top: 5rem;
   text-wrap: nowrap;
   display: grid;
+  justify-items: center;
   font-style: normal;
   gap: 5rem;
   grid-template-columns: 1fr 1fr;
