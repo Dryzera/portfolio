@@ -17,6 +17,7 @@
 
 .projectItem {
   width: 20rem;
+  height: 40rem;
   background-color: var(--gray-900);
   border-top: 0.6rem solid var(--info);
   border-left: 0.1rem solid var(--info);
@@ -53,6 +54,10 @@
 
 .projectItem div {
   margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .projectItem div p {
@@ -100,5 +105,10 @@
 
   .responsiveAlign {
     text-align: left;
+  }
+
+  .projectItem img {
+    width: 100%;
+    height: 50%;
   }
 }

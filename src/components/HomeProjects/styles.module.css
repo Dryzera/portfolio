@@ -2,6 +2,7 @@
   width: 80vw;
   max-width: 90%;
   margin: 5rem auto;
+  margin-bottom: 7rem;
   background-color: var(--gray-800);
   padding: 3rem 2rem;
   border-radius: 0.2rem;
@@ -26,11 +27,6 @@
 
 .content p:not(:last-child) {
   margin-bottom: 1.5rem;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
 }
 
 .tipMyProjects {
@@ -79,12 +75,8 @@
 
 @media (max-width: 500px) {
   .titleSect {
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 80%;
-  }
-
-  .grid {
-    display: block;
   }
 
   .content {
@@ -92,5 +84,38 @@
     line-height: 2.1rem;
     text-align: justify;
     width: 90%;
+  }
+
+  .slider {
+    margin: 2rem auto;
+    width: 100%;
+  }
+
+  .slide {
+    margin: 2rem auto;
+  }
+
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project img {
+    width: 15rem;
+    margin: 1.5rem auto;
+  }
+
+  .project a {
+    width: 8rem;
+    font-size: 1.2rem;
+  }
+
+  .tipMyProjects {
+    font-size: 1.3rem;
+  }
+
+  .project h4 {
+    font-size: 1.5rem;
   }
 }

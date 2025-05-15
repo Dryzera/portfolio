@@ -64,13 +64,17 @@
     width: 80%;
   }
 
+  .content {
+    margin: 0 auto;
+  }
+
   .contacts {
     margin: 1rem 0;
     display: block;
   }
 
   .contact {
-    margin: 0.5rem 0;
+    margin: 0.8rem 0;
     font-size: 1.5rem;
   }
 
@@ -82,5 +86,6 @@
     vertical-align: middle;
     width: 2.3rem;
     height: 2.3rem;
+    margin-right: 1rem;
   }
 }

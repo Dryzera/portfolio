@@ -76,13 +76,13 @@
   .grid {
     width: 70vw;
     margin: 0 auto;
-    text-wrap: nowrap;
+    text-wrap: wrap;
     gap: 2rem;
   }
 
   .gridItem img {
-    width: 2rem;
-    height: 2rem;
+    width: 1.8rem;
+    height: 1.8rem;
   }
 
   .content h3 {
@@ -91,5 +91,10 @@
 
   .animation img {
     width: 20rem;
+  }
+
+  .tecnologies {
+    max-width: 20rem;
+    text-align: center;
   }
 }

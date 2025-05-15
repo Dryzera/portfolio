@@ -115,7 +115,7 @@
 
 .slide img {
   width: 80%;
-  height: 40rem;
+  height: 50rem;
 }
 
 .tecnologies {
@@ -136,7 +136,7 @@
 }
 
 .flexInfo {
-  margin: 1.8rem;
+  margin: 3rem;
   display: flex;
   justify-content: space-around;
 }
@@ -158,4 +158,45 @@
   text-align: center;
   font-size: 1.2rem;
   color: var(--text-very-muted);
+}
+
+@media (max-width: 500px) {
+  .titleSect {
+    font-size: 1.2rem;
+    width: 80%;
+  }
+
+  .container {
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  .longDesc {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    width: 95%;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .slide {
+    margin: 1rem auto;
+    text-align: center;
+  }
+
+  .slide img {
+    width: 100%;
+    height: 25rem;
+  }
+
+  .flexInfo {
+    margin-left: 4rem;
+    display: block;
+  }
+
+  .flexInfo ul {
+    margin-top: 2rem;
+  }
 }
