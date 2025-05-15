@@ -6,8 +6,6 @@ import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
 import { ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
 import { format } from 'date-fns';
 

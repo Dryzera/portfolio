@@ -2,6 +2,8 @@ import AOS from 'aos';
 
 import 'aos/dist/aos.css';
 import './styles/globalApp.css';
+import 'swiper/css';
+import 'swiper/css/navigation';
 import { MainRoutes } from './routes/MainRoute';
 import { GeneralContextProvider } from './contexts/GeneralContext/GeneralContextProvider';
 import { MessagesComponent } from './components/MessagesComponent';

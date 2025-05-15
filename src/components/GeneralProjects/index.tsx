@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 
 export function GeneralProjects() {
   return (
-    <Container animate={'fade-left'}>
+    <Container>
       <div className={styles.titleSect}>
         <div className='linha'></div>
         <h2>Projetos</h2>
