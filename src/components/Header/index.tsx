@@ -13,15 +13,15 @@ export function Header() {
     setTheme(prev => {
       return prev === 'dark' ? 'light' : 'dark';
     });
+    if (window.innerWidth < 600) {
+      toast.dismiss();
+      toast.warn('Disposítivos móveis podem bloquear a troca de tema.');
+    }
   }
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
-    if (window.innerWidth < 600) {
-      toast.dismiss();
-      toast.warn('Disposítivos móveis podem bloquear a troca de tema.');
-    }
   }, [theme]);
 
   return (
