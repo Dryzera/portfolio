@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import styles from './styles.module.css';
 import { AppWindow, HomeIcon, MoonIcon, SunIcon } from 'lucide-react';
 import { RouteLink } from '../../routes/RouteLink';
+import { toast } from 'react-toastify';
 
 export function Header() {
   const [theme, setTheme] = useState(() => {
@@ -17,6 +18,10 @@ export function Header() {
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
+    if (window.innerWidth < 600) {
+      toast.dismiss();
+      toast.warn('Disposítivos móveis podem bloquear a troca de tema.');
+    }
   }, [theme]);
 
   return (
