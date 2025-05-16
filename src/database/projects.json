@@ -1,0 +1,360 @@
+[
+  {
+    "id": "ed-planejamentos-4j32",
+    "title": "ED Planejamentos",
+    "short_desc": "Site que gera planejamentos de aulas com IA.",
+    "long_desc": "Este projeto auxilia professores que buscam ensinar sem perder tempo com burocracias como roteiros de aula. A ED Planejamentos permite que o professor cadastre suas aulas e, com o auxílio de uma Inteligência Artificial, gere planejamentos completos. Utilizamos tecnologias como Django, Python, Node.js, Nginx e PostgreSQL. Atualmente, este projeto está em produção e disponível publicamente.",
+    "start_date": "2024-12-02",
+    "end_date": null,
+    "status": "production",
+    "url": "https://edplanejamentos.com.br",
+    "photos": [
+      "/images/global/ed-planejamentos-icon.png",
+      "/images/global/ed-planejamentos-1.png",
+      "/images/global/ed-planejamentos-2.png"
+    ],
+    "libs": [
+      {
+        "img": "/images/svgs/django.svg",
+        "title": "Django"
+      },
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      },
+      {
+        "img": "/images/svgs/postgresql.svg",
+        "title": "PostgreeSQL"
+      },
+      {
+        "img": "/images/svgs/redis.svg",
+        "title": "Redis"
+      },
+      {
+        "img": "/images/svgs/linux.svg",
+        "title": "Servidor Linux"
+      }
+    ],
+    "tech_stack": [
+      "React",
+      "Django",
+      "PostgreSQL",
+      "Node.js",
+      "Servidores Linux",
+      "Nginx",
+      "Python"
+    ],
+    "features": [
+      "Autenticação de usuários",
+      "Painel administrativo",
+      "Integração com API de IA",
+      "Exportação em PDF",
+      "Cadastro de Usuários",
+      "Gerenciamento de Grupos"
+    ],
+    "tags": ["Web", "Educação", "IA"],
+    "contribuents": ["Jeferson Kauan"]
+  },
+  {
+    "id": "tio-elias-londrina-89r3",
+    "title": "Tio Elias Londrina",
+    "short_desc": "Criado para auxíliar na organização financeira de negócio pessoal.",
+    "long_desc": "Era difícil gerenciar de forma eficiênte os clientes que pagaram por um serviço de transporte escolar. Por conta disto, Tio Elias Londrina é um sistema em produção que ajuda a gerenciar cada pagamento separadamente. Através do Django, com Python e base de dados, conseguimos entregar os dados completamente mastigados, sem dor de cabeça para o contratante.",
+    "start_date": "2024-09",
+    "end_date": null,
+    "status": "production",
+    "url": "https://tioeliaslondrina.com.br",
+    "photos": [
+      "/images/global/tio-elias-logo.png",
+      "/images/global/tio-elias-1.png"
+    ],
+    "libs": [
+      {
+        "img": "/images/svgs/django.svg",
+        "title": "Django"
+      },
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      },
+      {
+        "img": "/images/svgs/redis.svg",
+        "title": "Redis"
+      },
+      {
+        "img": "/images/svgs/gcp.svg",
+        "title": "Google Cloud Platform"
+      },
+      {
+        "img": "/images/svgs/linux.svg",
+        "title": "Linux"
+      }
+    ],
+    "tech_stack": [
+      "JavaScript",
+      "Python",
+      "SQLite3",
+      "Django",
+      "Nginx",
+      "GCP",
+      "Servidores Linux"
+    ],
+    "features": [
+      "Autenticação de usuários",
+      "Painel administrativo",
+      "Geração de relatórios",
+      "Criação de XLSX",
+      "CRUD de dados"
+    ],
+    "tags": ["Financeiro", "Freelance"],
+    "contribuents": []
+  },
+  {
+    "id": "code-defender-hif2",
+    "title": "Code Defender",
+    "short_desc": "Teste de admição em empresa de tecnologia.",
+    "long_desc": "Jogo 2D simples feito com  PyGame para o único intuito de ser admido em uma empresa. Nele você controla um anti-vírus e precisa atirar nos vírus que se aproximam do 'software'. O controle se dá pelas setas do teclado e pela tecla de espaço para atirar. O jogo é infinito e só acaba se você for atingido um número de vezes.",
+    "start_date": "2024-08-02",
+    "end_date": "2024-08-02",
+    "status": "completed",
+    "url": "https://github.com/Dryzera/code-defender",
+    "photos": [
+      "/images/global/code-defender-icon.png",
+      "/images/global/code-defender-2.png",
+      "/images/global/code-defender-1.png",
+      "/images/global/code-defender-3.png",
+      "/images/global/code-defender-4.png"
+    ],
+    "libs": [
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      }
+    ],
+    "tech_stack": ["Python"],
+    "features": [
+      "Movimentação de personagem",
+      "Teclas de ação",
+      "Sistema de pontuação",
+      "Volume e dificuldade customizáveis"
+    ],
+    "tags": ["Jogo", "Teste", "Game", "Python"],
+    "contribuents": []
+  },
+  {
+    "id": "portfolio-nal2",
+    "title": "Portfólio",
+    "short_desc": "Criado para expor meus projetos.",
+    "long_desc": "Este portfólio foi criado para mostrar meus principais projetos, habilidades e experiências como desenvolvedor. Ele é responsivo, com tema claro e escuro, e pensado para oferecer uma navegação fácil e agradável em qualquer dispositivo. Aqui você pode conhecer meu trabalho, acompanhar minha evolução e entrar em contato comigo.",
+    "start_date": "2024-08-02",
+    "end_date": null,
+    "status": "production",
+    "url": "https://github.com/Dryzera/portfolio",
+    "photos": [
+      "/images/favicons/favicon.png",
+      "/images/global/portfolio-1.png"
+    ],
+    "libs": [
+      {
+        "img": "/images/svgs/react.svg",
+        "title": "React"
+      },
+      {
+        "img": "/images/svgs/ts.svg",
+        "title": "TypeScript"
+      },
+      {
+        "img": "/images/svgs/html.svg",
+        "title": "HTML"
+      },
+      {
+        "img": "/images/svgs/css.svg",
+        "title": "CSS"
+      },
+      {
+        "img": "/images/svgs/node-js.svg",
+        "title": "Node.js"
+      },
+      {
+        "img": "/images/svgs/git.svg",
+        "title": "Git"
+      }
+    ],
+    "tech_stack": [
+      "React",
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "Git",
+      "Node.js",
+      "JSON"
+    ],
+    "features": [
+      "Client-Side Rendering",
+      "Responsividade",
+      "Animação na entrada de elementos",
+      "Trocas de temas",
+      "Multi-Pages"
+    ],
+    "tags": ["Web", "TypeScript", "React", "CSR"],
+    "contribuents": []
+  },
+  {
+    "id": "e-commerce-8f24",
+    "title": "E-Commerce",
+    "short_desc": "Feito como treinamento em curso online.",
+    "long_desc": "Este projeto foi realizado num curso online, e o objetivo era aprender sobre manipulação de vários apps django. Nele você é capaz de criar sua conta, além de adicionar produtos no carrinho e simular a efetuação de uma compra. Na página de 'pedidos' você pode acompanhar o status da sua compra.",
+    "start_date": "2024-11-02",
+    "end_date": "2024-11-02",
+    "status": "completed",
+    "url": "https://github.com/Dryzera/e-commerce-django-2024",
+    "photos": [
+      "/images/global/e-commerce-logo.png",
+      "/images/global/e-commerce-1.png",
+      "/images/global/e-commerce-2.png"
+    ],
+    "libs": [
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      },
+      {
+        "img": "/images/svgs/django.svg",
+        "title": "Django"
+      },
+      {
+        "img": "/images/svgs/git.svg",
+        "title": "Git"
+      },
+      {
+        "img": "/images/svgs/bootstrap.svg",
+        "title": "Bootstrap"
+      }
+    ],
+    "tech_stack": [
+      "Python",
+      "Django",
+      "Git",
+      "Bootstrap",
+      "SQLite3",
+      "HTML",
+      "CSS"
+    ],
+    "features": [
+      "Server-Side Rendering",
+      "Cadastro de usuários",
+      "Migrações no banco de dados",
+      "Sistema de carrinho",
+      "Validadores",
+      "Sistema de status de pedido"
+    ],
+    "tags": ["Web", "Django", "Python", "SSR", "CRUD", "SQLITE"],
+    "contribuents": []
+  },
+  {
+    "id": "musicals-test-fknl",
+    "title": "Musicals Test",
+    "short_desc": "Desenvolvido de forma autoral para treinar Django.",
+    "long_desc": "Além de ser utilizado para treinar o framework Django, me vi na oportunidade de desenvolver um site que faça perguntas sobre teória musical e de uma nota baseada na quantidade de acerto. Desta forma, os professores de música conseguem detectar onde o aluno apresenta dificuldades e ajudá-lo.",
+    "start_date": "2024-11-02",
+    "end_date": null,
+    "status": "paused",
+    "url": "https://github.com/Dryzera/musical-test-django-2024",
+    "photos": [
+      "/images/global/musicals-test-logo.png",
+      "/images/global/musicals-test-1.png",
+      "/images/global/musicals-test-2.png"
+    ],
+    "libs": [
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      },
+      {
+        "img": "/images/svgs/django.svg",
+        "title": "Django"
+      },
+      {
+        "img": "/images/svgs/git.svg",
+        "title": "Git"
+      },
+      {
+        "img": "/images/svgs/bootstrap.svg",
+        "title": "Bootstrap"
+      }
+    ],
+    "tech_stack": [
+      "Python",
+      "Django",
+      "Git",
+      "Bootstrap",
+      "SQLite3",
+      "HTML",
+      "CSS"
+    ],
+    "features": [
+      "Server-Side Rendering",
+      "Sistema de classificação",
+      "Cadastro de usuários",
+      "Migrações no banco de dados",
+      "Página administrativa",
+      "Localização de perfis"
+    ],
+    "tags": ["Web", "Django", "Python", "SSR", "SQLITE", "Quiz"],
+    "contribuents": []
+  },
+  {
+    "id": "feay-music-na26",
+    "title": "Feay Music",
+    "short_desc": "Trabalho de escola realizado em grupo.",
+    "long_desc": "O intuito do trabalho era explicar o que eram Hard Skills, então, criamos um site que além de explicar de forma objetiva o que é uma hard skill, ele permite que você desenvolva uma. Basicamente ele exibe algumas notas musicais e você precisa acertar qual é a correta.",
+    "start_date": "2024-08-02",
+    "end_date": "2024-08-02",
+    "status": "completed",
+    "url": "https://github.com/Dryzera/feay-music",
+    "photos": [
+      "/images/global/feay-music-logo.png",
+      "/images/global/feay-music-1.png",
+      "/images/global/feay-music-2.png",
+      "/images/global/feay-music-3.png"
+    ],
+    "libs": [
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      },
+      {
+        "img": "/images/svgs/js.svg",
+        "title": "JavaScript"
+      },
+      {
+        "img": "/images/svgs/git.svg",
+        "title": "Git"
+      },
+      {
+        "img": "/images/svgs/html.svg",
+        "title": "HTML"
+      },
+      {
+        "img": "/images/svgs/css.svg",
+        "title": "CSS"
+      },
+      {
+        "img": "/images/svgs/github.svg",
+        "title": "GitHub"
+      }
+    ],
+    "tech_stack": [
+      "Python",
+      "JavaScript",
+      "Git",
+      "HTML",
+      "CSS",
+      "GitHub",
+      "JSON"
+    ],
+    "features": ["Teste tipo quiz", "Responsividade"],
+    "tags": ["Web", "Quiz", "JavaScipt", "JSON"],
+    "contribuents": ["Anna Giulia", "Felipe Rodrigues", "Yasmin Vitória"]
+  }
+]

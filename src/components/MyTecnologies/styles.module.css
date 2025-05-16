@@ -1,0 +1,100 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridContent {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.titleSect {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 55%;
+  margin: 1.2rem auto;
+  justify-content: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 60vw;
+}
+
+.gridItem h3 {
+  text-align: center;
+}
+
+.gridItem {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gridItem img {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+  margin: 0 0.4rem;
+}
+
+.tecnologies {
+  margin-top: 1rem;
+}
+
+.animation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.animation img {
+  width: 30rem;
+}
+
+@media (max-width: 500px) {
+  .titleSect {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+
+  .gridContent {
+    display: block;
+  }
+
+  .grid {
+    width: 70vw;
+    margin: 0 auto;
+    text-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .gridItem img {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .content h3 {
+    font-size: 1.4rem;
+  }
+
+  .animation img {
+    width: 20rem;
+  }
+
+  .tecnologies {
+    max-width: 20rem;
+    text-align: center;
+  }
+}
