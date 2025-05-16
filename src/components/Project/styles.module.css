@@ -87,11 +87,14 @@
   display: flex;
   justify-content: space-between;
   background-color: var(--gray-700);
-
   color: var(--text-muted);
   cursor: pointer;
   padding: 1rem 1rem 0.5rem 1rem;
   border-radius: 2rem 2rem 0 0;
+}
+
+[data-theme='light'] .modeInfoBar {
+  background-color: var(--gray-800);
 }
 
 .info {

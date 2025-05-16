@@ -25,6 +25,10 @@
   z-index: 1000;
 }
 
+[data-theme='light'] .divNav {
+  background: linear-gradient(to bottom, var(--gray-900), var(--gray-700));
+}
+
 .show {
   transform: translateX(10%);
 }

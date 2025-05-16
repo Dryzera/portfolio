@@ -14,13 +14,7 @@ body,
 input,
 select,
 textarea {
-  background: linear-gradient(
-    136deg,
-    var(--gray-900),
-    var(--gray-800),
-    var(--gray-700)
-  ) !important;
-  color: var(--text-color) !important;
+  color: var(--text-color);
 }
 
 html {
@@ -41,6 +35,10 @@ body {
   font-size: 1.6rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+[data-theme='light'] body {
+  background: var(--gray-700);
 }
 
 html,
