@@ -35,7 +35,7 @@ export function HomeProjects() {
               <div className={styles.project}>
                 <h4>Tio Elias Londrina</h4>
                 <img
-                  src='/images/global/ed-planejamentos-icon.pg'
+                  src='/images/global/tio-elias-logo.png'
                   alt='Logo do Tio Elias Londrina'
                 />
                 <RouteLink href='/project/tio-elias-londrina-89r3'>

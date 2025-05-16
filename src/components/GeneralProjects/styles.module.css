@@ -62,20 +62,20 @@
 
 .projectItem div p {
   margin: 0.5rem 0 1.2rem 0;
+  padding: 0 0.5rem;
 }
 
-.projectItem button,
-.projectItem button a {
+.projectItem a {
   background-color: var(--primary-light);
   border: none;
   color: var(--text-over-primary-dark);
   padding: 0.9rem;
-  border-radius: 0.3rem;
+  border-radius: 0.4rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
 }
 
-.projectItem button:hover {
+.projectItem a:hover {
   filter: brightness(90%);
 }
 

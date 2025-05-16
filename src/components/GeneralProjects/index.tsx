@@ -22,11 +22,9 @@ export function GeneralProjects() {
               <div>
                 <h3>{project.title}</h3>
                 <p>{project.short_desc}</p>
-                <button>
-                  <RouteLink href={`/project/${project.id}`}>
-                    Ver Internamente
-                  </RouteLink>
-                </button>
+                <RouteLink href={`/project/${project.id}`}>
+                  Ver Internamente
+                </RouteLink>
               </div>
             </div>
           ))}
