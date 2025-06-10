@@ -29,11 +29,11 @@ export function AboutMe() {
               busca de aprender mais para aprimorar meus projetos.
             </p>
             <p>
-              Além de possuir conhecimento em Python, Django, Postgresql, MySQL,
-              HTML, CSS, JavaScript, TypeScript, React e outros frameworks.
+              Possuo conhecimento em Python, Django, Postgresql, MySQL, HTML,
+              CSS, JavaScript, TypeScript, C++, React e outros frameworks.
               Também tenho experiência em administração de servidores Linux, com
-              projetos reais em produção rodando neles. Possuo domínio sobre
-              hardware, já tendo exercido funções neste ramo.
+              projetos reais em produção rodando neles. Possuo domínio sobre o
+              hardware, já tendo exercido funções relacionadas a ele.
             </p>
             <p>
               Algumas soft skills: trabalho em equipe, organização, gestão de
