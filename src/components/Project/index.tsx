@@ -30,6 +30,7 @@ export function Project() {
       navigate('/projects');
       return;
     }
+    document.title = project.title + ' - Endryus Daniel';
   }, []); //eslint-disable-line
 
   if (!project) return null;

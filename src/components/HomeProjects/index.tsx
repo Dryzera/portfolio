@@ -33,6 +33,16 @@ export function HomeProjects() {
             </SwiperSlide>
             <SwiperSlide className={styles.slide}>
               <div className={styles.project}>
+                <h4>TrackED</h4>
+                <img
+                  src='/images/global/tracked-icon.png'
+                  alt='Logo da trackED'
+                />
+                <RouteLink href='/project/tracked-ija2'>Detalhes</RouteLink>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className={styles.slide}>
+              <div className={styles.project}>
                 <h4>Tio Elias Londrina</h4>
                 <img
                   src='/images/global/tio-elias-logo.png'
@@ -47,7 +57,7 @@ export function HomeProjects() {
         </div>
         <div className={styles.tipMyProjects}>
           <span>
-            veja todos os meus <a href='/projects'>projetos</a>
+            veja todos os meus <RouteLink href='/projects'>projetos</RouteLink>
           </span>
         </div>
       </div>

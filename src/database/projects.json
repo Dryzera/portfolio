@@ -56,11 +56,83 @@
     "contribuents": ["Jeferson Kauan"]
   },
   {
+    "id": "tracked-ija2",
+    "title": "TrackED",
+    "short_desc": "Desenvolvido para rastreamento de autómoveis em tempo real.",
+    "long_desc": "Este projeto visava resolver um problema que tive ao desejar rastrear meu automóvel. Atualmente, os rastreadores veiculares são muito caros, cheios de taxas com valores abusivos, pensando nisso, desenvolvi o meu próprio rastreador, que conta com um sistema de alerta em caso de roubo do veículo e envio de coordenadas em tempo real para um servidor. Com este projeto, tive a oportunidade de criar um servidor local, não dependendo de terceiros para servir e guardar os dados da minha aplicação, além de desenvolver uma API REST para servir os dados para o front-end.",
+    "start_date": "2025-07-02",
+    "end_date": null,
+    "status": "development",
+    "url": "https://github.com/Dryzera/trackED-2025",
+    "photos": ["/images/global/tracked-icon.png"],
+    "libs": [
+      {
+        "img": "/images/svgs/django.svg",
+        "title": "Django"
+      },
+      {
+        "img": "/images/svgs/python.svg",
+        "title": "Python"
+      },
+      {
+        "img": "/images/svgs/ts.svg",
+        "title": "TypeScript"
+      },
+      {
+        "img": "/images/svgs/react.svg",
+        "title": "React"
+      },
+      {
+        "img": "/images/svgs/next-js.svg",
+        "title": "Next.js"
+      },
+      {
+        "img": "/images/svgs/linux.svg",
+        "title": "Linux"
+      },
+      {
+        "img": "/images/svgs/cpp.svg",
+        "title": "C++"
+      },
+      {
+        "img": "/images/svgs/postgresql.svg",
+        "title": "PostgreeSQL"
+      }
+    ],
+    "tech_stack": [
+      "TypeScript",
+      "Python",
+      "Next.js",
+      "Django Rest API",
+      "PostgreSQL",
+      "C++",
+      "Sistema Embarcado",
+      "Servidor Linux Local"
+    ],
+    "features": [
+      "Rastreio em tempo real",
+      "CRUD de dados",
+      "Autenticação de usuários",
+      "API RESTful",
+      "Envio de dados automático",
+      "Comandos remotos via servidor"
+    ],
+
+    "tags": [
+      "Sistema Embarcado",
+      "API RESTful",
+      "Django",
+      "Next.js",
+      "Rastreio"
+    ],
+    "contribuents": []
+  },
+  {
     "id": "tio-elias-londrina-89r3",
     "title": "Tio Elias Londrina",
     "short_desc": "Criado para auxíliar na organização financeira de negócio pessoal.",
     "long_desc": "Era difícil gerenciar de forma eficiênte os clientes que pagaram por um serviço de transporte escolar. Por conta disto, Tio Elias Londrina é um sistema em produção que ajuda a gerenciar cada pagamento separadamente. Através do Django, com Python e base de dados, conseguimos entregar os dados completamente mastigados, sem dor de cabeça para o contratante.",
-    "start_date": "2024-09",
+    "start_date": "2024-09-02",
     "end_date": null,
     "status": "production",
     "url": "https://tioeliaslondrina.com.br",
