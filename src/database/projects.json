@@ -142,16 +142,12 @@
     ],
     "libs": [
       {
-        "img": "/images/svgs/django.svg",
-        "title": "Django"
+        "img": "/images/svgs/next-js.svg",
+        "title": "Next.js"
       },
       {
-        "img": "/images/svgs/python.svg",
-        "title": "Python"
-      },
-      {
-        "img": "/images/svgs/redis.svg",
-        "title": "Redis"
+        "img": "/images/svgs/ts.svg",
+        "title": "TypeScript"
       },
       {
         "img": "/images/svgs/gcp.svg",
@@ -160,13 +156,16 @@
       {
         "img": "/images/svgs/linux.svg",
         "title": "Linux"
+      },
+      {
+        "img": "/images/svgs/mysql.svg",
+        "title": "MySQL"
       }
     ],
     "tech_stack": [
-      "JavaScript",
-      "Python",
-      "SQLite3",
-      "Django",
+      "Next.js",
+      "TypeScript",
+      "MySQL",
       "Nginx",
       "GCP",
       "Servidores Linux"
