@@ -1,6 +1,7 @@
 import { FaQuestion } from 'react-icons/fa';
 import { Container } from '../Container';
 import styles from './styles.module.css';
+import { Curriculum } from '../Curriculum';
 
 type ContactsProps = {
   title: string;
@@ -9,6 +10,8 @@ type ContactsProps = {
 export function Contacts({ title }: ContactsProps) {
   return (
     <Container>
+      {/* curriculum modal */}
+
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.titleSect}>
@@ -22,7 +25,7 @@ export function Contacts({ title }: ContactsProps) {
                 endryusdaniel6321@gmail.com
               </a>
             </div>
-            <div className={`${styles.responsiveAlign} ${styles.contact}`}>
+            <div className={`${styles.contact}`}>
               <img src='/images/svgs/linkedin.svg' alt='ícone do linkedin' />
               <a
                 href='https://www.linkedin.com/in/endryus-daniel-rysik-de-oliveira/'
@@ -37,6 +40,7 @@ export function Contacts({ title }: ContactsProps) {
                 Dryzera
               </a>
             </div>
+            <Curriculum />
           </div>
         </div>
       </div>
