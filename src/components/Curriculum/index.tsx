@@ -1,19 +1,21 @@
 import { useState } from 'react';
 import styles from './styles.module.css';
-import { CgClose } from 'react-icons/cg';
 import { IoIosClose } from 'react-icons/io';
 
 export function Curriculum() {
   const [hidden, setHidden] = useState(false);
+
+  function closeModal(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
+    const { id } = e.target as HTMLElement;
+    if (id === 'modal') setHidden(false);
+  }
 
   return (
     <>
       <div
         id='modal'
         className={`${styles.modal} ${hidden ? styles.flex : styles.hidden}`}
-        onClick={e => {
-          if (e.target.id === 'modal') setHidden(false);
-        }}
+        onClick={e => closeModal(e)}
       >
         <div className={styles['modal-content']}>
           <IoIosClose

@@ -15,7 +15,7 @@ export function Header() {
     });
     if (window.innerWidth < 600) {
       toast.dismiss();
-      toast.warn('Disposítivos móveis podem bloquear a troca de tema.');
+      toast.warn('Dispositivos móveis podem bloquear a troca de tema');
     }
   }
 
