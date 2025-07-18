@@ -17,7 +17,8 @@
 
 .projectItem {
   width: 20rem;
-  height: 40rem;
+  height: 45rem;
+  overflow: hidden;
   background-color: var(--gray-900);
   border-top: 0.6rem solid var(--info);
   border-left: 0.1rem solid var(--info);
@@ -49,7 +50,7 @@
 
 .projectItem img {
   width: 100%;
-  height: 50%;
+  height: 45%;
 }
 
 .projectItem div {
@@ -73,6 +74,8 @@
   border-radius: 0.4rem;
   cursor: pointer;
   transition: all 300ms ease-in-out;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 .projectItem a:hover {

@@ -23,7 +23,7 @@ export function GeneralProjects() {
                 <h3>{project.title}</h3>
                 <p>{project.short_desc}</p>
                 <RouteLink href={`/project/${project.id}`}>
-                  Ver Internamente
+                  mais detalhes
                 </RouteLink>
               </div>
             </div>

@@ -2,7 +2,7 @@
   {
     "id": "ed-planejamentos-4j32",
     "title": "ED Planejamentos",
-    "short_desc": "Site que gera planejamentos de aulas com IA.",
+    "short_desc": "Criação de planejamentos de aulas com IA",
     "long_desc": "Este projeto auxilia professores que buscam ensinar sem perder tempo com burocracias como roteiros de aula. A ED Planejamentos permite que o professor cadastre suas aulas e, com o auxílio de uma Inteligência Artificial, gere planejamentos completos. Utilizamos tecnologias como Django, Python, Node.js, Nginx e PostgreSQL. Atualmente, este projeto está em produção e disponível publicamente.",
     "start_date": "2024-12-02",
     "end_date": null,
@@ -58,7 +58,7 @@
   {
     "id": "tracked-ija2",
     "title": "TrackED",
-    "short_desc": "Desenvolvido para rastreamento de autómoveis em tempo real.",
+    "short_desc": "Rastreamento de autómoveis em tempo real",
     "long_desc": "Este projeto visava resolver um problema que tive ao desejar rastrear meu automóvel. Atualmente, os rastreadores veiculares são muito caros, cheios de taxas com valores abusivos, pensando nisso, desenvolvi o meu próprio rastreador, que conta com um sistema de alerta em caso de roubo do veículo e envio de coordenadas em tempo real para um servidor. Com este projeto, tive a oportunidade de criar um servidor local, não dependendo de terceiros para servir e guardar os dados da minha aplicação, além de desenvolver uma API REST para servir os dados para o front-end.",
     "start_date": "2025-07-02",
     "end_date": null,
@@ -130,7 +130,7 @@
   {
     "id": "tio-elias-londrina-89r3",
     "title": "Tio Elias Londrina",
-    "short_desc": "Criado para auxíliar na organização financeira de negócio pessoal.",
+    "short_desc": "Auxilia na organização financeira de negócio pessoal",
     "long_desc": "Era difícil gerenciar de forma eficiênte os clientes que pagaram por um serviço de transporte escolar. Por conta disto, Tio Elias Londrina é um sistema em produção que ajuda a gerenciar cada pagamento separadamente. Através do Django, com Python e base de dados, conseguimos entregar os dados completamente mastigados, sem dor de cabeça para o contratante.",
     "start_date": "2024-09-02",
     "end_date": null,
@@ -138,7 +138,9 @@
     "url": "https://tioeliaslondrina.com.br",
     "photos": [
       "/images/global/tio-elias-logo.png",
-      "/images/global/tio-elias-1.png"
+      "/images/global/tio-elias-1.png",
+      "/images/global/tio-elias-2.png",
+      "/images/global/tio-elias-3.png"
     ],
     "libs": [
       {
@@ -165,6 +167,7 @@
     "tech_stack": [
       "Next.js",
       "TypeScript",
+      "Python",
       "MySQL",
       "Nginx",
       "GCP",
@@ -175,15 +178,16 @@
       "Painel administrativo",
       "Geração de relatórios",
       "Criação de XLSX",
-      "CRUD de dados"
+      "CRUD de dados",
+      "Tabelas com MatplotLib"
     ],
-    "tags": ["Financeiro", "Freelance"],
+    "tags": ["Financeiro", "Freelance", "Gerenciamento"],
     "contribuents": []
   },
   {
     "id": "code-defender-hif2",
     "title": "Code Defender",
-    "short_desc": "Teste de admição em empresa de tecnologia.",
+    "short_desc": "Teste de admição em empresa de tecnologia",
     "long_desc": "Jogo 2D simples feito com  PyGame para o único intuito de ser admido em uma empresa. Nele você controla um anti-vírus e precisa atirar nos vírus que se aproximam do 'software'. O controle se dá pelas setas do teclado e pela tecla de espaço para atirar. O jogo é infinito e só acaba se você for atingido um número de vezes.",
     "start_date": "2024-08-02",
     "end_date": "2024-08-02",
@@ -215,7 +219,7 @@
   {
     "id": "portfolio-nal2",
     "title": "Portfólio",
-    "short_desc": "Criado para expor meus projetos.",
+    "short_desc": "Criado para expor meus projetos e habilidades",
     "long_desc": "Este portfólio foi criado para mostrar meus principais projetos, habilidades e experiências como desenvolvedor. Ele é responsivo, com tema claro e escuro, e pensado para oferecer uma navegação fácil e agradável em qualquer dispositivo. Aqui você pode conhecer meu trabalho, acompanhar minha evolução e entrar em contato comigo.",
     "start_date": "2024-08-02",
     "end_date": null,
@@ -273,7 +277,7 @@
   {
     "id": "e-commerce-8f24",
     "title": "E-Commerce",
-    "short_desc": "Feito como treinamento em curso online.",
+    "short_desc": "Feito como treinamento em curso online",
     "long_desc": "Este projeto foi realizado num curso online, e o objetivo era aprender sobre manipulação de vários apps django. Nele você é capaz de criar sua conta, além de adicionar produtos no carrinho e simular a efetuação de uma compra. Na página de 'pedidos' você pode acompanhar o status da sua compra.",
     "start_date": "2024-11-02",
     "end_date": "2024-11-02",
@@ -325,7 +329,7 @@
   {
     "id": "musicals-test-fknl",
     "title": "Musicals Test",
-    "short_desc": "Desenvolvido de forma autoral para treinar Django.",
+    "short_desc": "Desenvolvido de forma autoral para treinar Django",
     "long_desc": "Além de ser utilizado para treinar o framework Django, me vi na oportunidade de desenvolver um site que faça perguntas sobre teória musical e de uma nota baseada na quantidade de acerto. Desta forma, os professores de música conseguem detectar onde o aluno apresenta dificuldades e ajudá-lo.",
     "start_date": "2024-11-02",
     "end_date": null,
@@ -377,7 +381,7 @@
   {
     "id": "feay-music-na26",
     "title": "Feay Music",
-    "short_desc": "Trabalho de escola realizado em grupo.",
+    "short_desc": "Trabalho de escola realizado em grupo",
     "long_desc": "O intuito do trabalho era explicar o que eram Hard Skills, então, criamos um site que além de explicar de forma objetiva o que é uma hard skill, ele permite que você desenvolva uma. Basicamente ele exibe algumas notas musicais e você precisa acertar qual é a correta.",
     "start_date": "2024-08-02",
     "end_date": "2024-08-02",
