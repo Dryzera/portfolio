@@ -14,6 +14,7 @@ export function MessagesComponent() {
       pauseOnHover
       theme='light'
       transition={Bounce}
+      toastClassName='custom-toast'
     />
   );
 }

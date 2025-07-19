@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import styles from './styles.module.css';
 import { IoIosClose } from 'react-icons/io';
+import { toast } from 'react-toastify';
 
 export function Curriculum() {
   const [hidden, setHidden] = useState(false);
@@ -8,6 +9,10 @@ export function Curriculum() {
   function closeModal(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
     const { id } = e.target as HTMLElement;
     if (id === 'modal') setHidden(false);
+  }
+
+  function downloadMessage() {
+    toast.info('iniciando download...');
   }
 
   return (
@@ -31,18 +36,27 @@ export function Curriculum() {
             <a
               href='/images/documents/curriculo_endryus-daniel.png'
               download={true}
+              onClick={downloadMessage}
+              aria-label='Baixar curriculo em .png'
+              title='Baixar curriculo em .png'
             >
               .png
             </a>
             <a
               href='/images/documents/curriculo_endryus-daniel.pdf'
               download={true}
+              onClick={downloadMessage}
+              aria-label='Baixar curriculo em .pdf'
+              title='Baixar curriculo em .pdf'
             >
               .pdf
             </a>
             <a
               href='/images/documents/curriculo_endryus-daniel.docx'
               download={true}
+              title='Baixar curriculo em .docx'
+              onClick={downloadMessage}
+              aria-label='Baixar curriculo em .docx'
             >
               .docx
             </a>
