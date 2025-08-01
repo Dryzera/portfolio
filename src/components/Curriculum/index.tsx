@@ -51,15 +51,6 @@ export function Curriculum() {
             >
               .pdf
             </a>
-            <a
-              href='/images/documents/curriculo_endryus-daniel.docx'
-              download={true}
-              title='Baixar curriculo em .docx'
-              onClick={downloadMessage}
-              aria-label='Baixar curriculo em .docx'
-            >
-              .docx
-            </a>
           </div>
         </div>
       </div>
