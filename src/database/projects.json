@@ -62,9 +62,12 @@
     "long_desc": "Este projeto visava resolver um problema que tive ao desejar rastrear meu automóvel. Atualmente, os rastreadores veiculares são muito caros, cheios de taxas com valores abusivos, pensando nisso, desenvolvi o meu próprio rastreador, que conta com um sistema de alerta em caso de roubo do veículo e envio de coordenadas em tempo real para um servidor. Com este projeto, tive a oportunidade de criar um servidor local, não dependendo de terceiros para servir e guardar os dados da minha aplicação, além de desenvolver uma API REST para servir os dados para o front-end.",
     "start_date": "2025-07-02",
     "end_date": null,
-    "status": "development",
-    "url": "https://github.com/Dryzera/trackED-2025",
-    "photos": ["/images/global/tracked-icon.png"],
+    "status": "production",
+    "url": "https://tracked.endryus.com",
+    "photos": [
+      "/images/global/tracked-icon.png",
+      "/images/global/tracked-1.jpg"
+    ],
     "libs": [
       {
         "img": "/images/svgs/django.svg",

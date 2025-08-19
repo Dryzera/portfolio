@@ -80,6 +80,12 @@ export function MyTecnologies() {
                   title='Next.js'
                   aria-label='Ícone do Next.js'
                 />
+                <img
+                  src='/images/svgs/php.svg'
+                  alt='Ícone do PHP'
+                  title='PHP'
+                  aria-label='Ícone do PHP'
+                />
               </div>
             </div>
             <div className={`${styles.gridItem}`}>
