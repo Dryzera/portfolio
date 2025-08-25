@@ -21,16 +21,17 @@ export function AboutMe() {
             </div>
             <p>
               Meu nome é Endryus, tenho 18 anos e atualmente estou no 3º ano do
-              ensino médio. Trabalho como tutor de programação, com foco em
-              Python, e dou aulas para iniciantes. Também estudo desenvolvimento
-              web, e tenho interesse em seguir carreira na área de tecnologia,
-              além do desejo de cursar Engenharia de Software. Além disso, sou
+              ensino médio. Trabalho como desenvolvedor Back-End presencialmente
+              em Londrina/PR. Também estudo desenvolvimento voltado a sistemas,
+              e tenho interesse em seguir carreira na área de tecnologia,
+              pretendendo cursar Engenharia de Software. Além disso, sou
               dedicado aos estudos, curioso por novas tecnologias e sempre em
-              busca de aprender mais para aprimorar meus projetos.
+              busca de aprender mais para aprimorar meus conhecimentos, projetos
+              e habilidades.
             </p>
             <p>
               Possuo conhecimento em Python, Django, Postgresql, MySQL, HTML,
-              CSS, JavaScript, TypeScript, C++, React e outros frameworks.
+              CSS, JavaScript, TypeScript, C++, php, React e outros frameworks.
               Também tenho experiência em administração de servidores Linux, com
               projetos reais em produção rodando neles. Possuo domínio sobre o
               hardware, já tendo exercido funções relacionadas a ele.
