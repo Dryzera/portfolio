@@ -16,6 +16,10 @@
   line-height: 2.8rem;
 }
 
+.longDesc p {
+  margin: 0.9rem 0;
+}
+
 .projectName svg {
   width: 2rem;
   height: 2rem;

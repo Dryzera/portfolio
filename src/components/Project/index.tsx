@@ -49,7 +49,9 @@ export function Project() {
           <div className='linha'></div>
         </div>
         <div className={styles.longDesc}>
-          <p>{project.long_desc}</p>
+          {project.long_descs.map((long_desc, idx) => (
+            <p key={idx}>{long_desc}</p>
+          ))}
         </div>
         <Swiper
           navigation={true}

@@ -3,7 +3,7 @@ export type ProjectModel = [
     id: string;
     title: string;
     short_desc: string;
-    long_desc: string;
+    long_descs: string[];
     start_date: string;
     end_date: string | null;
     url: string;
