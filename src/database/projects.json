@@ -4,12 +4,13 @@
     "title": "ED Planejamentos",
     "short_desc": "Criação de planejamentos de aulas com IA",
     "long_descs": [
-      "Este projeto auxilia professores que buscam ensinar sem perder tempo com burocracias como roteiros de aula. A ED Planejamentos permite que o professor cadastre suas aulas e, com o auxílio de uma Inteligência Artificial, gere planejamentos completos. Utilizamos tecnologias como Django, Python, Node.js, Nginx e PostgreSQL. Atualmente, este projeto está em produção e disponível publicamente."
+      "Este projeto auxilia professores que buscam ensinar sem perder tempo com burocracias como roteiros de aula. A ED Planejamentos permite que o professor cadastre suas aulas e, com o auxílio de uma Inteligência Artificial, gere planejamentos completos. Utilizamos tecnologias como Django, Python, Node.js, Nginx e PostgreSQL.",
+      "Atualmente, este projeto foi finalizado, porém ficou em produção por nove meses, servindo para que professores planejassem suas aulas com o auxílio de uma IA."
     ],
     "start_date": "2024-12-02",
-    "end_date": null,
-    "status": "production",
-    "url": "https://edplanejamentos.com.br",
+    "end_date": "2025-09-02",
+    "status": "completed",
+    "url": "https://github.com/Dryzera/ed-planejamentos-24",
     "photos": [
       "/images/global/ed-planejamentos-icon.png",
       "/images/global/ed-planejamentos-1.png",
