@@ -27,7 +27,7 @@
       },
       {
         "img": "/images/svgs/postgresql.svg",
-        "title": "PostgreeSQL"
+        "title": "PostgreSQL"
       },
       {
         "img": "/images/svgs/redis.svg",
@@ -107,7 +107,7 @@
       },
       {
         "img": "/images/svgs/postgresql.svg",
-        "title": "PostgreeSQL"
+        "title": "PostgreSQL"
       }
     ],
     "tech_stack": [
@@ -136,6 +136,62 @@
       "Next.js",
       "Rastreio"
     ],
+    "contribuents": []
+  },
+  {
+    "id": "edfinancas-ga53",
+    "title": "ED Finanças",
+    "short_desc": "Monitoramento de investimentos em renda fixa",
+    "long_descs": [
+      "Este projeto foi criado para facilitar o modo que eu mesmo gerenciava meus investimentos.",
+      "Com esse projeto, eu não preciso mais entrar em vários apps de bancos e corretoras para conferir meu desempenho diário. Ao invés disso, o meu app calcula tudo automáticamente os rendimentos todos os dias de pregão bancário.",
+      "Basta que você cadastre seus investimentos no app e pronto, no outro dia poderá ver seus rendimentos e suas posições."
+    ],
+    "start_date": "2025-09-02",
+    "end_date": null,
+    "status": "development",
+    "url": "https://api.edfinancas.endryus.com",
+    "photos": ["/images/global/edfinancas-icon.png"],
+    "libs": [
+      {
+        "img": "/images/svgs/ts.svg",
+        "title": "TypeScript"
+      },
+      {
+        "img": "/images/svgs/nest-js.svg",
+        "title": "Nest.js"
+      },
+      {
+        "img": "/images/svgs/kotlin.svg",
+        "title": "Kotlin"
+      },
+      {
+        "img": "/images/svgs/linux.svg",
+        "title": "Linux"
+      },
+      {
+        "img": "/images/svgs/postgresql.svg",
+        "title": "PostgreSQL"
+      }
+    ],
+    "tech_stack": [
+      "TypeScript",
+      "Nest.js",
+      "RESTful API",
+      "PostgreSQL",
+      "Kotlin",
+      "Servidor Linux Local",
+      "Android Studio",
+      "Layouts XML"
+    ],
+    "features": [
+      "Geração de rendimentos automaticamente",
+      "Envio de notificações",
+      "CRUD de dados",
+      "Sistema Multiplataforma"
+    ],
+
+    "tags": ["Kotlin", "API RESTful", "Linux", "Nest.js"],
     "contribuents": []
   },
   {

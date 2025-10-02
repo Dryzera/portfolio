@@ -63,10 +63,10 @@ export function MyTecnologies() {
                   aria-label='Ícone do Django'
                 />
                 <img
-                  src='/images/svgs/node-js.svg'
-                  alt='Ícone do Node.js'
-                  title='Node.js'
-                  aria-label='Ícone do Node.js'
+                  src='/images/svgs/nest-js.svg'
+                  alt='Ícone do Nest.js'
+                  title='Nest.js'
+                  aria-label='Ícone do Nest.js'
                 />
                 <img
                   src='/images/svgs/express.svg'
