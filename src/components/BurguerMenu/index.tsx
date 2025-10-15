@@ -21,7 +21,7 @@ export function BurguerMenu() {
           <RouteLink
             href='/'
             className={`${styles.link} ${
-              state.actualPage === '/' ? styles.pageSelected : ''
+              state.actualPage === '/' && styles.pageSelected
             }`}
           >
             Home
@@ -29,15 +29,23 @@ export function BurguerMenu() {
           <RouteLink
             href='/projects'
             className={`${styles.link} ${
-              state.actualPage === '/projects' ? styles.pageSelected : ''
+              state.actualPage === '/projects' && styles.pageSelected
             }`}
           >
             Projetos
           </RouteLink>
+          {/* <RouteLink
+            href='/blog'
+            className={`${styles.link} ${
+              state.actualPage === '/blog' && styles.pageSelected
+            }`}
+          >
+            Blog
+          </RouteLink> ### IMPLEMENTAR ISSO QUANDO O BLOG FOR LANÇADO ### */}
           <RouteLink
             href='/contacts'
             className={`${styles.link} ${
-              state.actualPage === '/contacts' ? styles.pageSelected : ''
+              state.actualPage === '/contacts' && styles.pageSelected
             }`}
           >
             Contatos
