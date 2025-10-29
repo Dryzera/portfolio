@@ -3,6 +3,7 @@ import styles from './styles.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { RouteLink } from '../../routes/RouteLink';
+import projects from '../../database/projects.json';
 
 export function HomeProjects() {
   return (
@@ -19,40 +20,24 @@ export function HomeProjects() {
             modules={[Navigation]}
             className={`mySwiper ${styles.slider}`}
           >
-            <SwiperSlide className={styles.slide}>
-              <div className={styles.project}>
-                <h4>ED Planejamentos</h4>
-                <img
-                  src='/images/global/ed-planejamentos-icon.png'
-                  alt='Logo da ED Planejamentos'
-                />
-                <RouteLink href='/project/ed-planejamentos-4j32'>
-                  Detalhes
-                </RouteLink>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <div className={styles.project}>
-                <h4>TrackED</h4>
-                <img
-                  src='/images/global/tracked-icon.png'
-                  alt='Logo da trackED'
-                />
-                <RouteLink href='/project/tracked-ija2'>Detalhes</RouteLink>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide className={styles.slide}>
-              <div className={styles.project}>
-                <h4>Tio Elias Londrina</h4>
-                <img
-                  src='/images/global/tio-elias-logo.png'
-                  alt='Logo do Tio Elias Londrina'
-                />
-                <RouteLink href='/project/tio-elias-londrina-89r3'>
-                  Detalhes
-                </RouteLink>
-              </div>
-            </SwiperSlide>
+            {projects.map(project => {
+              return (
+                project.exalt && (
+                  <SwiperSlide className={styles.slide}>
+                    <div className={styles.project}>
+                      <h4>{project.exalt}</h4>
+                      <img
+                        src={`${project.photos[0]}`}
+                        alt={`Logo da ${project.title}`}
+                      />
+                      <RouteLink href={`/project/${project.id}`}>
+                        Detalhes
+                      </RouteLink>
+                    </div>
+                  </SwiperSlide>
+                )
+              );
+            })}
           </Swiper>
         </div>
         <div className={styles.tipMyProjects}>

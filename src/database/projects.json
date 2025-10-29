@@ -1,6 +1,7 @@
 [
   {
     "id": "ed-planejamentos-4j32",
+    "exalt": true,
     "title": "ED Planejamentos",
     "short_desc": "Criação de planejamentos de aulas com IA",
     "long_descs": [
@@ -60,6 +61,7 @@
   },
   {
     "id": "tracked-ija2",
+    "exalt": true,
     "title": "TrackED",
     "short_desc": "Rastreamento de autómoveis em tempo real",
     "long_descs": [
@@ -140,6 +142,7 @@
   },
   {
     "id": "edfinancas-ga53",
+    "exalt": true,
     "title": "ED Finanças",
     "short_desc": "Monitoramento de investimentos em renda fixa",
     "long_descs": [
@@ -196,6 +199,7 @@
   },
   {
     "id": "tio-elias-londrina-89r3",
+    "exalt": true,
     "title": "Tio Elias Londrina",
     "short_desc": "Auxilia na organização financeira de negócio pessoal",
     "long_descs": [
@@ -256,6 +260,7 @@
   {
     "id": "code-defender-hif2",
     "title": "Code Defender",
+    "exalt": false,
     "short_desc": "Teste de admição em empresa de tecnologia",
     "long_descs": [
       "Jogo 2D simples feito com  PyGame para o único intuito de ser admido em uma empresa. Nele você controla um anti-vírus e precisa atirar nos vírus que se aproximam do 'software'. O controle se dá pelas setas do teclado e pela tecla de espaço para atirar. O jogo é infinito e só acaba se você for atingido um número de vezes."
@@ -289,6 +294,7 @@
   },
   {
     "id": "portfolio-nal2",
+    "exalt": false,
     "title": "Portfólio",
     "short_desc": "Criado para expor meus projetos e habilidades",
     "long_descs": [
@@ -349,6 +355,7 @@
   },
   {
     "id": "e-commerce-8f24",
+    "exalt": false,
     "title": "E-Commerce",
     "short_desc": "Feito como treinamento em curso online",
     "long_descs": [
@@ -403,6 +410,7 @@
   },
   {
     "id": "musicals-test-fknl",
+    "exalt": false,
     "title": "Musicals Test",
     "short_desc": "Desenvolvido de forma autoral para treinar Django",
     "long_descs": [
@@ -457,6 +465,7 @@
   },
   {
     "id": "feay-music-na26",
+    "exalt": false,
     "title": "Feay Music",
     "short_desc": "Trabalho de escola realizado em grupo",
     "long_descs": [

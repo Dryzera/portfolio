@@ -1,6 +1,7 @@
 export type ProjectModel = [
   {
     id: string;
+    exalt: boolean;
     title: string;
     short_desc: string;
     long_descs: string[];
