@@ -57,7 +57,12 @@
       "Gerenciamento de Grupos"
     ],
     "tags": ["Web", "Educação", "IA"],
-    "contribuents": ["Jeferson Kauan"]
+    "contribuents": [
+      {
+        "name": "Jeferson Kauan",
+        "profile_url": "https://www.linkedin.com/in/jeferson-kauan-de-souza-465708335"
+      }
+    ]
   },
   {
     "id": "tracked-ija2",
@@ -510,14 +515,27 @@
     "tech_stack": [
       "Python",
       "JavaScript",
-      "Git",
       "HTML",
       "CSS",
       "GitHub",
+      "Git",
       "JSON"
     ],
-    "features": ["Teste tipo quiz", "Responsividade"],
+    "features": ["Quiz", "Responsividade", "Apresentação de Tema"],
     "tags": ["Web", "Quiz", "JavaScipt", "JSON"],
-    "contribuents": ["Anna Giulia", "Felipe Rodrigues", "Yasmin Vitória"]
+    "contribuents": [
+      {
+        "name": "Anna Giulia",
+        "profile_url": "https://www.linkedin.com/in/anna-giulia-souza-silva-nunes-91b6522a1/"
+      },
+      {
+        "name": "Felipe Rodrigues",
+        "profile_url": null
+      },
+      {
+        "name": "Yasmin Vitória",
+        "profile_url": null
+      }
+    ]
   }
 ]

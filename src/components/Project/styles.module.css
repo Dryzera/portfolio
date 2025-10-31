@@ -160,6 +160,17 @@
   font-size: 1.4rem;
 }
 
+.flexInfo .icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-left: 0.4rem;
+}
+
+.flexInfo .alignIcon {
+  display: flex;
+  align-items: center;
+}
+
 .tags {
   max-width: 30rem;
   margin: 0 auto;

@@ -122,6 +122,28 @@ export function Project() {
                     return <li key={index}>{stack}</li>;
                   })}
                 </ul>
+                {project.contribuents.length > 0 && (
+                  <ul>
+                    <p>Contribuentes</p>
+                    {project.contribuents.map((contribuent, index) => {
+                      return !contribuent.profile_url ? (
+                        <li key={index}>{contribuent.name}</li>
+                      ) : (
+                        <li>
+                          <a
+                            href={`${contribuent.profile_url}`}
+                            key={index}
+                            target='_blank'
+                            className={styles.alignIcon}
+                          >
+                            {contribuent.name}
+                            <ExternalLink className={styles.icon} />
+                          </a>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                )}
               </div>
             </div>
           </div>

@@ -17,6 +17,11 @@ export type ProjectModel = [
     tech_stack: [string];
     features: [string];
     tags: [string];
-    contribuents: [string];
+    contribuents: [
+      {
+        name: string;
+        profile_url: string | null;
+      },
+    ];
   },
 ];
