@@ -200,7 +200,12 @@
     ],
 
     "tags": ["Kotlin", "API RESTful", "Linux", "Nest.js"],
-    "contribuents": []
+    "contribuents": [
+      {
+        "name": "Alvaro Tajetti",
+        "profile_url": "https://www.linkedin.com/in/alvarotalhetti/"
+      }
+    ]
   },
   {
     "id": "tio-elias-londrina-89r3",
