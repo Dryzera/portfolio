@@ -12,7 +12,7 @@ export function Home() {
             <h3 className={styles.myName}>
               <strong>Endryus Daniel</strong>
             </h3>
-            <span className={styles.secondTitle}>Back-end Developer</span>
+            <span className={styles.secondTitle}>Full-Stack Developer</span>
           </div>
 
           <div className={styles.skills}>

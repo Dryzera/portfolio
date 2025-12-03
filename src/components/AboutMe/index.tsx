@@ -20,10 +20,10 @@ export function AboutMe() {
               <div className='linha'></div>
             </div>
             <p>
-              Meu nome é Endryus, tenho 18 anos e atualmente estou no 3º ano do
-              ensino médio. Trabalho como desenvolvedor Back-End presencialmente
-              em Londrina/PR. Também estudo desenvolvimento voltado a sistemas,
-              e tenho interesse em seguir carreira na área de tecnologia,
+              Meu nome é Endryus, tenho 18 anos e atualmente curso Engenharia de
+              Software. Trabalho como desenvolvedor Back-End presencialmente em
+              Londrina/PR. Também estudo desenvolvimento voltado a sistemas, e
+              tenho interesse em seguir carreira na área de tecnologia,
               pretendendo cursar Engenharia de Software. Além disso, sou
               dedicado aos estudos, curioso por novas tecnologias e sempre em
               busca de aprender mais para aprimorar meus conhecimentos, projetos
