@@ -71,6 +71,17 @@
   color: white;
 }
 
+.open-span {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.open-span:hover {
+  color: var(--link-hover);
+  cursor: pointer;
+}
+
 @media (max-width: 500px) {
   .contact {
     margin: 0.8rem 0;

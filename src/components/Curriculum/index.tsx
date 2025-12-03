@@ -28,13 +28,13 @@ export function Curriculum() {
             onClick={() => setHidden(false)}
           />
 
-          <img src='/images/documents/curriculo_endryus-daniel.png' />
+          <img src='/documents/curriculo_endryus-daniel.png' />
 
           <div className={styles['download-session']}>
             <h3>Baixar</h3>
 
             <a
-              href='/images/documents/curriculo_endryus-daniel.png'
+              href='/documents/curriculo_endryus-daniel.png'
               download={true}
               onClick={downloadMessage}
               aria-label='Baixar curriculo em .png'
@@ -43,7 +43,7 @@ export function Curriculum() {
               .png
             </a>
             <a
-              href='/images/documents/curriculo_endryus-daniel.pdf'
+              href='/documents/curriculo_endryus-daniel.pdf'
               download={true}
               onClick={downloadMessage}
               aria-label='Baixar curriculo em .pdf'
@@ -57,9 +57,13 @@ export function Curriculum() {
 
       <div className={styles.contact}>
         <img src='/images/svgs/curriculum.svg' alt='ícone de currículo' />
-        <a href='#' onClick={() => setHidden(true)}>
+        <span
+          aria-label='Clique para ver ou baixar meu currículo.'
+          className={styles['open-span']}
+          onClick={() => setHidden(true)}
+        >
           Currículo
-        </a>
+        </span>
       </div>
     </>
   );
