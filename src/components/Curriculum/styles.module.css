@@ -37,7 +37,6 @@
   position: relative;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   overflow-y: scroll;
-  display: flex;
 }
 
 .modal-content img {
@@ -51,6 +50,38 @@
   font-weight: bolder;
   display: flex;
   flex-direction: column;
+}
+
+.select-resume {
+  display: flex;
+  justify-content: space-around;
+}
+
+.select-option {
+  color: #343434;
+  width: 100%;
+  text-align: center;
+  border-radius: 0.1rem;
+  padding: 0.2rem 0;
+}
+
+.selected-option {
+  color: #464646;
+  background-color: #cfcfcf;
+  font-weight: bold;
+}
+
+.select-option:hover {
+  cursor: pointer;
+}
+
+.section-resume-display {
+  display: block;
+  margin-top: 2rem;
+}
+
+.resume-flex {
+  display: flex;
 }
 
 .close-button {
@@ -102,5 +133,15 @@
 
   .modal-content img {
     height: 80%;
+  }
+
+  .section-resume-display {
+    width: 90vw;
+    flex-direction: column;
+  }
+
+  .formal-resume-images img {
+    width: 85vw;
+    display: block;
   }
 }
