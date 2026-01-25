@@ -216,9 +216,9 @@
       "Era difícil gerenciar de forma eficiênte os clientes que pagaram por um serviço de transporte escolar. Por conta disto, Tio Elias Londrina é um sistema em produção que ajuda a gerenciar cada pagamento separadamente. Através do Django, com Python e base de dados, conseguimos entregar os dados completamente mastigados, sem dor de cabeça para o contratante."
     ],
     "start_date": "2024-09-02",
-    "end_date": null,
-    "status": "production",
-    "url": "https://tioeliaslondrina.com.br",
+    "end_date": "2026-01-02",
+    "status": "completed",
+    "url": "https://github.com/Dryzera/tio-elias-25",
     "photos": [
       "/images/global/tio-elias-logo.png",
       "/images/global/tio-elias-1.png",

@@ -40,12 +40,12 @@ export function Project() {
       <div className={styles.container}>
         <div className={styles.titleSect}>
           <div className='linha'></div>
-          <h2 className={styles.projectName}>
-            {project.title}
-            <a href={project.url} target='_blank'>
+          <a href={project.url} target='_blank'>
+            <h2 className={styles.projectName}>
+              {project.title}
               <ExternalLink />
-            </a>
-          </h2>
+            </h2>
+          </a>
           <div className='linha'></div>
         </div>
         <div className={styles.longDesc}>
