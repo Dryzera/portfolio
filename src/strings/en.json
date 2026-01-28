@@ -1,0 +1,30 @@
+{
+  "description-resumed": "experienced developer in django and react, with projects in production",
+  "my-skills-label": "my primary hard skills",
+  "about-me-title": "About Me",
+  "about-me-description-1": "My name is Endryus, I am 18 years old and currently studying Software Engineering. I work as a Back-End developer in person in Londrina/PR. I also study system development, and I have interest in pursuing a career in the technology field, planning to study Software Engineering. In addition, I am dedicated to my studies, curious about new technologies and always looking to learn more to improve my knowledge, projects and skills. I have knowledge in Python, Django, Postgresql, MySQL, HTML, CSS, JavaScript, TypeScript, C++, php, React and other frameworks. I also have experience managing Linux servers with real projects running in production on them. I have mastery over hardware by having performed related functions.",
+  "about-me-description-2": "I have knowledge of Python, Django, Postgresql, MySQL, HTML, CSS, JavaScript, TypeScript, C++, PHP, React, and other frameworks. I also have experience in Linux server administration, with real-world projects running on them. I have expertise with hardware, having previously held related roles.",
+  "about-me-description-3": "Some soft skills: teamwork, organization, time management, critical thinking among others.",
+  "my-tecnologies-title": "Mastered Technologies",
+  "go-talkie-title": "Let's Talk",
+  "want-talk-me-title": "Want to Talk to Me?",
+  "see-all": "See all my",
+  "download-formal-resume": "Download Formal Curriculum",
+  "download-social-resume": "Download Social Curriculum",
+  "more-details": "more details",
+  "some-projects": "Some Projects",
+  "technical-information": "Technical Information",
+  "technologies-used": "technologies used",
+  "start-date": "start date",
+  "end-date": "end date",
+  "strings": {
+    "database": "Databases",
+    "others": "Others",
+    "curriculum": "Curriculum",
+    "projects": "Projects",
+    "contacts": "Contacts",
+    "details": "Details",
+    "formal": "formal",
+    "social": "social"
+  }
+}

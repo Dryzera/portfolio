@@ -1,0 +1,30 @@
+{
+  "description-resumed": "desenvolvedor experiente em django e react, com projetos em produção",
+  "my-skills-label": "minhas primary hard skills",
+  "about-me-title": "Sobre Mim",
+  "about-me-description-1": "Meu nome é Endryus, tenho 18 anos e atualmente curso Engenharia de Software. Trabalho como desenvolvedor Back-End presencialmente em Londrina/PR. Também estudo desenvolvimento voltado a sistemas, e tenho interesse em seguir carreira na área de tecnologia, pretendendo cursar Engenharia de Software. Além disso, sou dedicado aos estudos, curioso por novas tecnologias e sempre em busca de aprender mais para aprimorar meus conhecimentos, projetos e habilidades.",
+  "about-me-description-2": "Possuo conhecimento em Python, Django, Postgresql, MySQL, HTML, CSS, JavaScript, TypeScript, C++, php, React e outros frameworks. Também tenho experiência em administração de servidores Linux, com projetos reais em produção rodando neles. Possuo domínio sobre o hardware, já tendo exercido funções relacionadas a ele. ",
+  "about-me-description-3": "Algumas soft skills: trabalho em equipe, organização, gestão de tempo, pensamento crítico, entre outras.",
+  "my-tecnologies-title": "Tecnologias Dominadas",
+  "go-talkie-title": "Vamos Conversar",
+  "want-talk-me-title": "Quer Falar Comigo",
+  "download-formal-resume": "Baixar Currículo Formal",
+  "download-social-resume": "Baixar Currículo Social",
+  "see-all": "Veja todos os meus",
+  "more-details": "mais detalhes",
+  "some-projects": "Alguns Projetos",
+  "technical-information": "Informações Técnicas",
+  "technologies-used": "tecnologias utilizadas",
+  "start-date": "data de início",
+  "end-date": "data de término",
+  "strings": {
+    "database": "Bancos de Dados",
+    "others": "Outros",
+    "curriculum": "Currículo",
+    "projects": "Projetos",
+    "contacts": "Contatos",
+    "details": "Detalhes",
+    "formal": "formal",
+    "social": "social"
+  }
+}
