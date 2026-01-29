@@ -3,10 +3,12 @@ import styles from './styles.module.css';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralContext';
 import { RouteLink } from '../../routes/RouteLink';
+import { useLanguage } from '../../hooks/useLanguge';
 
 export function BurguerMenu() {
   const [visibleState, setVisibleState] = useState(false);
   const { state } = useGeneralContext();
+  const language = useLanguage();
 
   return (
     <>
@@ -32,7 +34,7 @@ export function BurguerMenu() {
               state.actualPage === '/projects' && styles.pageSelected
             }`}
           >
-            Projetos
+            {language.strings['projects']}
           </RouteLink>
           {/* <RouteLink
             href='/blog'
@@ -48,7 +50,7 @@ export function BurguerMenu() {
               state.actualPage === '/contacts' && styles.pageSelected
             }`}
           >
-            Contatos
+            {language.strings['contacts']}
           </RouteLink>
         </nav>
       </div>

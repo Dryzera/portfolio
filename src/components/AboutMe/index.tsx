@@ -1,7 +1,10 @@
 import { Container } from '../Container';
 import styles from './styles.module.css';
+import { useLanguage } from '../../hooks/useLanguge';
 
 export function AboutMe() {
+  const language = useLanguage();
+
   return (
     <Container animate={'fade-right'}>
       <div className={styles.container}>
@@ -16,30 +19,12 @@ export function AboutMe() {
           <div className={styles.content}>
             <div className={styles.titleSect}>
               <div className='linha'></div>
-              <h2>Sobre Mim</h2>
+              <h2>{language['about-me-title']}</h2>
               <div className='linha'></div>
             </div>
-            <p>
-              Meu nome é Endryus, tenho 18 anos e atualmente curso Engenharia de
-              Software. Trabalho como desenvolvedor Back-End presencialmente em
-              Londrina/PR. Também estudo desenvolvimento voltado a sistemas, e
-              tenho interesse em seguir carreira na área de tecnologia,
-              pretendendo cursar Engenharia de Software. Além disso, sou
-              dedicado aos estudos, curioso por novas tecnologias e sempre em
-              busca de aprender mais para aprimorar meus conhecimentos, projetos
-              e habilidades.
-            </p>
-            <p>
-              Possuo conhecimento em Python, Django, Postgresql, MySQL, HTML,
-              CSS, JavaScript, TypeScript, C++, php, React e outros frameworks.
-              Também tenho experiência em administração de servidores Linux, com
-              projetos reais em produção rodando neles. Possuo domínio sobre o
-              hardware, já tendo exercido funções relacionadas a ele.
-            </p>
-            <p>
-              Algumas soft skills: trabalho em equipe, organização, gestão de
-              tempo, pensamento crítico, entre outras.
-            </p>
+            <p>{language['about-me-description-1']}</p>
+            <p>{language['about-me-description-2']}</p>
+            <p>{language['about-me-description-3']}</p>
           </div>
         </div>
       </div>

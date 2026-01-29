@@ -5,11 +5,13 @@ import DefaultTemplate from '../../templates/DefaultTemplate';
 import { MyTecnologies } from '../../components/MyTecnologies';
 import { HomeProjects } from '../../components/HomeProjects';
 import { useEffect } from 'react';
+import { useLanguage } from '../../hooks/useLanguge';
 
 export default function HomePage() {
   useEffect(() => {
     document.title = 'Endryus Daniel';
   }, []);
+  const language = useLanguage();
 
   return (
     <DefaultTemplate>
@@ -17,7 +19,7 @@ export default function HomePage() {
       <AboutMe />
       <HomeProjects />
       <MyTecnologies />
-      <Contacts title='Vamos Conversar' />
+      <Contacts title={language['go-talkie-title']} />
     </DefaultTemplate>
   );
 }

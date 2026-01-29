@@ -2,10 +2,12 @@ import { useState } from 'react';
 import styles from './styles.module.css';
 import { IoIosClose } from 'react-icons/io';
 import { toast } from 'react-toastify';
+import { useLanguage } from '../../hooks/useLanguge';
 
 export function Curriculum() {
   const [hidden, setHidden] = useState(false);
   const [showFormalResume, setShowFormalResume] = useState(true);
+  const language = useLanguage();
 
   function closeModal(e: React.MouseEvent<HTMLDivElement, MouseEvent>) {
     const { id } = e.target as HTMLElement;
@@ -35,7 +37,7 @@ export function Curriculum() {
                 showFormalResume && styles['selected-option']
               }`}
             >
-              formal
+              {language.strings['formal']}
             </span>
             <span
               onClick={() => setShowFormalResume(false)}
@@ -43,7 +45,7 @@ export function Curriculum() {
                 !showFormalResume && styles['selected-option']
               }`}
             >
-              social
+              {language.strings['social']}
             </span>
           </div>
 
@@ -54,7 +56,7 @@ export function Curriculum() {
               <img src='/documents/curriculo_endryus-daniel.png' />
 
               <div className={styles['download-session']}>
-                <h3>Baixar Currículo Social</h3>
+                <h3>{language['download-social-resume']}</h3>
 
                 <a
                   href='/documents/curriculo_endryus-daniel.png'
@@ -79,7 +81,7 @@ export function Curriculum() {
           ) : (
             <div className={`${styles['section-resume-display']}`}>
               <div className={styles['download-session']}>
-                <h3>Baixar Currículo Formal</h3>
+                <h3>{language['download-formal-resume']}</h3>
 
                 <a
                   href='/documents/endryus-formal-resume.pdf'
@@ -108,7 +110,7 @@ export function Curriculum() {
           className={styles['open-span']}
           onClick={() => setHidden(true)}
         >
-          Currículo
+          {language.strings['curriculum']}
         </span>
       </div>
     </>

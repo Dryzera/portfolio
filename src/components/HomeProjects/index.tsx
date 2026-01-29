@@ -4,15 +4,18 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { RouteLink } from '../../routes/RouteLink';
 import projects from '../../database/projects.json';
+import { useLanguage } from '../../hooks/useLanguge';
 
 export function HomeProjects() {
+  const language = useLanguage();
+
   return (
     <Container>
       <div className={styles.container}>
         <div className={styles.content}>
           <div className={styles.titleSect}>
             <div className='linha'></div>
-            <h2>Alguns Projetos</h2>
+            <h2>{language['some-projects']}</h2>
             <div className='linha'></div>
           </div>
           <Swiper
@@ -31,7 +34,7 @@ export function HomeProjects() {
                         alt={`Logo da ${project.title}`}
                       />
                       <RouteLink href={`/project/${project.id}`}>
-                        Detalhes
+                        {language.strings['details']}
                       </RouteLink>
                     </div>
                   </SwiperSlide>
@@ -42,7 +45,10 @@ export function HomeProjects() {
         </div>
         <div className={styles.tipMyProjects}>
           <span>
-            veja todos os meus <RouteLink href='/projects'>projetos</RouteLink>
+            {language['see-all']}{' '}
+            <RouteLink href='/projects'>
+              {language.strings['projects'].toLowerCase()}
+            </RouteLink>
           </span>
         </div>
       </div>

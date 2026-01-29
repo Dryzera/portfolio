@@ -1,9 +1,11 @@
 import { Container } from '../Container';
 import styles from './styles.module.css';
 import { BsArrowReturnRight } from 'react-icons/bs';
-import { RouteLink } from '../../routes/RouteLink';
+import { useLanguage } from '../../hooks/useLanguge';
 
 export function Home() {
+  const language = useLanguage();
+
   return (
     <Container>
       <div className={styles.content}>
@@ -18,12 +20,11 @@ export function Home() {
           <div className={styles.skills}>
             <div className={styles.skillsDesc}>
               <h2 className={styles.shortDesc}>
-                desenvolvedor experiente em django e react, com{' '}
-                <RouteLink href='/projects'>projetos</RouteLink> em produção
+                {language['description-resumed']}
               </h2>
               <p className={styles.secondTitle}>
-                <BsArrowReturnRight className={styles.alignArrow} /> minhas
-                primary hard skills
+                <BsArrowReturnRight className={styles.alignArrow} />{' '}
+                {language['my-skills-label']}
               </p>
               <ul className={styles.ulSkills}>
                 <li>

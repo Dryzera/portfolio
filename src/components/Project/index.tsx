@@ -8,9 +8,11 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
 import { format } from 'date-fns';
+import { useLanguage } from '../../hooks/useLanguge';
 
 export function Project() {
   const [visible, setVisible] = useState(false);
+  const language = useLanguage();
 
   const { slug } = useParams();
   const navigate = useNavigate();
@@ -66,12 +68,12 @@ export function Project() {
         </Swiper>
         <div className={styles.gridInfo}>
           <div className={styles.childGridInfo}>
-            <span>data de início</span>
+            <span>{language['start-date']}</span>
             <span>{format(new Date(project.start_date), 'MM/yyyy')}</span>
           </div>
           {project.end_date && (
             <div className={styles.childGridInfo}>
-              <span>data de finalização</span>
+              <span>{language['end-date']}</span>
               <span>{format(new Date(project.end_date), 'MM/yyyy')}</span>
             </div>
           )}
@@ -82,7 +84,7 @@ export function Project() {
             </span>
           </div>
           <div className={styles.childGridInfo}>
-            <span>tecnologias utilizadas</span>
+            <span>{language['technologies-used']}</span>
             <div className={styles.tecnologies}>
               {project.libs.map((lib, index) => {
                 return (
@@ -102,13 +104,13 @@ export function Project() {
             className={styles.modeInfoBar}
             onClick={() => setVisible(prevVisible => !prevVisible)}
           >
-            <span>Mais informações</span>
+            <span>{language['more-info']}</span>
             <span>{!visible ? <ChevronDown /> : <ChevronUp />}</span>
           </div>
 
           <div className={`${styles.info} ${visible && styles.show}`}>
             <div className={styles.contentMoreInfo}>
-              <h4>Informações Técnicas</h4>
+              <h4>{language['technical-information']}</h4>
               <div className={styles.flexInfo}>
                 <ul>
                   <p>Features</p>

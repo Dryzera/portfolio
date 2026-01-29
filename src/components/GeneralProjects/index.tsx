@@ -1,14 +1,17 @@
 import projects from '../../database/projects.json';
+import { useLanguage } from '../../hooks/useLanguge';
 import { RouteLink } from '../../routes/RouteLink';
 import { Container } from '../Container';
 import styles from './styles.module.css';
 
 export function GeneralProjects() {
+  const language = useLanguage();
+
   return (
     <Container>
       <div className={styles.titleSect}>
         <div className='linha'></div>
-        <h2>Projetos</h2>
+        <h2>{language.strings.projects}</h2>
         <div className='linha'></div>
       </div>
       <div className={styles.container}>
@@ -23,7 +26,7 @@ export function GeneralProjects() {
                 <h3>{project.title}</h3>
                 <p>{project.short_desc}</p>
                 <RouteLink href={`/project/${project.id}`}>
-                  mais detalhes
+                  {language['more-details']}
                 </RouteLink>
               </div>
             </div>

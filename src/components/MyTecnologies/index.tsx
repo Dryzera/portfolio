@@ -1,13 +1,16 @@
+import { useLanguage } from '../../hooks/useLanguge';
 import { Container } from '../Container';
 import styles from './styles.module.css';
 
 export function MyTecnologies() {
+  const language = useLanguage();
+
   return (
     <Container animate={'fade-left'}>
       <div className={styles.content}>
         <div className={styles.titleSect}>
           <div className='linha'></div>
-          <h2>Tecnologias Dominadas</h2>
+          <h2>{language['my-tecnologies-title']}</h2>
           <div className='linha'></div>
         </div>
         <div className={styles.gridContent}>
@@ -89,7 +92,7 @@ export function MyTecnologies() {
               </div>
             </div>
             <div className={`${styles.gridItem}`}>
-              <h3>Banco de Dados</h3>
+              <h3>{language.strings['database']}</h3>
               <div className={styles.tecnologies}>
                 <img
                   src='/images/svgs/postgresql.svg'
@@ -118,7 +121,7 @@ export function MyTecnologies() {
               </div>
             </div>
             <div className={`${styles.gridItem}`}>
-              <h3>Outros</h3>
+              <h3>{language.strings['others']}</h3>
               <div className={styles.tecnologies}>
                 <img
                   src='/images/svgs/git.svg'

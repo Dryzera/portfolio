@@ -3,8 +3,12 @@ import styles from './styles.module.css';
 import { AppWindow, HomeIcon, MoonIcon, SunIcon } from 'lucide-react';
 import { RouteLink } from '../../routes/RouteLink';
 import { toast } from 'react-toastify';
+import { useGeneralContext } from '../../contexts/GeneralContext/useGeneralContext';
 
 export function Header() {
+  const { state } = useGeneralContext();
+  const { setState } = useGeneralContext();
+
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('theme') || 'dark';
   });
@@ -19,6 +23,14 @@ export function Header() {
     }
   }
 
+  function handleChangeLanguage() {
+    setState(
+      state.language === 'pt'
+        ? { ...state, language: 'en' }
+        : { ...state, language: 'pt' },
+    );
+  }
+
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
     localStorage.setItem('theme', theme);
@@ -29,8 +41,8 @@ export function Header() {
       <div className={styles.item}>
         <RouteLink
           href='/'
-          title='Ir para a página de contatos'
-          aria-label='Ir para a página de contatos'
+          title='Ir para a página inicial'
+          aria-label='Ir para a página inicial'
           className={styles.ancor}
         >
           <HomeIcon />
@@ -56,6 +68,19 @@ export function Header() {
         ) : (
           <SunIcon onClick={handleChangeTheme} />
         )}
+      </div>
+
+      <div
+        title='Trocar o idioma da página'
+        aria-label='Trocar o idioma da página'
+        className={`${styles.item} ${styles.ancor}`}
+      >
+        <img
+          src={`/images/svgs/flag-${state.language}.svg`}
+          alt={`Bandeira do idioma ${state.language}`}
+          className={styles.flag}
+          onClick={handleChangeLanguage}
+        />
       </div>
     </header>
   );

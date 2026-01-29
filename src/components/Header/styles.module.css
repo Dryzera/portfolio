@@ -11,6 +11,11 @@
   font-size: 3.4rem;
 }
 
+.flag {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
 .item svg {
   width: 3.4rem;
   height: 3.4rem;
@@ -23,10 +28,16 @@
 .ancor {
   color: var(--text-default);
   cursor: pointer;
-  transition: all 200ms ease-in-out;
+  transition: all 3.4ms ease-in-out;
 }
 
 .ancor:hover {
   filter: brightness(50%);
   color: var(--text-default);
+}
+
+@media (max-width: 500px) {
+  .header {
+    margin: 4rem 1rem;
+  }
 }
