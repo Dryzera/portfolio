@@ -76,8 +76,8 @@ export function Header() {
         className={`${styles.item} ${styles.ancor}`}
       >
         <img
-          src={`/images/svgs/flag-${state.language}.svg`}
-          alt={`Bandeira do idioma ${state.language}`}
+          src={`/images/svgs/flag-${state.language === 'pt' ? 'en' : 'pt'}.svg`} // invertido para mostrar a bandeira do idioma para o qual vai trocar
+          alt={`Bandeira do idioma ${state.language === 'pt' ? 'inglês' : 'português'}`}
           className={styles.flag}
           onClick={handleChangeLanguage}
         />
