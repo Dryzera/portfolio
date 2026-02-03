@@ -26,6 +26,15 @@ function ScrollToTop() {
 }
 
 export function MainRoutes() {
+  const { setState } = useGeneralContext();
+
+  useEffect(() => {
+    const isPortuguese = navigator.language.toLowerCase().startsWith('pt-br');
+    setState(prevState => {
+      return { ...prevState, language: isPortuguese ? 'pt' : 'en' };
+    });
+  }, [setState]);
+
   return (
     <BrowserRouter>
       <Routes>
