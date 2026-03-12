@@ -268,6 +268,63 @@
     "contribuents": []
   },
   {
+    "id": "giach-4gj4",
+    "exalt": false,
+    "title": "Giach",
+    "short_desc": "Organizador de links em um só lugar",
+    "long_descs": [
+      "Devido a uma limitação de adicionar links na descrição de postagens em uma rede social, uma dor sugia: divulgar links mas sem associa-lo na descrição da postagem. Isso fazia com que muitas pessoas desistissem da compra pelo link não estar acessível.",
+      "Para resolver esse problema, este organizador de links foi criado, com um único propósito: resolver esse problema da não sequência de pedidos.",
+      "Agora, via número do produto (id) o comprador localiza o link com muita facilidade."
+    ],
+    "start_date": "2026-03-02",
+    "end_date": false,
+    "status": "production",
+    "url": "https://giach.endryus.com",
+    "photos": [
+      "/images/global/giach-icon.png",
+      "/images/global/giach-1.png",
+      "/images/global/giach-2.png",
+      "/images/global/giach-3.png"
+    ],
+    "libs": [
+      {
+        "img": "/images/svgs/next-js.svg",
+        "title": "Next.js"
+      },
+      {
+        "img": "/images/svgs/ts.svg",
+        "title": "TypeScript"
+      },
+      {
+        "img": "/images/svgs/postgresql.svg",
+        "title": "PostgreSQL"
+      },
+      {
+        "img": "/images/svgs/vercel.svg",
+        "title": "Vercel"
+      }
+    ],
+    "tech_stack": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Vercel",
+      "DNS & Domain"
+    ],
+    "features": [
+      "Single User System",
+      "Painel administrativo",
+      "Contabilizador de Cliques",
+      "CRUD de dados",
+      "Organização por lojas e categorias",
+      "Facil navegação",
+      "Mobile friendlly"
+    ],
+    "tags": ["Organização", "Web"],
+    "contribuents": []
+  },
+  {
     "id": "code-defender-hif2",
     "title": "Code Defender",
     "exalt": false,
