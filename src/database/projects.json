@@ -68,7 +68,7 @@
     "id": "tracked-ija2",
     "exalt": true,
     "title": "TrackED",
-    "short_desc": "Rastreamento de autómoveis em tempo real",
+    "short_desc": "Rastreamento de veículos em tempo real",
     "long_descs": [
       "Este projeto visava resolver um problema que tive ao desejar rastrear meu automóvel. Atualmente, os rastreadores veiculares são muito caros, cheios de taxas com valores abusivos, pensando nisso, desenvolvi o meu próprio rastreador, que conta com um sistema de alerta em caso de roubo do veículo e envio de coordenadas em tempo real para um servidor. Com este projeto, tive a oportunidade de criar um servidor local, não dependendo de terceiros para servir e guardar os dados da minha aplicação, além de desenvolver uma API REST para servir os dados para o front-end."
     ],
@@ -115,6 +115,10 @@
       {
         "img": "/images/svgs/postgresql.svg",
         "title": "PostgreSQL"
+      },
+      {
+        "img": "/images/svgs/redis.svg",
+        "title": "Redis"
       }
     ],
     "tech_stack": [
@@ -125,7 +129,10 @@
       "PostgreSQL",
       "C++",
       "Sistema Embarcado",
-      "Servidor Linux Local"
+      "Servidor Linux Local",
+      "Redis",
+      "WebSockets",
+      "FMC"
     ],
     "features": [
       "Rastreio em tempo real",
@@ -133,16 +140,11 @@
       "Autenticação de usuários",
       "API RESTful",
       "Envio de dados automático",
-      "Comandos remotos via servidor"
+      "Comandos remotos via servidor",
+      "Notificações de Alerta via FMC"
     ],
 
-    "tags": [
-      "Sistema Embarcado",
-      "API RESTful",
-      "Django",
-      "Next.js",
-      "Rastreio"
-    ],
+    "tags": ["Sistema Embarcado", "Django", "Next.js", "Rastreio"],
     "contribuents": []
   },
   {
@@ -157,7 +159,7 @@
     ],
     "start_date": "2025-09-02",
     "end_date": null,
-    "status": "development",
+    "status": "paused",
     "url": "https://github.com/Dryzera/api-edfinancas-25",
     "photos": ["/images/global/edfinancas-icon.png"],
     "libs": [
